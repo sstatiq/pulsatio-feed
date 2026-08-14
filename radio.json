@@ -1,12 +1,13 @@
 {
  "version": 1,
- "capturedAt": "2026-08-13T10:28:15Z",
+ "capturedAt": "2026-08-14T10:17:16Z",
  "rooms": {
   "radio": {
    "shelves": {
     "artists-take-over": {
      "kind": "station",
      "ids": [
+      "ra.6795316549",
       "ra.6795123979",
       "ra.6798042649",
       "ra.6795631847",
@@ -25,13 +26,13 @@
       "ra.6783380699",
       "ra.6784364199",
       "ra.6784363686",
-      "ra.1896914903",
-      "ra.6784015113"
+      "ra.1896914903"
      ]
     },
     "latest-episodes": {
      "kind": "station",
      "ids": [
+      "ra.6800431442",
       "ra.6800038139",
       "ra.6795070503",
       "ra.6795629494",
@@ -50,14 +51,16 @@
       "ra.6794403990",
       "ra.6791729721",
       "ra.6791717204",
-      "ra.6793155031",
-      "ra.6791257787"
+      "ra.6793155031"
      ]
     },
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6798843514",
+      "ra.6798847556",
       "ra.6798714742",
+      "ra.6798840639",
       "ra.6798833828",
       "ra.6798714733",
       "ra.6798840352",
@@ -73,10 +76,7 @@
       "ra.6796510282",
       "ra.6795654692",
       "ra.6798046477",
-      "ra.6796857098",
-      "ra.6796522157",
-      "ra.6795625360",
-      "ra.6796517646"
+      "ra.6796857098"
      ]
     },
     "club-dj-mixes": {
@@ -107,18 +107,18 @@
     "summertime-sounds": {
      "kind": "playlist",
      "ids": [
+      "pl.70ade033214444c2b48bb91bdd13637b",
+      "pl.358101275b1a45d7b106decee8e1254c",
+      "pl.0cba57c26b5c412dbd8a9a4cfa728c80",
+      "pl.edb9673569f04721835e7fa0bb555bd5",
       "pl.4bc798440bf8451f9a6d33e64b435e53",
       "pl.cb763e3ae7f94f37baffcaa63dfc69bd",
       "pl.4862c9f315c748b395b1a250ccfc6796",
-      "pl.70ade033214444c2b48bb91bdd13637b",
       "pl.0513b0d6e4944bb189bd2a9cf7e069e5",
       "pl.aab9aecf05ba4b7cbf5849c3a8f2e096",
       "pl.094eda91ce9c4c51a988e58157f8fa29",
       "pl.6221e9017fc44565acde6cb08d84beb8",
       "pl.7e4ebfad9cf74b0b9866ecb3b20df89c",
-      "pl.358101275b1a45d7b106decee8e1254c",
-      "pl.edb9673569f04721835e7fa0bb555bd5",
-      "pl.0cba57c26b5c412dbd8a9a4cfa728c80",
       "pl.4a158b6a145542f996e1c1a0e7173c12",
       "pl.be49e2a58793424f9dd6086858241489",
       "pl.1e7f9ac032b549f39f30cd775f782e50",
