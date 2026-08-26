@@ -2,7 +2,10 @@ name: Update radio feed
 
 on:
   schedule:
-    - cron: "17 9 * * *"   # daily, 09:17 UTC
+    # Poll off the top of the hour to reduce GitHub Actions scheduling delays.
+    # The capture script leaves radio.json untouched when Apple has not
+    # changed membership, so frequent checks do not create noisy commits.
+    - cron: "7,37 * * * *"
   workflow_dispatch:
 
 permissions:
