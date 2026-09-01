@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-09-01T02:01:03Z",
+ "capturedAt": "2026-09-01T07:42:15Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -102,27 +102,6 @@
       "6783924065",
       "6784397295",
       "6783093730"
-     ]
-    },
-    "summertime-sounds": {
-     "kind": "playlist",
-     "ids": [
-      "pl.70ade033214444c2b48bb91bdd13637b",
-      "pl.358101275b1a45d7b106decee8e1254c",
-      "pl.0cba57c26b5c412dbd8a9a4cfa728c80",
-      "pl.edb9673569f04721835e7fa0bb555bd5",
-      "pl.4bc798440bf8451f9a6d33e64b435e53",
-      "pl.cb763e3ae7f94f37baffcaa63dfc69bd",
-      "pl.4862c9f315c748b395b1a250ccfc6796",
-      "pl.0513b0d6e4944bb189bd2a9cf7e069e5",
-      "pl.aab9aecf05ba4b7cbf5849c3a8f2e096",
-      "pl.094eda91ce9c4c51a988e58157f8fa29",
-      "pl.6221e9017fc44565acde6cb08d84beb8",
-      "pl.7e4ebfad9cf74b0b9866ecb3b20df89c",
-      "pl.4a158b6a145542f996e1c1a0e7173c12",
-      "pl.be49e2a58793424f9dd6086858241489",
-      "pl.1e7f9ac032b549f39f30cd775f782e50",
-      "pl.615a1ffb15424b1dac127deb266d0495"
      ]
     }
    }
