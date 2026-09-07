@@ -1,4 +1,4 @@
-name: Update radio feed
+name: Update feed
 
 on:
   schedule:
@@ -15,16 +15,16 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Capture feed
-        run: python3 capture_radio_feed.py radio.json
+        run: python3 capture_feed.py feed.json radio.json
 
       - name: Commit if changed
         run: |
-          if git diff --quiet -- radio.json; then
+          if git diff --quiet -- feed.json radio.json; then
             echo "No membership changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add radio.json
-          git commit -m "Update radio feed"
+          git add feed.json radio.json
+          git commit -m "Update feed"
           git push
