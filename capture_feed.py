@@ -621,6 +621,28 @@ def capture_genre_new_releases(room, curator_id):
     return None
 
 
+def station_metadata_of(item):
+    """Title / provider / artwork for one radioStation lockup. Broadcast
+    stations (iHeartRadio, Audacy, TuneIn) are hidden from the public catalog
+    API (`/v1/catalog/{sf}/stations?ids=` omits them, `/stations/<id>` 404s),
+    so this page is the only place an app can get a name and cover for one —
+    and a MusicKit Station built from id + name plays. Carried for every
+    station; consumers use it only when the catalog comes back without one."""
+    title = ((item.get("titleLinks") or [{}])[0].get("title")) or item.get("title")
+    if not title:
+        return None
+    entry = {"title": title}
+    sub = ((item.get("subtitleLinks") or [{}])[0].get("title"))
+    if sub:
+        entry["subtitle"] = sub
+    art = (item.get("artwork") or {}).get("dictionary") or {}
+    if art.get("url"):
+        entry["artwork"] = art["url"]
+    if art.get("bgColor"):
+        entry["bgColor"] = art["bgColor"]
+    return entry
+
+
 def capture_one_genre_page(curator_id, name):
     """One GENRE_PAGES entry: every shelf on `/curator/x/<curator_id>`, in
     page order, as the pages-schema dict (`shelves`/`artwork`/
@@ -629,7 +651,7 @@ def capture_one_genre_page(curator_id, name):
     url = f"https://music.apple.com/us/curator/x/{curator_id}"
     secs = find_sections(serialized(fetch_cached(url), f"{name} genre page"))
 
-    shelves, artwork, uploaded = [], {}, {}
+    shelves, artwork, uploaded, stations = [], {}, {}, {}
     for sec in secs:
         uploaded.update(uploaded_videos_of(sec))
         if sec.get("itemKind") == "headerComponentModel":
@@ -644,6 +666,10 @@ def capture_one_genre_page(curator_id, name):
             if not aid:
                 continue
             ids.append(aid)
+            if aid.startswith("ra.") and aid not in stations:
+                station = station_metadata_of(it)
+                if station:
+                    stations[aid] = station
             if aid.startswith(("ac.", "cu.")):
                 art = ((it.get("artwork") or {}).get("dictionary") or {}).get("url")
                 if art:
@@ -660,6 +686,8 @@ def capture_one_genre_page(curator_id, name):
         entry["artwork"] = artwork
     if uploaded:
         entry["uploadedVideos"] = uploaded
+    if stations:
+        entry["stations"] = stations
     return entry
 
 
