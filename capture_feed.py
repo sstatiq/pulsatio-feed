@@ -3,8 +3,8 @@
 Capture shelf membership for the editorial rooms Pulsatio can't reach through
 the Apple Music API, and emit it as a static JSON feed (feed.json).
 
-Two families of shelves are captured, both from Apple's own server-rendered
-public curator pages (the embedded `serialized-server-data` JSON):
+Four families of shelves are captured, all from Apple's own server-rendered
+public pages (the embedded `serialized-server-data` JSON):
 
   · the Radio room's rotating shelves (Artists Take Over, Latest Episodes, …);
   · each genre curator's "New Releases" shelf — an editorial ROOM of albums.
@@ -15,6 +15,16 @@ public curator pages (the embedded `serialized-server-data` JSON):
     developer token, unlike a playlist's. Genres that DO have a "New in X"
     playlist (Classical, Rock, Alternative, Christian, Anime, Latin, Pop
     Latino) are served live in-app and are deliberately absent here.
+  · the "Music Videos" grouping page (music.apple.com/…/grouping/34) — every
+    shelf, all OPTIONAL: a miss just means consumers keep their baked seed.
+  · Radio's "Watch Interviews" shelf (music.apple.com/…/room/6749860083) —
+    also optional, captured separately from the required radio shelves so a
+    miss here can never block those.
+
+Video shelves carry `kind: "video"` with each id prefixed `mv.` (a catalog
+music video) or `uv.` (an Apple "uploaded video" — interviews/clips with no
+MusicKit type) per its own `contentDescriptor.kind`; unlike stations/albums,
+Apple's SSR id for these isn't already prefixed, so the prefix is added here.
 
 This feed carries membership only — catalog IDs, no content. Consumers hydrate
 titles, artwork and playback through the official Apple Music catalog API.
@@ -38,6 +48,8 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 "
       "(KHTML, like Gecko) Version/17.0 Safari/605.1.15")
 
 RADIO_URL = "https://music.apple.com/us/curator/apple-music-radio/1531543191"
+MUSIC_VIDEOS_URL = "https://music.apple.com/us/grouping/34"
+WATCH_INTERVIEWS_URL = "https://music.apple.com/us/room/6749860083"
 
 # SSR section title -> (feed shelf key, SSR content kind, required).
 # Required shelves have stable names; a miss means the parse broke and the
@@ -72,8 +84,37 @@ GENRE_CURATORS = {
 # on the US storefront, but the Spanish/Italian genre pages title it locally.
 NEW_RELEASES_TITLES = {"new releases", "nuevos lanzamientos", "nuove uscite", "lo nuevo"}
 
+# music.apple.com/…/grouping/34 shelf title -> feed shelf key. "video" shelves
+# mix musicVideo + artistUploadedVideo items (see `video_ids_of`); "playlist"
+# shelves use the same SSR content kind as the radio playlist shelf above.
+# "Hero" and "Apple Music TV: Watch Now" (a livestream station MusicKit can't
+# play) are deliberately not captured. Every entry here is OPTIONAL.
+MUSIC_VIDEOS_SHELVES = {
+    "New Music Videos":             ("new-music-videos",             "video"),
+    "Music Video Playlists":        ("music-video-playlists",        "playlist"),
+    "Artist Essentials":            ("artist-essentials",            "playlist"),
+    "Our Exclusive Concert Series": ("our-exclusive-concert-series", "playlist"),
+    "Latest Interviews":            ("latest-interviews",            "video"),
+    "Pop Music Videos":             ("pop-music-videos",             "video"),
+    "Hip-Hop Videos":               ("hip-hop-videos",               "video"),
+    "R&B Videos":                   ("r-and-b-videos",               "video"),
+    "Latin Videos":                 ("latin-videos",                 "video"),
+    "Country Videos":               ("country-videos",               "video"),
+    "Alternative Videos":           ("alternative-videos",           "video"),
+    "Dance Videos":                 ("dance-videos",                 "video"),
+    "Metal Videos":                 ("metal-videos",                 "video"),
+    "Hard Rock Videos":             ("hard-rock-videos",             "video"),
+    "U2 Live Videos":               ("u2-live-videos",               "video"),
+    "Kids Music Videos":            ("kids-music-videos",            "video"),
+    "Lyric Videos":                 ("lyric-videos",                 "video"),
+    "Live Music Videos":            ("live-music-videos",            "video"),
+}
+
 KIND_JSON = {"radioStation": "station", "album": "album", "playlist": "playlist"}
 MIN_ITEMS = 5   # fewer than this in a required shelf = broken capture
+
+# contentDescriptor.kind -> the prefix VideoPlaybackItem.parse expects.
+VIDEO_KIND_PREFIX = {"musicVideo": "mv.", "artistUploadedVideo": "uv."}
 
 
 def fetch(url):
@@ -136,6 +177,101 @@ def ids_of(sec, want_kind):
     return out
 
 
+def video_ids_of(sec):
+    """Like `ids_of`, but keeps musicVideo + artistUploadedVideo items
+    (interleaved, in shelf order) and prefixes each id `mv.`/`uv.` per its own
+    kind — the shape `VideoPlaybackItem.parse` expects."""
+    out = []
+    for it in sec.get("items") or []:
+        cd = it.get("contentDescriptor") or {}
+        prefix = VIDEO_KIND_PREFIX.get(cd.get("kind"))
+        if not prefix:
+            continue
+        ids = cd.get("identifiers") or {}
+        aid = ids.get("storeAdamID") or ids.get("id")
+        if aid:
+            out.append(f"{prefix}{aid}")
+    return out
+
+
+DURATION_RE = re.compile(r"(?:(\d+)\s*hr)?\s*(?:(\d+)\s*min)?\s*(?:(\d+)\s*sec)?")
+
+
+def uploaded_videos_of(sec):
+    """Title / still / duration for each artistUploadedVideo item on the
+    shelf, keyed by id. `uploaded-videos` is NOT a public catalog resource
+    (`/v1/catalog/{sf}/uploaded-videos/{id}` answers 400 40008 "Unknown
+    catalog resource type"), so this page is the only place an app can get
+    the metadata for an interview clip — the feed carries it whole. Music
+    videos (`mv.`) still hydrate from the catalog and need nothing here."""
+    out = {}
+    for it in sec.get("items") or []:
+        cd = it.get("contentDescriptor") or {}
+        if cd.get("kind") != "artistUploadedVideo":
+            continue
+        aid = (cd.get("identifiers") or {}).get("storeAdamID")
+        title = ((it.get("titleLinks") or [{}])[0].get("title")) or it.get("title")
+        if not aid or not title:
+            continue
+        entry = {"title": title}
+        art = ((it.get("artwork") or {}).get("dictionary") or {}).get("url")
+        if art:
+            entry["artwork"] = art
+        # The shelf's subtitle line for a clip is its length ("30 min 40 sec").
+        sub = ((it.get("subtitleLinks") or [{}])[0].get("title")) or ""
+        m = DURATION_RE.fullmatch(sub.strip())
+        if m and any(m.groups()):
+            entry["durationSeconds"] = (int(m.group(1) or 0) * 3600
+                                        + int(m.group(2) or 0) * 60
+                                        + int(m.group(3) or 0))
+        if it.get("showExplicitBadge"):
+            entry["explicit"] = True
+        out[aid] = entry
+    return out
+
+
+def capture_music_videos():
+    """Every shelf on the Music Videos grouping page. Optional end to end —
+    a page-fetch failure or an individually missing/renamed shelf just means
+    consumers keep their baked seed, never a broken run."""
+    try:
+        secs = find_sections(serialized(fetch(MUSIC_VIDEOS_URL), "music videos grouping"))
+    except Exception as e:
+        print(f"WARN music-videos: page fetch/parse failed ({e})")
+        return {}, {}
+    shelves, uploaded, seen = {}, {}, set()
+    for sec in secs:
+        t = title_of(sec)
+        if t in MUSIC_VIDEOS_SHELVES and t not in seen:
+            seen.add(t)
+            key, kind = MUSIC_VIDEOS_SHELVES[t]
+            ids = video_ids_of(sec) if kind == "video" else ids_of(sec, kind)
+            if len(ids) >= MIN_ITEMS:
+                shelves[key] = {"kind": kind, "ids": ids}
+                if kind == "video":
+                    uploaded.update(uploaded_videos_of(sec))
+    return shelves, uploaded
+
+
+def capture_watch_interviews():
+    """Radio's "Watch Interviews" room (6749860083) — the latest 20 of a
+    mixed music-video/uploaded-video room. Optional: captured separately from
+    `capture_radio()` so a miss here can never block the required shelves."""
+    try:
+        secs = find_sections(serialized(fetch(WATCH_INTERVIEWS_URL), "watch interviews room"))
+    except Exception as e:
+        print(f"WARN watch-interviews: page fetch/parse failed ({e})")
+        return None
+    for sec in secs:
+        ids = video_ids_of(sec)
+        if len(ids) >= MIN_ITEMS:
+            uploaded = uploaded_videos_of(sec)
+            kept = ids[:20]
+            return ({"kind": "video", "ids": kept},
+                    {k: v for k, v in uploaded.items() if f"uv.{k}" in kept})
+    return None, None
+
+
 def capture_radio():
     secs = find_sections(serialized(fetch(RADIO_URL), "radio curator"))
     if not secs:
@@ -193,6 +329,25 @@ def main():
     radio_path = sys.argv[2] if len(sys.argv) > 2 else "radio.json"
 
     rooms = {"radio": {"shelves": capture_radio()}}
+
+    watch_interviews, watch_uploaded = capture_watch_interviews()
+    if watch_interviews:
+        rooms["radio"]["shelves"]["watch-interviews"] = watch_interviews
+        if watch_uploaded:
+            rooms["radio"]["uploadedVideos"] = watch_uploaded
+        print(f"  radio/watch-interviews videos={len(watch_interviews['ids'])} uploaded={len(watch_uploaded or {})}")
+    else:
+        print("NOTE: no Watch Interviews shelf captured (consumers keep their baked seed).")
+
+    music_videos_shelves, music_videos_uploaded = capture_music_videos()
+    if music_videos_shelves:
+        rooms["music-videos"] = {"shelves": music_videos_shelves}
+        if music_videos_uploaded:
+            rooms["music-videos"]["uploadedVideos"] = music_videos_uploaded
+        total_mv = sum(len(s["ids"]) for s in music_videos_shelves.values())
+        print(f"  music-videos captured shelves={len(music_videos_shelves)} ids={total_mv} uploaded={len(music_videos_uploaded)}")
+    else:
+        print("NOTE: no music-videos shelves captured (consumers keep their baked seed).")
 
     captured, skipped = 0, []
     for room, curator_id in GENRE_CURATORS.items():

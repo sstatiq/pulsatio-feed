@@ -1,12 +1,15 @@
 {
  "version": 1,
- "capturedAt": "2026-09-07T10:32:27Z",
+ "capturedAt": "2026-09-13T14:53:26Z",
  "rooms": {
   "radio": {
    "shelves": {
     "artists-take-over": {
      "kind": "station",
      "ids": [
+      "ra.6808346885",
+      "ra.6803660484",
+      "ra.6803661701",
       "ra.6806053293",
       "ra.6802865727",
       "ra.6801240433",
@@ -23,60 +26,57 @@
       "ra.6795631528",
       "ra.6794037195",
       "ra.6795304145",
-      "ra.6788844456",
-      "ra.6792135278",
-      "ra.1896817812",
-      "ra.6784363270"
+      "ra.6788844456"
      ]
     },
     "latest-episodes": {
      "kind": "station",
      "ids": [
+      "ra.6808341122",
+      "ra.6810782730",
+      "ra.6808830681",
       "ra.6807514970",
       "ra.6804090392",
-      "ra.6806053811",
-      "ra.1712935586",
+      "ra.6808758843",
       "ra.6804822499",
+      "ra.6806053811",
+      "ra.6786806252",
+      "ra.1712935586",
       "ra.6803663329",
       "ra.6800431442",
       "ra.6803661928",
+      "ra.6808329098",
       "ra.6803662663",
       "ra.6806056146",
       "ra.6802783915",
       "ra.6801256214",
       "ra.6798853705",
-      "ra.6795072074",
-      "ra.6798854021",
-      "ra.6795072182",
-      "ra.6798854128",
-      "ra.6800038139",
-      "ra.6801235470",
-      "ra.6795633866"
+      "ra.6795072074"
      ]
     },
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6810261277",
+      "ra.6808340948",
+      "ra.6808332273",
+      "ra.6808732940",
+      "ra.6808332295",
+      "ra.6805963531",
+      "ra.6808340537",
+      "ra.6807526306",
+      "ra.6808730386",
       "ra.6807515113",
       "ra.6808300020",
+      "ra.6806055889",
       "ra.6808299797",
       "ra.6806055167",
       "ra.6805639944",
       "ra.6807953936",
       "ra.6806045033",
       "ra.6806007876",
-      "ra.6806055889",
       "ra.6805541131",
-      "ra.6806041444",
-      "ra.6806015541",
-      "ra.6806002221",
-      "ra.6806037948",
-      "ra.6806007855",
-      "ra.6806006877",
-      "ra.6806002405",
-      "ra.6806052935",
-      "ra.6806034976",
-      "ra.6806013552"
+      "ra.6806041444"
      ]
     },
     "club-dj-mixes": {
@@ -103,6 +103,599 @@
       "6784397295",
       "6783093730"
      ]
+    },
+    "watch-interviews": {
+     "kind": "video",
+     "ids": [
+      "uv.6810856587",
+      "mv.6809943878",
+      "mv.6809953016",
+      "uv.6805969856",
+      "mv.6808791060",
+      "uv.6808718363",
+      "uv.6808343461",
+      "uv.6807963881",
+      "mv.6806086658",
+      "mv.6805751509",
+      "mv.6807226829",
+      "uv.6806119382",
+      "uv.6806374215",
+      "mv.6806454275",
+      "uv.6806461282",
+      "uv.6806318793",
+      "uv.6805974776",
+      "mv.6805695024",
+      "mv.6804839572",
+      "uv.6803224656"
+     ]
+    }
+   },
+   "uploadedVideos": {
+    "6810856587": {
+     "title": "ADEL\u00c1 on debut album, Nicole Kidman and origin story",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/0e/c9/72/0ec9728e-30d2-bc4e-a919-9c1c2137df16/TN_MS_WW_Zane_Adela_20260902_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1840
+    },
+    "6805969856": {
+     "title": "Black Sherif on SUN SHERIF",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/09/7a/b3/097ab342-d386-e5fb-4ccb-1ee01e02f7ce/TN_MS_WW_Ebro_Black_Sherif_202260618_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1600
+    },
+    "6808718363": {
+     "title": "Kelela on new avatar",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/5a/2d/35/5a2d3524-e987-f66d-151e-7e93580b4fa2/TN_MS_WW_Zane_Kelela_202608211_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1013
+    },
+    "6808343461": {
+     "title": "Weezer on the gold album, Kenneth Blume and performing live",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/69/d9/e3/69d9e301-2729-1e8b-293b-f6fa9ed1c2e6/TN_MS_WW_Zane_Weezer_20260824_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1233
+    },
+    "6807963881": {
+     "title": "Carly Pearce on Honest Woman",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/9b/ae/88/9bae88d0-9c03-3edf-363d-c9e39388f71b/TN_MS_WW_Kelleigh_Carly_Pearce_20260804_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1880
+    },
+    "6806119382": {
+     "title": "Denise Belfon on Drake sample & new music",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/45/8e/1e/458e1ec2-7e18-6e72-a180-327ad869cb4b/TN_MS_WW_Ebro_Denise_Belfon_20260818_AUC_Episode.jpg/{w}x{h}{c}.{f}",
+     "durationSeconds": 2080
+    },
+    "6806374215": {
+     "title": "Eric Bellinger on Self Titled Album",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/f7/6a/67/f76a678a-ea45-ef0a-eedf-2b87fa5ed3e3/TN_MS_WW_Ebro_Eric_Bellinger_20260824_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1807
+    },
+    "6806461282": {
+     "title": "Zach John King on I'm What You Get",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/70/86/2d/70862d12-7376-1ba3-c352-90162733c595/TN_MS_WW_Kelleigh_ZachJohnKing_20260820_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2248
+    },
+    "6806318793": {
+     "title": "Rod Wave on Don\u2019t Look Down",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/51/57/bf/5157bf92-5744-8206-c49c-2cd0fcdc2d57/TN_MS_WW_ThePlug_RodWave_20260806_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1896
+    },
+    "6805974776": {
+     "title": "Little Big Town on It\u2019s a Dying Art",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/da/4c/3c/da4c3c0b-176c-a7c8-e31f-7e58e84d1021/OBJECT_PROXY1838aa4b-a385-4668-922a-5e1d97c1d4e9_KEY_FRAME_OUTPUT_0_OBJECT_PROXY1838aa4b-a385-4668-922a-5e1d97c1d4e9.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2417
+    },
+    "6803224656": {
+     "title": "Dan + Shay on Young",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/c7/4c/99/c74c9980-7161-815a-2e89-137a68c941fe/TN_MS_WW_Kelleigh_Dan_Shay_20260812_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2407
+    }
+   }
+  },
+  "music-videos": {
+   "shelves": {
+    "new-music-videos": {
+     "kind": "video",
+     "ids": [
+      "mv.6810989922",
+      "mv.6808062549",
+      "mv.6806142511",
+      "mv.6810843396",
+      "mv.6810360665",
+      "mv.6811077950",
+      "mv.6810836159",
+      "mv.6809925035",
+      "mv.6808406459",
+      "mv.6810413964",
+      "mv.6810185887",
+      "mv.6810223638",
+      "mv.6810385865",
+      "mv.6809433679",
+      "mv.6809529641",
+      "mv.6808493235",
+      "mv.6808781322",
+      "mv.6807471215",
+      "mv.6807996833",
+      "mv.6808473526"
+     ]
+    },
+    "music-video-playlists": {
+     "kind": "playlist",
+     "ids": [
+      "pl.18697ea7ddcf4bdf8d4dd5d602314290",
+      "pl.0acf845a910d4203858857d7c787b378",
+      "pl.25c96f57b8994e509b43ac26d24846e9",
+      "pl.aa978d53778445fdb7e157fc866f9ddd",
+      "pl.7ea8abb53f144213b126770cc75034af",
+      "pl.d743d48811ae43dabce41e2af7246415",
+      "pl.28394ed4639249eb80c2b9128bd73328",
+      "pl.06f3a3ac67be49c89915319dc20471a2",
+      "pl.1725fc6e6ab34156ac0a8fa4d99558f6",
+      "pl.9e788bb28b1140b7b110abdf587b36cf",
+      "pl.c19f25c29b074e84a837d9c499afa1af",
+      "pl.00dde2c55a384fc8ae67334a7d01b9cf",
+      "pl.9aa6cbb888ca45febda7ef3799da96c4",
+      "pl.00a8fe2480e246a087439fbbe3a2fcf1",
+      "pl.2e98f63daf98427ab80f3338ddee17bd",
+      "pl.de9c2d70b3044da69b95406ba40231b2",
+      "pl.aea1a02437094767ae13053c0d96b14d",
+      "pl.6916fa6235c54553ae8709f3c176903a",
+      "pl.6f2f5bbedfa44f519f4929563f589756",
+      "pl.1bd736e1c9504db19e544b831a24ccac"
+     ]
+    },
+    "artist-essentials": {
+     "kind": "playlist",
+     "ids": [
+      "pl.ebe995b413c748888cb82727db7acd7b",
+      "pl.fab6ef98478341f1be02b00cb00d42a7",
+      "pl.0d2dc1dbc304435f9536caa2aff3295c",
+      "pl.0f5b749116664785919e3ee21480f14a",
+      "pl.1a6bf0899a7641d19ede464d8cd94b51",
+      "pl.16545af8078247b1bbcbb91db21d0b7d",
+      "pl.52b9128aef014164a045a56c507f6a3b",
+      "pl.5a5265a6f2df4e0ab30de9490b5dca43",
+      "pl.6929cc16ba9e48878fcabb6af6412d0a",
+      "pl.03ae2d9d1976447cb6f0c10e18a37245",
+      "pl.0efbb9849d784223a234d73e4f84f6b1",
+      "pl.b7d43cda33cf4365b6aef23ea29c14eb",
+      "pl.543ff1bd27e0435c88d24460b0d3ab67",
+      "pl.3ba88b4fb2fe4824bd81d5447e805dba",
+      "pl.177ef90bb1fb4a709b731b2fb3b2977f",
+      "pl.48b009738a7c42af826339c6e746bd0d",
+      "pl.c55eac5615944707ba318e18f8020de4",
+      "pl.3db99a4a29ed4b718ee59d0705dac3c6",
+      "pl.ce135444f811498ab0da7f25d9c81a1c",
+      "pl.ef32a413cc2b4b0a9e5ba9a3471695cc"
+     ]
+    },
+    "our-exclusive-concert-series": {
+     "kind": "playlist",
+     "ids": [
+      "pl.108d66cb654d493191a5a7c3822af8b3",
+      "pl.61a35ff1b29d4f19a7be67ed281669d6",
+      "pl.d5f7a972614a42349f88ad542c4117b2",
+      "pl.94233f3afc4a4f7cb178fc89a54b84b3",
+      "pl.f5a08a74aa694ce38842468a6ffa508b",
+      "pl.4e6aa0623e424eb69f57cb55bf089c1c",
+      "pl.a7f376b0f3af4918a722686f5e5bbc23",
+      "pl.7a76302fae25436cb27d63de9a4efd3d",
+      "pl.67b9eb68bb794f73ba746659b8bde4aa",
+      "pl.a42169b0100f4be48989fa987355d7f6",
+      "pl.259117306449435d9082e808e78e4b41",
+      "pl.31aed7b23a3c491eaeeec246ec551b58",
+      "pl.e032eb9b6fcc43a98c5842ad43139bd1",
+      "pl.9799e76078284fdba0c0e26e35413f9b",
+      "pl.3c1b276439a145b6b879d174a7dad5ba",
+      "pl.b5f24d4fa1f34648889232883b04e19a",
+      "pl.db1313689b1449f9a15f9c9d47d61789",
+      "pl.d8e283d36ae04da981cca7ce7398bb6f",
+      "pl.0cd0c086b0824405a257b22a1e5641b1",
+      "pl.3d32ef0b89c24ca3b74da9c35f9b31a0"
+     ]
+    },
+    "latest-interviews": {
+     "kind": "video",
+     "ids": [
+      "uv.6810856587",
+      "mv.6809943878",
+      "mv.6809953016",
+      "uv.6805969856",
+      "mv.6808791060",
+      "uv.6808718363",
+      "uv.6808343461",
+      "uv.6807963881",
+      "mv.6806086658",
+      "mv.6805751509",
+      "mv.6807226829",
+      "uv.6806119382",
+      "uv.6806374215",
+      "mv.6806454275",
+      "uv.6806461282",
+      "uv.6806318793",
+      "uv.6805974776",
+      "mv.6805695024",
+      "mv.6804839572",
+      "uv.6803224656"
+     ]
+    },
+    "pop-music-videos": {
+     "kind": "video",
+     "ids": [
+      "mv.6810989922",
+      "mv.6808062549",
+      "mv.6811077950",
+      "mv.6810843396",
+      "mv.6810360665",
+      "mv.6810836159",
+      "mv.6809925035",
+      "mv.6809433679",
+      "mv.6809529641",
+      "mv.6808493235",
+      "mv.6808781322",
+      "mv.6807996833",
+      "mv.6807471215",
+      "mv.6808087980",
+      "mv.6805568195",
+      "mv.6807523574",
+      "mv.6807197484",
+      "mv.6807464416",
+      "mv.6806413211",
+      "mv.6805284394"
+     ]
+    },
+    "hip-hop-videos": {
+     "kind": "video",
+     "ids": [
+      "mv.6806142511",
+      "mv.6810413964",
+      "mv.6808406459",
+      "mv.6810385865",
+      "mv.6808473526",
+      "mv.6806126837",
+      "mv.6807516008",
+      "mv.6806349983",
+      "mv.6806342489",
+      "mv.6806414723",
+      "mv.6806167256",
+      "mv.6807235316",
+      "mv.6804806857",
+      "mv.6803265007",
+      "mv.6802358015",
+      "mv.6804797952",
+      "mv.6803993284",
+      "mv.6802708683",
+      "mv.6803146608",
+      "mv.6802380697"
+     ]
+    },
+    "r-and-b-videos": {
+     "kind": "video",
+     "ids": [
+      "mv.6805654906",
+      "mv.6808347083",
+      "mv.6803246042",
+      "mv.6803788945",
+      "mv.6803990970",
+      "mv.6802845430",
+      "mv.6799895567",
+      "mv.6796371918",
+      "mv.6793655021",
+      "mv.6793271334",
+      "mv.6791396397",
+      "mv.6785938695",
+      "mv.6791234749",
+      "mv.6786860772",
+      "mv.6783483642",
+      "mv.6784433274",
+      "mv.6784289597",
+      "mv.6784839360",
+      "mv.6781920583",
+      "mv.6782111713"
+     ]
+    },
+    "latin-videos": {
+     "kind": "video",
+     "ids": [
+      "mv.6807523574",
+      "mv.6802784011",
+      "mv.6801238962",
+      "mv.6796111503",
+      "mv.6798938655",
+      "mv.6798025583",
+      "mv.6794187069",
+      "mv.6796101213",
+      "mv.6794040811",
+      "mv.6789618139",
+      "mv.6794115881",
+      "mv.6793295254",
+      "mv.6793598028",
+      "mv.6788535894",
+      "mv.6789640405",
+      "mv.6784737771",
+      "mv.6775595470",
+      "mv.6776855234",
+      "mv.1896843716",
+      "mv.1888593780"
+     ]
+    },
+    "country-videos": {
+     "kind": "video",
+     "ids": [
+      "mv.6798753516",
+      "mv.6776914043",
+      "mv.6792972763",
+      "mv.6784480368",
+      "mv.1896773213",
+      "mv.1825492514",
+      "mv.1872789209",
+      "mv.1876912423",
+      "mv.1896866486",
+      "mv.1884719425",
+      "mv.1882149469",
+      "mv.1894290817",
+      "mv.1846952027",
+      "mv.1884209343",
+      "mv.1846073402",
+      "mv.1890296972",
+      "mv.1855570357",
+      "mv.1833287707",
+      "mv.1879928280",
+      "mv.1858719442"
+     ]
+    },
+    "alternative-videos": {
+     "kind": "video",
+     "ids": [
+      "mv.6805210463",
+      "mv.6807136191",
+      "mv.6805989164",
+      "mv.6805184672",
+      "mv.6790613157",
+      "mv.6803540802",
+      "mv.6802728032",
+      "mv.6802357191",
+      "mv.6801164888",
+      "mv.6800792443",
+      "mv.6799181374",
+      "mv.6798436844",
+      "mv.6798380567",
+      "mv.6794318752",
+      "mv.6798925775",
+      "mv.6797513414",
+      "mv.6797802621",
+      "mv.6794332626",
+      "mv.6795642428",
+      "mv.6796433695"
+     ]
+    },
+    "dance-videos": {
+     "kind": "video",
+     "ids": [
+      "mv.6810223638",
+      "mv.6806890272",
+      "mv.6785531982",
+      "mv.6779075199",
+      "mv.1896837782",
+      "mv.1896858864",
+      "mv.6779075188",
+      "mv.1896864309",
+      "mv.1896845261",
+      "mv.1896839992",
+      "mv.1896798474",
+      "mv.1896654198",
+      "mv.1894922479",
+      "mv.1893535195",
+      "mv.1891868380",
+      "mv.1891712443",
+      "mv.1891781055",
+      "mv.1890007308",
+      "mv.1890342749",
+      "mv.1882994896"
+     ]
+    },
+    "metal-videos": {
+     "kind": "video",
+     "ids": [
+      "mv.6794418440",
+      "mv.6796429032",
+      "mv.6802745255",
+      "mv.6805569055",
+      "mv.6801616055",
+      "mv.6801640593",
+      "mv.6803531333",
+      "mv.6804861938",
+      "mv.6803469791",
+      "mv.6803864110",
+      "mv.6802449140",
+      "mv.6802461067",
+      "mv.6800791335",
+      "mv.6800646503",
+      "mv.6803199080",
+      "mv.6803462931",
+      "mv.6802665731",
+      "mv.6799896286",
+      "mv.6804593145",
+      "mv.6802339313"
+     ]
+    },
+    "hard-rock-videos": {
+     "kind": "video",
+     "ids": [
+      "mv.6796429032",
+      "mv.6778608460",
+      "mv.6794418440",
+      "mv.6791204542",
+      "mv.6792934310",
+      "mv.6790513377",
+      "mv.6805642023",
+      "mv.6804861938",
+      "mv.6805994066",
+      "mv.6803200509",
+      "mv.6803864110",
+      "mv.6802461067",
+      "mv.6802494379",
+      "mv.6802710531",
+      "mv.6797599006",
+      "mv.6796731245",
+      "mv.6798379553",
+      "mv.6797811171",
+      "mv.6798672807",
+      "mv.6798379257"
+     ]
+    },
+    "u2-live-videos": {
+     "kind": "video",
+     "ids": [
+      "mv.1453894090",
+      "mv.1558705582",
+      "mv.1453892290",
+      "mv.1658626034",
+      "mv.1655311359",
+      "mv.1688254584",
+      "mv.1457856606",
+      "mv.1590007047",
+      "mv.1445833379",
+      "mv.1470904026",
+      "mv.1590008375",
+      "mv.1535106709",
+      "mv.1562125291",
+      "mv.1536054049",
+      "mv.1560840438",
+      "mv.1653445668",
+      "mv.1559724048",
+      "mv.1653448539",
+      "mv.1685173442",
+      "mv.1548794120"
+     ]
+    },
+    "kids-music-videos": {
+     "kind": "video",
+     "ids": [
+      "mv.6794171985",
+      "mv.6786947831",
+      "mv.1821952432",
+      "mv.1704402425",
+      "mv.1881956258",
+      "mv.1813833785",
+      "mv.6789300369",
+      "mv.6796392599",
+      "mv.1626060617",
+      "mv.6790571762",
+      "mv.1821170151",
+      "mv.6779829297",
+      "mv.1896866486",
+      "mv.1561997830",
+      "mv.1830079545",
+      "mv.1608107990",
+      "mv.1814503258",
+      "mv.1850559165",
+      "mv.1445003400",
+      "mv.1832774070"
+     ]
+    },
+    "lyric-videos": {
+     "kind": "video",
+     "ids": [
+      "mv.1677619339",
+      "mv.1668201336",
+      "mv.1676481465",
+      "mv.1677775644",
+      "mv.1676565726",
+      "mv.1674039000",
+      "mv.1673824288",
+      "mv.1670703392",
+      "mv.1670517384",
+      "mv.1662722535",
+      "mv.1620063745",
+      "mv.1660546980",
+      "mv.1650932536",
+      "mv.1662723635",
+      "mv.1642712420",
+      "mv.1652587707",
+      "mv.1662726846",
+      "mv.1643686539",
+      "mv.1650931019",
+      "mv.1639563808"
+     ]
+    },
+    "live-music-videos": {
+     "kind": "video",
+     "ids": [
+      "mv.1671204729",
+      "mv.1663533714",
+      "mv.1663315265",
+      "mv.1660651995",
+      "mv.1660650428",
+      "mv.1651495189",
+      "mv.1658902741",
+      "mv.1651492074",
+      "mv.1651491215",
+      "mv.1647304651",
+      "mv.1647299649",
+      "mv.1647302521",
+      "mv.1647307007",
+      "mv.1645941894",
+      "mv.1640783991",
+      "mv.1640784943",
+      "mv.1640788116",
+      "mv.1637940098",
+      "mv.1636425327",
+      "mv.1636428918"
+     ]
+    }
+   },
+   "uploadedVideos": {
+    "6810856587": {
+     "title": "ADEL\u00c1 on debut album, Nicole Kidman and origin story",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/0e/c9/72/0ec9728e-30d2-bc4e-a919-9c1c2137df16/TN_MS_WW_Zane_Adela_20260902_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1840
+    },
+    "6805969856": {
+     "title": "Black Sherif on SUN SHERIF",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/09/7a/b3/097ab342-d386-e5fb-4ccb-1ee01e02f7ce/TN_MS_WW_Ebro_Black_Sherif_202260618_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1600
+    },
+    "6808718363": {
+     "title": "Kelela on new avatar",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/5a/2d/35/5a2d3524-e987-f66d-151e-7e93580b4fa2/TN_MS_WW_Zane_Kelela_202608211_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1013
+    },
+    "6808343461": {
+     "title": "Weezer on the gold album, Kenneth Blume and performing live",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/69/d9/e3/69d9e301-2729-1e8b-293b-f6fa9ed1c2e6/TN_MS_WW_Zane_Weezer_20260824_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1233
+    },
+    "6807963881": {
+     "title": "Carly Pearce on Honest Woman",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/9b/ae/88/9bae88d0-9c03-3edf-363d-c9e39388f71b/TN_MS_WW_Kelleigh_Carly_Pearce_20260804_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1880
+    },
+    "6806119382": {
+     "title": "Denise Belfon on Drake sample & new music",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/45/8e/1e/458e1ec2-7e18-6e72-a180-327ad869cb4b/TN_MS_WW_Ebro_Denise_Belfon_20260818_AUC_Episode.jpg/{w}x{h}{c}.{f}",
+     "durationSeconds": 2080
+    },
+    "6806374215": {
+     "title": "Eric Bellinger on Self Titled Album",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/f7/6a/67/f76a678a-ea45-ef0a-eedf-2b87fa5ed3e3/TN_MS_WW_Ebro_Eric_Bellinger_20260824_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1807
+    },
+    "6806461282": {
+     "title": "Zach John King on I'm What You Get",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/70/86/2d/70862d12-7376-1ba3-c352-90162733c595/TN_MS_WW_Kelleigh_ZachJohnKing_20260820_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2248
+    },
+    "6806318793": {
+     "title": "Rod Wave on Don\u2019t Look Down",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/51/57/bf/5157bf92-5744-8206-c49c-2cd0fcdc2d57/TN_MS_WW_ThePlug_RodWave_20260806_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1896
+    },
+    "6805974776": {
+     "title": "Little Big Town on It\u2019s a Dying Art",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/da/4c/3c/da4c3c0b-176c-a7c8-e31f-7e58e84d1021/OBJECT_PROXY1838aa4b-a385-4668-922a-5e1d97c1d4e9_KEY_FRAME_OUTPUT_0_OBJECT_PROXY1838aa4b-a385-4668-922a-5e1d97c1d4e9.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2417
+    },
+    "6803224656": {
+     "title": "Dan + Shay on Young",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/c7/4c/99/c74c9980-7161-815a-2e89-137a68c941fe/TN_MS_WW_Kelleigh_Dan_Shay_20260812_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2407
     }
    }
   },
@@ -140,14 +733,18 @@
     "new-releases": {
      "kind": "album",
      "ids": [
+      "6789697478",
+      "6768656233",
       "6781907870",
-      "6788801291",
       "6779396646",
-      "6806261672",
       "6780988714",
+      "6806261672",
       "6796823160",
       "6807132390",
       "6772044978",
+      "6776792188",
+      "6795140260",
+      "6788801291",
       "6796436792",
       "6794488217",
       "6767698951",
@@ -155,11 +752,7 @@
       "6771585889",
       "6796050364",
       "1885474523",
-      "6803799615",
-      "6785977719",
-      "6801202999",
-      "1884135219",
-      "6796067247"
+      "6803799615"
      ]
     }
    }
@@ -169,26 +762,26 @@
     "new-releases": {
      "kind": "album",
      "ids": [
-      "6803588101",
       "6783171570",
-      "6783991126",
-      "1887341757",
       "6779502137",
+      "6783991126",
+      "6803588101",
+      "1887341757",
       "1885946918",
       "1861644307",
-      "6769174993",
       "6765482846",
-      "1888635271",
-      "1896054540",
-      "1896421875",
-      "1890233745",
+      "6789770938",
       "1886736650",
-      "1895183916",
-      "6779367574",
-      "1862297219",
+      "1890233745",
+      "1888635271",
+      "1896421875",
+      "6771051126",
+      "6788429102",
+      "1896054540",
+      "6769174993",
       "1881776117",
-      "6775400609",
-      "6793322539"
+      "6787925943",
+      "1869767992"
      ]
     }
    }
@@ -198,6 +791,8 @@
     "new-releases": {
      "kind": "album",
      "ids": [
+      "6808027853",
+      "6808088837",
       "6795134980",
       "6794745113",
       "6796044296",
@@ -215,9 +810,7 @@
       "6800022858",
       "6800862567",
       "6797995780",
-      "6792943058",
-      "6798334799",
-      "6797562644"
+      "6792943058"
      ]
     }
    }
@@ -314,26 +907,26 @@
     "new-releases": {
      "kind": "album",
      "ids": [
+      "6803709358",
+      "6806424972",
+      "6804990956",
+      "6803132846",
+      "6806339478",
+      "6805679187",
+      "6807964620",
+      "6808306473",
+      "6805674577",
+      "6803336264",
+      "6799926103",
       "6804041741",
       "6803590213",
       "6805207823",
       "6801196388",
       "6802881076",
       "6798261713",
+      "6805210719",
       "6802361552",
-      "6802362203",
-      "6800041408",
-      "6800501932",
-      "6797945945",
-      "6804774268",
-      "6797804963",
-      "6799202524",
-      "6800564348",
-      "6800501784",
-      "6801281335",
-      "6793246243",
-      "6797588303",
-      "6800036851"
+      "6802362203"
      ]
     }
    }
@@ -343,6 +936,11 @@
     "new-releases": {
      "kind": "album",
      "ids": [
+      "6803965280",
+      "6799146916",
+      "6804813815",
+      "6782593133",
+      "6803273580",
       "6773832976",
       "6804933312",
       "6803117439",
@@ -357,12 +955,7 @@
       "6795959027",
       "6792913037",
       "6784025552",
-      "6791699585",
-      "6789208182",
-      "1895281764",
-      "6788026180",
-      "6783493081",
-      "6788547840"
+      "6791699585"
      ]
     }
    }
@@ -372,6 +965,13 @@
     "new-releases": {
      "kind": "album",
      "ids": [
+      "6800057170",
+      "6769082566",
+      "6797516880",
+      "6766969025",
+      "6794000534",
+      "6800429852",
+      "6808707303",
       "6788513240",
       "6802843879",
       "6795390693",
@@ -384,14 +984,7 @@
       "6797669804",
       "6792215745",
       "6780751089",
-      "6779640969",
-      "6791635625",
-      "6769700143",
-      "1896421875",
-      "6792991578",
-      "1889268407",
-      "1893291679",
-      "6782788432"
+      "6779640969"
      ]
     }
    }
@@ -401,8 +994,14 @@
     "new-releases": {
      "kind": "album",
      "ids": [
+      "6809978616",
+      "6810340979",
       "6784436140",
       "1892918703",
+      "6776244224",
+      "1895747566",
+      "6796494276",
+      "6781827987",
       "6786441259",
       "1881785625",
       "6778164569",
@@ -414,13 +1013,7 @@
       "6779424412",
       "6773146119",
       "1893153367",
-      "1843753662",
-      "1859247700",
-      "6776964776",
-      "1861024225",
-      "1811260146",
-      "1844493441",
-      "1850509996"
+      "1843753662"
      ]
     }
    }

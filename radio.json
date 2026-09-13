@@ -1,12 +1,15 @@
 {
  "version": 1,
- "capturedAt": "2026-09-07T10:32:27Z",
+ "capturedAt": "2026-09-13T14:53:26Z",
  "rooms": {
   "radio": {
    "shelves": {
     "artists-take-over": {
      "kind": "station",
      "ids": [
+      "ra.6808346885",
+      "ra.6803660484",
+      "ra.6803661701",
       "ra.6806053293",
       "ra.6802865727",
       "ra.6801240433",
@@ -23,60 +26,57 @@
       "ra.6795631528",
       "ra.6794037195",
       "ra.6795304145",
-      "ra.6788844456",
-      "ra.6792135278",
-      "ra.1896817812",
-      "ra.6784363270"
+      "ra.6788844456"
      ]
     },
     "latest-episodes": {
      "kind": "station",
      "ids": [
+      "ra.6808341122",
+      "ra.6810782730",
+      "ra.6808830681",
       "ra.6807514970",
       "ra.6804090392",
-      "ra.6806053811",
-      "ra.1712935586",
+      "ra.6808758843",
       "ra.6804822499",
+      "ra.6806053811",
+      "ra.6786806252",
+      "ra.1712935586",
       "ra.6803663329",
       "ra.6800431442",
       "ra.6803661928",
+      "ra.6808329098",
       "ra.6803662663",
       "ra.6806056146",
       "ra.6802783915",
       "ra.6801256214",
       "ra.6798853705",
-      "ra.6795072074",
-      "ra.6798854021",
-      "ra.6795072182",
-      "ra.6798854128",
-      "ra.6800038139",
-      "ra.6801235470",
-      "ra.6795633866"
+      "ra.6795072074"
      ]
     },
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6810261277",
+      "ra.6808340948",
+      "ra.6808332273",
+      "ra.6808732940",
+      "ra.6808332295",
+      "ra.6805963531",
+      "ra.6808340537",
+      "ra.6807526306",
+      "ra.6808730386",
       "ra.6807515113",
       "ra.6808300020",
+      "ra.6806055889",
       "ra.6808299797",
       "ra.6806055167",
       "ra.6805639944",
       "ra.6807953936",
       "ra.6806045033",
       "ra.6806007876",
-      "ra.6806055889",
       "ra.6805541131",
-      "ra.6806041444",
-      "ra.6806015541",
-      "ra.6806002221",
-      "ra.6806037948",
-      "ra.6806007855",
-      "ra.6806006877",
-      "ra.6806002405",
-      "ra.6806052935",
-      "ra.6806034976",
-      "ra.6806013552"
+      "ra.6806041444"
      ]
     },
     "club-dj-mixes": {
@@ -103,6 +103,88 @@
       "6784397295",
       "6783093730"
      ]
+    },
+    "watch-interviews": {
+     "kind": "video",
+     "ids": [
+      "uv.6810856587",
+      "mv.6809943878",
+      "mv.6809953016",
+      "uv.6805969856",
+      "mv.6808791060",
+      "uv.6808718363",
+      "uv.6808343461",
+      "uv.6807963881",
+      "mv.6806086658",
+      "mv.6805751509",
+      "mv.6807226829",
+      "uv.6806119382",
+      "uv.6806374215",
+      "mv.6806454275",
+      "uv.6806461282",
+      "uv.6806318793",
+      "uv.6805974776",
+      "mv.6805695024",
+      "mv.6804839572",
+      "uv.6803224656"
+     ]
+    }
+   },
+   "uploadedVideos": {
+    "6810856587": {
+     "title": "ADEL\u00c1 on debut album, Nicole Kidman and origin story",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/0e/c9/72/0ec9728e-30d2-bc4e-a919-9c1c2137df16/TN_MS_WW_Zane_Adela_20260902_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1840
+    },
+    "6805969856": {
+     "title": "Black Sherif on SUN SHERIF",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/09/7a/b3/097ab342-d386-e5fb-4ccb-1ee01e02f7ce/TN_MS_WW_Ebro_Black_Sherif_202260618_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1600
+    },
+    "6808718363": {
+     "title": "Kelela on new avatar",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/5a/2d/35/5a2d3524-e987-f66d-151e-7e93580b4fa2/TN_MS_WW_Zane_Kelela_202608211_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1013
+    },
+    "6808343461": {
+     "title": "Weezer on the gold album, Kenneth Blume and performing live",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/69/d9/e3/69d9e301-2729-1e8b-293b-f6fa9ed1c2e6/TN_MS_WW_Zane_Weezer_20260824_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1233
+    },
+    "6807963881": {
+     "title": "Carly Pearce on Honest Woman",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/9b/ae/88/9bae88d0-9c03-3edf-363d-c9e39388f71b/TN_MS_WW_Kelleigh_Carly_Pearce_20260804_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1880
+    },
+    "6806119382": {
+     "title": "Denise Belfon on Drake sample & new music",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/45/8e/1e/458e1ec2-7e18-6e72-a180-327ad869cb4b/TN_MS_WW_Ebro_Denise_Belfon_20260818_AUC_Episode.jpg/{w}x{h}{c}.{f}",
+     "durationSeconds": 2080
+    },
+    "6806374215": {
+     "title": "Eric Bellinger on Self Titled Album",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/f7/6a/67/f76a678a-ea45-ef0a-eedf-2b87fa5ed3e3/TN_MS_WW_Ebro_Eric_Bellinger_20260824_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1807
+    },
+    "6806461282": {
+     "title": "Zach John King on I'm What You Get",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/70/86/2d/70862d12-7376-1ba3-c352-90162733c595/TN_MS_WW_Kelleigh_ZachJohnKing_20260820_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2248
+    },
+    "6806318793": {
+     "title": "Rod Wave on Don\u2019t Look Down",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/51/57/bf/5157bf92-5744-8206-c49c-2cd0fcdc2d57/TN_MS_WW_ThePlug_RodWave_20260806_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1896
+    },
+    "6805974776": {
+     "title": "Little Big Town on It\u2019s a Dying Art",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/da/4c/3c/da4c3c0b-176c-a7c8-e31f-7e58e84d1021/OBJECT_PROXY1838aa4b-a385-4668-922a-5e1d97c1d4e9_KEY_FRAME_OUTPUT_0_OBJECT_PROXY1838aa4b-a385-4668-922a-5e1d97c1d4e9.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2417
+    },
+    "6803224656": {
+     "title": "Dan + Shay on Young",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/c7/4c/99/c74c9980-7161-815a-2e89-137a68c941fe/TN_MS_WW_Kelleigh_Dan_Shay_20260812_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2407
     }
    }
   }
