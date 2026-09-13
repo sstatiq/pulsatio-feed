@@ -3,7 +3,7 @@
 Capture shelf membership for the editorial rooms Pulsatio can't reach through
 the Apple Music API, and emit it as a static JSON feed (feed.json).
 
-Five families of shelves are captured, all from Apple's own server-rendered
+Six families of shelves are captured, all from Apple's own server-rendered
 public pages (the embedded `serialized-server-data` JSON):
 
   · the Radio room's rotating shelves (Artists Take Over, Latest Episodes, …);
@@ -28,6 +28,14 @@ public pages (the embedded `serialized-server-data` JSON):
     on-page titles feed a single shelf key: "Latest Show" alone comes in
     under MIN_ITEMS, so it's concatenated with "Tim Sweeney + Guest DJ Mixes"
     and deduped.
+  · GENRE_PAGES: the top-level `pages` object — every shelf, in page order,
+    on each of the 82 genre curator pages (`/curator/x/<id>`) the macOS app's
+    Genres grid links to (see `GENRE_PAGES` for the source). Unlike the other
+    five families this isn't merged into `rooms`: it's a separate, page-shaped
+    `pages.<curatorID>` object the app uses to mirror Apple's own curator page
+    layout exactly, hero carousel included. A page capture that comes back
+    with 0 shelves is carried forward from the previous feed.json instead of
+    dropping the page.
 
 Video shelves carry `kind: "video"` with each id prefixed `mv.` (a catalog
 music video) or `uv.` (an Apple "uploaded video" — interviews/clips with no
@@ -47,9 +55,10 @@ Usage:  python3 capture_feed.py [feed.json] [radio.json]
 shape: app builds shipped before the combined feed still read that URL.
 
 Exits non-zero if a REQUIRED radio shelf is missing/small, or if NO genre
-shelf could be captured at all — so a broken parse never replaces last-good.
+shelf could be captured at all, or if NO genre page could be captured at
+all — so a broken parse never replaces last-good.
 """
-import json, re, html, sys, time, urllib.request
+import json, os, re, html, sys, time, urllib.request
 from datetime import datetime, timezone
 
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 "
@@ -218,6 +227,108 @@ CURATOR_ROOMS = {
     }),
 }
 
+# Every genre curator page (`/curator/x/<id>`) the macOS app's Genres grid
+# links to, in the app's own display order — mirrors `featuredCurators` in
+# UIModule/AMGenresView.swift (minus its "grouping-34" Music Videos pseudo
+# entry, which has no curator page of its own). Captured whole into the
+# top-level `pages` object by `capture_genre_pages`, independent of `rooms`.
+GENRE_PAGES = {
+    "979231701": "Acoustic",
+    "988656348": "African",
+    "1747003654": "Afrobeats",
+    "1878215041": "Alpha Women",
+    "976439526": "Alternative",
+    "976439527": "Americana",
+    "982302294": "Anime",
+    "982302682": "Arabic",
+    "1554941247": "Behind the Songs",
+    "976439528": "Blues",
+    "982307152": "Bollywood",
+    "1482068485": "Christian",
+    "976439531": "Classic Rock",
+    "976439532": "Classical",
+    "976439534": "Country",
+    "976439535": "Dance",
+    "1554938339": "Decades",
+    "1526866135": "'60s",
+    "1526866261": "'70s",
+    "1526866189": "'80s",
+    "1526866514": "'90s",
+    "1526866702": "2010s",
+    "1441811365": "DJ Mixes",
+    "976439536": "Electronic",
+    "1558256771": "Essentials",
+    "1555173397": "Family",
+    "976439586": "Film, TV & Stage",
+    "982308048": "French Pop",
+    "1482068827": "Gospel",
+    "979231690": "Hard Rock",
+    "976439539": "Hip-Hop",
+    "1526756058": "Hits",
+    "976439540": "Holiday",
+    "976439541": "Indie",
+    "1526867390": "Islamic",
+    "976439542": "Jazz",
+    "976439538": "Kids",
+    "988658197": "K-Pop",
+    "1531542847": "Latin",
+    "1526866649": "Live Music",
+    "1558257331": "Love",
+    "976439543": "Metal",
+    "976439544": "Música Mexicana",
+    "976439545": "Música Tropical",
+    "976439547": "Oldies",
+    "976439548": "Pop",
+    "982348865": "Pop Italiano",
+    "976439549": "Pop Latino",
+    "976439550": "Punk",
+    "976439551": "R&B",
+    "976439552": "Reggae",
+    "976439554": "Rock",
+    "988965390": "Rock y Alternativo",
+    "976439585": "Soul/Funk",
+    "1558257235": "Summertime Sounds",
+    "1532467784": "Up Next",
+    "976439553": "Urbano Latino",
+    "976439587": "Worldwide",
+    "1555172867": "Sports",
+    "1558256909": "Fitness",
+    "1558256251": "Chill",
+    "1558257257": "Sleep",
+    "1558257443": "Wellbeing",
+    "1558256919": "Feel Good",
+    "1558257035": "Party",
+    "1558257095": "Focus",
+    "1558256865": "Feeling Blue",
+    "1558257146": "Motivation",
+    "1555171646": "After Hours",
+    "1555172841": "Alone Time",
+    "1558257238": "Commuting",
+    "1555172881": "Eating & Cooking",
+    "1555171590": "Evening",
+    "1558257191": "Gaming",
+    "1555172807": "Heartbreak",
+    "1558256170": "Home",
+    "1555171966": "Morning",
+    "1555172657": "Outdoors",
+    "1555173047": "Social",
+    "1555172036": "Vacation",
+    "1555167098": "Weekend",
+    "1555172573": "Work",
+}
+
+# GENRE_PAGES item contentDescriptor.kind -> pages-schema id prefix. Distinct
+# from VIDEO_KIND_PREFIX/KIND_JSON below: the pages schema is a superset (it
+# also carries songs, artists, and both curator flavors) because it mirrors a
+# whole curator page rather than one named shelf.
+GENRE_PAGE_KIND_PREFIXES = {
+    "album": "al.", "song": "so.", "artist": "ar.",
+    "musicVideo": "mv.", "artistUploadedVideo": "uv.",
+    "appleCurator": "ac.", "curator": "cu.",
+}
+# playlist/radioStation ids are already prefixed `pl.`/`ra.` by Apple's SSR.
+GENRE_PAGE_ALREADY_PREFIXED = {"playlist": "pl.", "radioStation": "ra."}
+
 KIND_JSON = {"radioStation": "station", "album": "album", "playlist": "playlist"}
 CURATOR_KIND_TO_SSR = {"station": "radioStation", "album": "album", "playlist": "playlist"}
 MIN_ITEMS = 5   # fewer than this in a required shelf = broken capture
@@ -229,6 +340,36 @@ VIDEO_KIND_PREFIX = {"musicVideo": "mv.", "artistUploadedVideo": "uv."}
 def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     return urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "replace")
+
+
+# Per-run memo for `fetch`, keyed by URL. GENRE_PAGES pages overlap heavily
+# with the legacy GENRE_CURATORS new-releases probe and 4 of the CURATOR_ROOMS
+# pages (Acoustic 979231701, African 988656348, Fitness 1558256909, Sports
+# 1555172867 all name the same curator URL) — every one of those call sites
+# routes through `fetch_cached` instead of calling `fetch` directly, so a
+# shared page is fetched, and slept for, at most once per run.
+_fetch_memo = {}
+
+
+def fetch_cached(url):
+    """Like `fetch`, but memoized per run: a repeat call for a URL already
+    fetched this run returns (or re-raises) instantly with no network hit and
+    no sleep. A new URL sleeps 1.0s after the real fetch, success or failure,
+    same as every other network call in this script."""
+    if url in _fetch_memo:
+        cached = _fetch_memo[url]
+        if isinstance(cached, Exception):
+            raise cached
+        return cached
+    try:
+        doc = fetch(url)
+    except Exception as e:
+        _fetch_memo[url] = e
+        time.sleep(1.0)
+        raise
+    _fetch_memo[url] = doc
+    time.sleep(1.0)
+    return doc
 
 
 def serialized(doc, what):
@@ -303,6 +444,25 @@ def video_ids_of(sec):
     return out
 
 
+def genre_page_item_id(cd):
+    """Map one GENRE_PAGES item's contentDescriptor to a prefixed pages-schema
+    id (see GENRE_PAGE_KIND_PREFIXES / GENRE_PAGE_ALREADY_PREFIXED), or None
+    to drop the item — a null contentDescriptor, or a kind the pages schema
+    doesn't carry (e.g. a bare header item in the hero carousel)."""
+    if not cd:
+        return None
+    ids = cd.get("identifiers") or {}
+    aid = ids.get("storeAdamID") or ids.get("id")
+    if not aid:
+        return None
+    kind = cd.get("kind")
+    prefix = GENRE_PAGE_ALREADY_PREFIXED.get(kind)
+    if prefix:
+        return aid if aid.startswith(prefix) else f"{prefix}{aid}"
+    prefix = GENRE_PAGE_KIND_PREFIXES.get(kind)
+    return f"{prefix}{aid}" if prefix else None
+
+
 DURATION_RE = re.compile(r"(?:(\d+)\s*hr)?\s*(?:(\d+)\s*min)?\s*(?:(\d+)\s*sec)?")
 
 
@@ -364,7 +524,8 @@ def capture_music_videos():
 
 def capture_curator_rooms():
     """Every shelf listed in CURATOR_ROOMS, across its 17 curator/room pages
-    (one fetch per page, `time.sleep(1.0)` between pages). Optional end to
+    (one fetch per page — via `fetch_cached`, since 4 of these pages are also
+    GENRE_PAGES pages captured by `capture_genre_pages`). Optional end to
     end like capture_music_videos: a page-fetch failure, a title Apple has
     renamed, or a shelf that comes back under MIN_ITEMS just means consumers
     keep their baked seed — never a broken run. Returns {roomID: {feed key:
@@ -372,10 +533,9 @@ def capture_curator_rooms():
     by_room = {}
     for url, (room, shelf_map) in CURATOR_ROOMS.items():
         try:
-            secs = find_sections(serialized(fetch(url), f"curator room {room}"))
+            secs = find_sections(serialized(fetch_cached(url), f"curator room {room}"))
         except Exception as e:
             print(f"WARN {room}: page fetch/parse failed ({e})")
-            time.sleep(1.0)
             continue
 
         titled = {}
@@ -403,7 +563,6 @@ def capture_curator_rooms():
             shelves[feed_key] = {"kind": kind, "ids": deduped}
         if shelves:
             by_room[room] = shelves
-        time.sleep(1.0)
     return by_room
 
 
@@ -449,8 +608,10 @@ def capture_radio():
 
 
 def capture_genre_new_releases(room, curator_id):
-    """The genre's "New Releases" shelf, or None when Apple isn't showing one."""
-    doc = fetch(f"https://music.apple.com/us/curator/x/{curator_id}")
+    """The genre's "New Releases" shelf, or None when Apple isn't showing one.
+    Uses `fetch_cached`: this curator id is also a GENRE_PAGES page, captured
+    separately by `capture_genre_pages` from the same page fetch."""
+    doc = fetch_cached(f"https://music.apple.com/us/curator/x/{curator_id}")
     for sec in find_sections(serialized(doc, f"{room} curator")):
         if title_of(sec).strip().lower() not in NEW_RELEASES_TITLES:
             continue
@@ -460,13 +621,93 @@ def capture_genre_new_releases(room, curator_id):
     return None
 
 
+def capture_one_genre_page(curator_id, name):
+    """One GENRE_PAGES entry: every shelf on `/curator/x/<curator_id>`, in
+    page order, as the pages-schema dict (`shelves`/`artwork`/
+    `uploadedVideos`) — or raises if the fetch/parse failed or the page came
+    back with 0 shelves, for `capture_genre_pages` to catch."""
+    url = f"https://music.apple.com/us/curator/x/{curator_id}"
+    secs = find_sections(serialized(fetch_cached(url), f"{name} genre page"))
+
+    shelves, artwork, uploaded = [], {}, {}
+    for sec in secs:
+        uploaded.update(uploaded_videos_of(sec))
+        if sec.get("itemKind") == "headerComponentModel":
+            continue
+        title = "" if sec.get("itemKind") == "flowcaseLockup" else title_of(sec).strip()
+        rows = ((sec.get("presentation") or {}).get("layout") or {}).get("numberOfRows")
+        rows = rows if isinstance(rows, int) and rows >= 1 else 1
+
+        ids = []
+        for it in sec.get("items") or []:
+            aid = genre_page_item_id(it.get("contentDescriptor"))
+            if not aid:
+                continue
+            ids.append(aid)
+            if aid.startswith(("ac.", "cu.")):
+                art = ((it.get("artwork") or {}).get("dictionary") or {}).get("url")
+                if art:
+                    artwork[aid] = art
+        deduped = list(dict.fromkeys(ids))[:40]
+        if deduped:
+            shelves.append({"title": title, "rows": rows, "items": deduped})
+
+    if not shelves:
+        raise ValueError("0 shelves parsed")
+
+    entry = {"shelves": shelves}
+    if artwork:
+        entry["artwork"] = artwork
+    if uploaded:
+        entry["uploadedVideos"] = uploaded
+    return entry
+
+
+def capture_genre_pages(old_pages):
+    """The top-level `pages` object: every shelf, in page order, on each of
+    the 82 GENRE_PAGES curator pages (one fetch per page, shared via
+    `fetch_cached` with the legacy GENRE_CURATORS/CURATOR_ROOMS fetches of the
+    same URLs). A page whose capture fails or comes back with 0 shelves is
+    carried forward from `old_pages` (the previous feed.json) instead of
+    dropping it — a transient miss should never blank out a page consumers
+    already have. Exits non-zero only if NO page could be captured fresh at
+    all, the same broken-parse signal `main` already uses for GENRE_CURATORS.
+    Returns (pages, shelf_count, id_count)."""
+    pages, fresh, shelf_count, id_count = {}, 0, 0, 0
+    for curator_id, name in GENRE_PAGES.items():
+        try:
+            entry = capture_one_genre_page(curator_id, name)
+        except Exception as e:
+            print(f"WARN page {curator_id}: {name}: {e}")
+            if curator_id in old_pages:
+                pages[curator_id] = old_pages[curator_id]
+                print(f"  page {curator_id} {name}: carried forward from previous feed.json")
+            continue
+        pages[curator_id] = entry
+        fresh += 1
+        n_shelves = len(entry["shelves"])
+        n_ids = sum(len(s["items"]) for s in entry["shelves"])
+        shelf_count += n_shelves
+        id_count += n_ids
+        print(f"  page {curator_id} {name} shelves={n_shelves} ids={n_ids}")
+
+    if fresh == 0:
+        sys.exit("ERROR: no genre page captured at all — parse broken?")
+    return pages, shelf_count, id_count
+
+
 def write_if_changed(path, feed):
     """Keep the old file byte-identical when membership is unchanged, so the
-    workflow's `git diff --quiet` skips the commit."""
+    workflow's `git diff --quiet` skips the commit. Compares `rooms` and
+    `version` always, plus `pages` when `feed` carries one (feed.json does;
+    radio.json never does — it stays `rooms.radio` only)."""
     try:
         with open(path) as f:
             old = json.load(f)
-        if old.get("rooms") == feed["rooms"] and old.get("version") == feed["version"]:
+        unchanged = (old.get("rooms") == feed["rooms"] and old.get("version") == feed["version"])
+        if unchanged and "pages" in feed:
+            unchanged = old.get("pages") == feed["pages"]
+        if unchanged:
             print(f"{path}: membership unchanged, keeping existing file.")
             return
     except (FileNotFoundError, json.JSONDecodeError):
@@ -475,12 +716,26 @@ def write_if_changed(path, feed):
         json.dump(feed, f, indent=1)
         f.write("\n")
     total = sum(len(s["ids"]) for r in feed["rooms"].values() for s in r["shelves"].values())
-    print(f"{path}: wrote {len(feed['rooms'])} rooms, {total} ids.")
+    msg = f"{path}: wrote {len(feed['rooms'])} rooms, {total} ids"
+    if "pages" in feed:
+        page_ids = sum(len(s["items"]) for p in feed["pages"].values() for s in p["shelves"])
+        msg += f", {len(feed['pages'])} pages, {page_ids} page ids"
+    print(msg + ".")
 
 
 def main():
+    start = time.time()
     combined_path = sys.argv[1] if len(sys.argv) > 1 else "feed.json"
     radio_path = sys.argv[2] if len(sys.argv) > 2 else "radio.json"
+
+    # Loaded up front so a page whose fresh capture fails can carry forward
+    # its entry from the previous run instead of dropping out of the feed.
+    old_pages = {}
+    try:
+        with open(combined_path) as f:
+            old_pages = json.load(f).get("pages") or {}
+    except (FileNotFoundError, json.JSONDecodeError):
+        pass
 
     rooms = {"radio": {"shelves": capture_radio()}}
 
@@ -516,7 +771,6 @@ def main():
             print(f"  {room:16s} new-releases albums={len(shelf['ids'])}")
         else:
             skipped.append(room)
-        time.sleep(1.0)
 
     if skipped:
         print(f"NOTE: no New Releases shelf for {skipped} (consumers keep their baked seed).")
@@ -535,11 +789,21 @@ def main():
     if not curator_rooms:
         print("NOTE: no curator-room shelves captured (consumers keep their baked seed).")
 
+    pages, page_shelf_count, page_id_count = capture_genre_pages(old_pages)
+
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    write_if_changed(combined_path, {"version": 1, "capturedAt": now, "rooms": rooms})
+    write_if_changed(combined_path, {"version": 1, "capturedAt": now, "rooms": rooms, "pages": pages})
     # Legacy single-room file: app builds shipped before feed.json read this.
+    # Carries `rooms.radio` only — no `pages` — same shape it has always had.
     write_if_changed(radio_path, {"version": 1, "capturedAt": now,
                                   "rooms": {"radio": rooms["radio"]}})
+
+    try:
+        out_bytes = os.path.getsize(combined_path)
+    except OSError:
+        out_bytes = 0
+    print(f"TOTAL: {len(pages)} pages, {page_shelf_count} shelves, {page_id_count} ids, "
+          f"{out_bytes} bytes, {time.time() - start:.1f}s")
 
 
 if __name__ == "__main__":

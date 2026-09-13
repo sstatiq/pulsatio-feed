@@ -8,15 +8,23 @@ membership changes.
 The feed carries **catalog IDs only** — consumers hydrate titles, artwork and
 content live through the official Apple Music catalog API.
 
-- `feed.json` — every room in one file (`rooms.<room>.shelves.<key>`):
+- `feed.json` — every room in one file (`rooms.<room>.shelves.<key>`), plus a
+  `pages` object:
   - `radio` — the Radio room (Artists Take Over, Latest Episodes, Listen to
     Interviews, …).
   - the per-genre `new-releases` shelves (blues, country, jazz, reggae,
     bollywood, pop-italiano, musica-tropical, musica-mexicana, urbano-latino,
     worldwide, live-music).
+  - `pages.<curatorID>` — every shelf, in page order, on each of the 82 genre
+    curator pages the macOS app's Genres grid links to (see `GENRE_PAGES` in
+    `capture_feed.py`), mirroring Apple's own curator page layout exactly:
+    `{"shelves": [{"title", "rows", "items": [prefixed catalog ids]}, …],
+    "artwork": {curatorID: templateURL}, "uploadedVideos": {id: {title, …}}}`.
+    The hero carousel is `shelves[0]` with `"title": ""`. Old app builds don't
+    read `pages` and keep working unchanged.
 - `radio.json` — the radio room alone, in the original shape. Kept fresh for
   app builds shipped before `feed.json` existed; new consumers read
-  `feed.json`.
+  `feed.json`. Never carries `pages`.
 - `capture_feed.py` — the capture script the workflow runs.
 
 ## Why genres are in here at all
