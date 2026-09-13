@@ -3,7 +3,7 @@
 Capture shelf membership for the editorial rooms Pulsatio can't reach through
 the Apple Music API, and emit it as a static JSON feed (feed.json).
 
-Four families of shelves are captured, all from Apple's own server-rendered
+Five families of shelves are captured, all from Apple's own server-rendered
 public pages (the embedded `serialized-server-data` JSON):
 
   · the Radio room's rotating shelves (Artists Take Over, Latest Episodes, …);
@@ -20,6 +20,14 @@ public pages (the embedded `serialized-server-data` JSON):
   · Radio's "Watch Interviews" shelf (music.apple.com/…/room/6749860083) —
     also optional, captured separately from the required radio shelves so a
     miss here can never block those.
+  · CURATOR_ROOMS: extra shelves on 17 bespoke curator/room pages (Boiler
+    Room, Cercle, Defected, Tomorrowland, Beats in Space, …) plus a couple of
+    GenreRoomBuilder "canon" shelves (Fitness, Sports) — all OPTIONAL, merged
+    into `rooms` alongside whatever a room already has from the families
+    above. Beats in Space's "episodes" shelf is the one case where two
+    on-page titles feed a single shelf key: "Latest Show" alone comes in
+    under MIN_ITEMS, so it's concatenated with "Tim Sweeney + Guest DJ Mixes"
+    and deduped.
 
 Video shelves carry `kind: "video"` with each id prefixed `mv.` (a catalog
 music video) or `uv.` (an Apple "uploaded video" — interviews/clips with no
@@ -110,7 +118,108 @@ MUSIC_VIDEOS_SHELVES = {
     "Live Music Videos":            ("live-music-videos",            "video"),
 }
 
+# One entry per curator/room page that carries extra editorial shelves the app
+# has baked as static seeds (bespoke curator rooms like Boiler Room, Cercle,
+# Defected, ...; a couple of GenreRoomBuilder "canon" shelves like Fitness and
+# Sports). sourceURL -> (Pulsatio roomID, {on-page shelf title: (feed shelf
+# key, JSON kind)}). Every shelf here is OPTIONAL, like MUSIC_VIDEOS_SHELVES:
+# a page miss or a renamed title just means consumers keep their baked seed.
+# A shelf title is matched after stripping whitespace (Apple's own SSR titles
+# are sometimes padded, e.g. Beats in Space's "Latest Show" renders "Latest
+# Show  " with trailing spaces). Two titles mapping to the same feed key are
+# concatenated in page order and deduped — Beats in Space's "episodes" shelf
+# needs both "Latest Show" (too few items alone) and "Tim Sweeney + Guest DJ
+# Mixes" to clear MIN_ITEMS.
+CURATOR_ROOMS = {
+    "https://music.apple.com/us/curator/x/979231701": ("acoustic", {
+        "Playlists": ("playlists", "playlist"),
+    }),
+    "https://music.apple.com/us/curator/x/988656348": ("african", {
+        "Daily Top 100": ("daily-top-100", "playlist"),
+    }),
+    "https://music.apple.com/us/curator/x/1573950910": ("beats-in-space", {
+        "Latest Show": ("episodes", "album"),
+        "Tim Sweeney + Guest DJ Mixes": ("episodes", "album"),
+        "Guest Interviews": ("guest-interviews", "station"),
+        "Tim Sweeney Specials": ("tim-sweeney-specials", "album"),
+        "Tim’s Current Obsessions": ("tim-s-current-obsessions", "album"),
+    }),
+    "https://music.apple.com/us/curator/x/1082539854": ("boiler-room", {
+        "Now in Spatial Audio": ("now-in-spatial-audio", "album"),
+        "Just Added": ("just-added", "album"),
+        "Boiler Room: An Hour With": ("an-hour-with", "album"),
+        "Boiler Room Radio: Extended Interviews": ("radio-extended-interviews", "station"),
+        "Boiler Room Radio: DJ Mixes": ("radio-dj-mixes", "album"),
+    }),
+    "https://music.apple.com/us/curator/x/1576455458": ("cafe-del-mar", {
+        "Sundown Mix": ("sundown-mix", "album"),
+        "The Evolution of Chill": ("the-evolution-of-chill", "album"),
+    }),
+    "https://music.apple.com/us/curator/x/1558721971": ("cercle", {
+        "DJ Mixes in Spatial Audio": ("dj-mixes-in-spatial-audio", "album"),
+        "DJ Mixes & Live Sets": ("dj-mixes-live-sets", "album"),
+        "Cercle Records": ("cercle-records", "album"),
+        "Chill": ("chill", "album"),
+        "House": ("house", "album"),
+        "Melodic": ("melodic", "album"),
+        "Techno": ("techno", "album"),
+    }),
+    "https://music.apple.com/us/curator/x/1558722078": ("defected", {
+        "Defected Ibiza": ("defected-ibiza", "album"),
+        "Glitterbox Ibiza": ("glitterbox-ibiza", "album"),
+        "In The House": ("in-the-house", "album"),
+        "Broadcasting House": ("broadcasting-house", "album"),
+        "Defected Malta": ("defected-malta", "album"),
+        "Defected Worldwide": ("defected-worldwide", "album"),
+        "More DJ Mixes": ("more-dj-mixes", "album"),
+    }),
+    "https://music.apple.com/us/curator/x/1576455424": ("hi-ibiza", {
+        "Playlists": ("playlists", "playlist"),
+    }),
+    "https://music.apple.com/us/curator/x/1576454019": ("ministry-of-sound", {
+        "Ibiza": ("ibiza", "album"),
+        "Fitness": ("fitness", "album"),
+        "The Annual": ("the-annual", "album"),
+        "The Sessions": ("the-sessions", "album"),
+        "More DJ Mixes": ("more-dj-mixes", "album"),
+    }),
+    "https://music.apple.com/us/curator/x/1774051496": ("naina-presents", {
+        "NAINA in the mix": ("naina-in-the-mix", "album"),
+    }),
+    "https://music.apple.com/us/curator/x/1697427961": ("phantasy-sound", {
+        "DJ Mixes": ("dj-mixes", "album"),
+        "Releases": ("releases", "album"),
+    }),
+    "https://music.apple.com/us/curator/x/1668248223": ("rnb-only", {
+        "Office Hours (Work, Study, Chill)": ("office-hours", "album"),
+        "R&B ONLY SESSIONS": ("sessions", "album"),
+        "Live Show Sets": ("live-show-sets", "album"),
+    }),
+    "https://music.apple.com/us/curator/x/993271379": ("soulection", {
+        "Latest Episodes": ("latest-episodes", "station"),
+        "Albums": ("albums", "album"),
+        "DJ Mixes": ("dj-mixes", "album"),
+    }),
+    "https://music.apple.com/us/curator/x/1524337266": ("tomorrowland", {
+        "Tomorrowland 2026": ("tomorrowland-2026", "album"),
+        "Tomorrowland Winter 2026": ("tomorrowland-winter-2026", "album"),
+        "Tomorrowland Playlists": ("playlists", "playlist"),
+    }),
+    "https://music.apple.com/us/curator/x/1796068191": ("unvrs", {
+        "Playlists": ("playlists", "playlist"),
+    }),
+    "https://music.apple.com/us/curator/x/1558256909": ("fitness", {
+        "Apple Fitness+": ("apple-fitness", "playlist"),
+    }),
+    "https://music.apple.com/us/curator/x/1555172867": ("sports", {
+        "MLS Club Playlists": ("mls-club-playlists", "playlist"),
+        "NFL Team Playlists": ("nfl-team-playlists", "playlist"),
+        "MLB Walk-Up Playlists": ("mlb-walk-up-playlists", "playlist"),
+    }),
+}
+
 KIND_JSON = {"radioStation": "station", "album": "album", "playlist": "playlist"}
+CURATOR_KIND_TO_SSR = {"station": "radioStation", "album": "album", "playlist": "playlist"}
 MIN_ITEMS = 5   # fewer than this in a required shelf = broken capture
 
 # contentDescriptor.kind -> the prefix VideoPlaybackItem.parse expects.
@@ -253,6 +362,51 @@ def capture_music_videos():
     return shelves, uploaded
 
 
+def capture_curator_rooms():
+    """Every shelf listed in CURATOR_ROOMS, across its 17 curator/room pages
+    (one fetch per page, `time.sleep(1.0)` between pages). Optional end to
+    end like capture_music_videos: a page-fetch failure, a title Apple has
+    renamed, or a shelf that comes back under MIN_ITEMS just means consumers
+    keep their baked seed — never a broken run. Returns {roomID: {feed key:
+    {kind, ids}}}."""
+    by_room = {}
+    for url, (room, shelf_map) in CURATOR_ROOMS.items():
+        try:
+            secs = find_sections(serialized(fetch(url), f"curator room {room}"))
+        except Exception as e:
+            print(f"WARN {room}: page fetch/parse failed ({e})")
+            time.sleep(1.0)
+            continue
+
+        titled = {}
+        for sec in secs:
+            t = title_of(sec).strip()
+            if t and t not in titled:
+                titled[t] = sec
+
+        collected = {}   # feed key -> (kind, [ids...]) accumulated in page order
+        for title, (feed_key, kind) in shelf_map.items():
+            sec = titled.get(title)
+            if sec is None:
+                print(f"NOTE {room}/{feed_key}: shelf title not found on page: '{title}'")
+                continue
+            ids = video_ids_of(sec) if kind == "video" else ids_of(sec, CURATOR_KIND_TO_SSR[kind])
+            kind_ids = collected.setdefault(feed_key, (kind, []))[1]
+            kind_ids.extend(ids)
+
+        shelves = {}
+        for feed_key, (kind, ids) in collected.items():
+            deduped = list(dict.fromkeys(ids))[:40]
+            if len(deduped) < MIN_ITEMS:
+                print(f"NOTE {room}/{feed_key}: only {len(deduped)} ids, skipping.")
+                continue
+            shelves[feed_key] = {"kind": kind, "ids": deduped}
+        if shelves:
+            by_room[room] = shelves
+        time.sleep(1.0)
+    return by_room
+
+
 def capture_watch_interviews():
     """Radio's "Watch Interviews" room (6749860083) — the latest 20 of a
     mixed music-video/uploaded-video room. Optional: captured separately from
@@ -370,6 +524,16 @@ def main():
     # eleven shelves on the same day.
     if captured == 0:
         sys.exit("ERROR: no genre New Releases shelf captured at all — parse broken?")
+
+    curator_rooms = capture_curator_rooms()
+    for room, shelves in curator_rooms.items():
+        room_entry = rooms.setdefault(room, {"shelves": {}})
+        for key, shelf in shelves.items():
+            room_entry["shelves"][key] = shelf
+        total_ids = sum(len(s["ids"]) for s in shelves.values())
+        print(f"  {room:20s} curator shelves={len(shelves)} ids={total_ids}")
+    if not curator_rooms:
+        print("NOTE: no curator-room shelves captured (consumers keep their baked seed).")
 
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     write_if_changed(combined_path, {"version": 1, "capturedAt": now, "rooms": rooms})
