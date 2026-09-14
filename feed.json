@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-09-14T19:19:09Z",
+ "capturedAt": "2026-09-14T22:46:10Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -57,6 +57,8 @@
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6810827220",
+      "ra.6810824498",
       "ra.6810618149",
       "ra.6810261277",
       "ra.6808340948",
@@ -74,9 +76,7 @@
       "ra.6806055167",
       "ra.6805639944",
       "ra.6807953936",
-      "ra.6806045033",
-      "ra.6806007876",
-      "ra.6805541131"
+      "ra.6806045033"
      ]
     },
     "club-dj-mixes": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6810886791",
       "uv.6810856587",
       "mv.6809943878",
       "mv.6809953016",
@@ -125,12 +126,16 @@
       "uv.6806318793",
       "uv.6805974776",
       "mv.6805695024",
-      "mv.6804839572",
-      "uv.6803224656"
+      "mv.6804839572"
      ]
     }
    },
    "uploadedVideos": {
+    "6810886791": {
+     "title": "Skilla Baby on The Price Of Fame",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/bd/2e/af/bd2eafd0-52b1-7961-3faf-dcb5344ca6f1/TN_MS_WW_Ebro_Skilla_Baby_20260826_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2073
+    },
     "6810856587": {
      "title": "ADEL\u00c1 on debut album, Nicole Kidman and origin story",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/0e/c9/72/0ec9728e-30d2-bc4e-a919-9c1c2137df16/TN_MS_WW_Zane_Adela_20260902_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -180,11 +185,6 @@
      "title": "Little Big Town on It\u2019s a Dying Art",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/da/4c/3c/da4c3c0b-176c-a7c8-e31f-7e58e84d1021/OBJECT_PROXY1838aa4b-a385-4668-922a-5e1d97c1d4e9_KEY_FRAME_OUTPUT_0_OBJECT_PROXY1838aa4b-a385-4668-922a-5e1d97c1d4e9.png/{w}x{h}{c}.{f}",
      "durationSeconds": 2417
-    },
-    "6803224656": {
-     "title": "Dan + Shay on Young",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/c7/4c/99/c74c9980-7161-815a-2e89-137a68c941fe/TN_MS_WW_Kelleigh_Dan_Shay_20260812_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 2407
     }
    }
   },
@@ -293,6 +293,7 @@
     "latest-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6810886791",
       "uv.6810856587",
       "mv.6809943878",
       "mv.6809953016",
@@ -311,8 +312,7 @@
       "uv.6806318793",
       "uv.6805974776",
       "mv.6805695024",
-      "mv.6804839572",
-      "uv.6803224656"
+      "mv.6804839572"
      ]
     },
     "pop-music-videos": {
@@ -642,6 +642,11 @@
     }
    },
    "uploadedVideos": {
+    "6810886791": {
+     "title": "Skilla Baby on The Price Of Fame",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/bd/2e/af/bd2eafd0-52b1-7961-3faf-dcb5344ca6f1/TN_MS_WW_Ebro_Skilla_Baby_20260826_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2073
+    },
     "6810856587": {
      "title": "ADEL\u00c1 on debut album, Nicole Kidman and origin story",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/0e/c9/72/0ec9728e-30d2-bc4e-a919-9c1c2137df16/TN_MS_WW_Zane_Adela_20260902_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -691,11 +696,6 @@
      "title": "Little Big Town on It\u2019s a Dying Art",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/da/4c/3c/da4c3c0b-176c-a7c8-e31f-7e58e84d1021/OBJECT_PROXY1838aa4b-a385-4668-922a-5e1d97c1d4e9_KEY_FRAME_OUTPUT_0_OBJECT_PROXY1838aa4b-a385-4668-922a-5e1d97c1d4e9.png/{w}x{h}{c}.{f}",
      "durationSeconds": 2417
-    },
-    "6803224656": {
-     "title": "Dan + Shay on Young",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/c7/4c/99/c74c9980-7161-815a-2e89-137a68c941fe/TN_MS_WW_Kelleigh_Dan_Shay_20260812_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 2407
     }
    }
   },
@@ -3391,6 +3391,7 @@
      "rows": 1,
      "items": [
       "al.6810715695",
+      "al.6798862624",
       "al.6808639680",
       "al.6792883860",
       "al.6783569945",
@@ -3408,8 +3409,7 @@
       "al.6795782851",
       "al.6794437055",
       "al.1895592655",
-      "al.6776723739",
-      "al.6774718027"
+      "al.6776723739"
      ]
     },
     {
@@ -16920,7 +16920,6 @@
       "al.6810002079",
       "al.6809531767",
       "al.6803996602",
-      "al.6808806843",
       "al.6804826027",
       "al.6795646858",
       "al.6810418901",
@@ -20190,6 +20189,7 @@
       "so.6808830877",
       "so.6808041733",
       "so.6803714874",
+      "so.6796743061",
       "so.6807537065",
       "so.6771308825",
       "so.6800078341",
@@ -20205,8 +20205,7 @@
       "so.6805114979",
       "so.6791779158",
       "so.6804045065",
-      "so.6805872155",
-      "so.6801982928"
+      "so.6805872155"
      ]
     },
     {
@@ -20239,6 +20238,7 @@
      "title": "Emerging Artists",
      "rows": 1,
      "items": [
+      "ar.1844067628",
       "ar.1882878953",
       "ar.1486304617",
       "ar.1448049937",
@@ -20257,8 +20257,7 @@
       "ar.1712530592",
       "ar.1675181193",
       "ar.1487253329",
-      "ar.1491583681",
-      "ar.899781096"
+      "ar.1491583681"
      ]
     },
     {
@@ -21938,6 +21937,7 @@
      "title": "Emerging R&B/Soul Artists",
      "rows": 1,
      "items": [
+      "ar.1844067628",
       "ar.1882878953",
       "ar.1486304617",
       "ar.1448049937",
@@ -21956,8 +21956,7 @@
       "ar.1712530592",
       "ar.1675181193",
       "ar.1487253329",
-      "ar.1491583681",
-      "ar.899781096"
+      "ar.1491583681"
      ]
     },
     {
@@ -26521,6 +26520,8 @@
      "title": "Radio Episodes",
      "rows": 1,
      "items": [
+      "ra.6810827220",
+      "ra.6810824498",
       "ra.6810618149",
       "ra.6804090555",
       "ra.6808345831",
@@ -26538,9 +26539,7 @@
       "ra.6808732940",
       "ra.6803660484",
       "ra.6808340537",
-      "ra.6808730449",
-      "ra.6808730386",
-      "ra.6803661701"
+      "ra.6808730449"
      ]
     }
    ]
