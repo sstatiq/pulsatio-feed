@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-09-15T17:42:02Z",
+ "capturedAt": "2026-09-15T21:17:24Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -57,6 +57,7 @@
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6810728618",
       "ra.6810824947",
       "ra.6810832683",
       "ra.6810827220",
@@ -75,8 +76,7 @@
       "ra.6808300020",
       "ra.6806055889",
       "ra.6808299797",
-      "ra.6806055167",
-      "ra.6805639944"
+      "ra.6806055167"
      ]
     },
     "club-dj-mixes": {
@@ -112,6 +112,7 @@
       "mv.6812152461",
       "uv.6810886791",
       "mv.6810739699",
+      "uv.6811976534",
       "uv.6810856587",
       "mv.6809943878",
       "mv.6809953016",
@@ -125,8 +126,7 @@
       "mv.6807226829",
       "uv.6806119382",
       "uv.6806374215",
-      "mv.6806454275",
-      "uv.6806461282"
+      "mv.6806454275"
      ]
     }
    },
@@ -140,6 +140,11 @@
      "title": "Skilla Baby on The Price Of Fame",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/bd/2e/af/bd2eafd0-52b1-7961-3faf-dcb5344ca6f1/TN_MS_WW_Ebro_Skilla_Baby_20260826_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 2073
+    },
+    "6811976534": {
+     "title": "Arya Starr on Starrgirl",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/7f/62/7d/7f627d74-f138-f9d4-c46a-74a4d949ccbb/TN_MS_WW_Nadeska_Arya_Starr_20260903_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1866
     },
     "6810856587": {
      "title": "ADEL\u00c1 on debut album, Nicole Kidman and origin story",
@@ -175,11 +180,6 @@
      "title": "Eric Bellinger on Self Titled Album",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/f7/6a/67/f76a678a-ea45-ef0a-eedf-2b87fa5ed3e3/TN_MS_WW_Ebro_Eric_Bellinger_20260824_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 1807
-    },
-    "6806461282": {
-     "title": "Zach John King on I'm What You Get",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/70/86/2d/70862d12-7376-1ba3-c352-90162733c595/TN_MS_WW_Kelleigh_ZachJohnKing_20260820_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 2248
     }
    }
   }
