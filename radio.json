@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-09-14T22:46:10Z",
+ "capturedAt": "2026-09-15T06:41:20Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -107,6 +107,9 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6812151955",
+      "mv.6812149440",
+      "mv.6812152461",
       "uv.6810886791",
       "uv.6810856587",
       "mv.6809943878",
@@ -123,14 +126,16 @@
       "uv.6806374215",
       "mv.6806454275",
       "uv.6806461282",
-      "uv.6806318793",
-      "uv.6805974776",
-      "mv.6805695024",
-      "mv.6804839572"
+      "uv.6806318793"
      ]
     }
    },
    "uploadedVideos": {
+    "6812151955": {
+     "title": "Dylan Gossett on Ramblin\u2019",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/cc/3c/71/cc3c7170-11e8-c5d1-66ed-2d92f5675eac/TN_MS_WW_Kelleigh_DylanGossett_20260726_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1843
+    },
     "6810886791": {
      "title": "Skilla Baby on The Price Of Fame",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/bd/2e/af/bd2eafd0-52b1-7961-3faf-dcb5344ca6f1/TN_MS_WW_Ebro_Skilla_Baby_20260826_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -180,11 +185,6 @@
      "title": "Rod Wave on Don\u2019t Look Down",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/51/57/bf/5157bf92-5744-8206-c49c-2cd0fcdc2d57/TN_MS_WW_ThePlug_RodWave_20260806_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 1896
-    },
-    "6805974776": {
-     "title": "Little Big Town on It\u2019s a Dying Art",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/da/4c/3c/da4c3c0b-176c-a7c8-e31f-7e58e84d1021/OBJECT_PROXY1838aa4b-a385-4668-922a-5e1d97c1d4e9_KEY_FRAME_OUTPUT_0_OBJECT_PROXY1838aa4b-a385-4668-922a-5e1d97c1d4e9.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 2417
     }
    }
   }
