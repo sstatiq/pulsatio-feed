@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-09-15T21:17:24Z",
+ "capturedAt": "2026-09-16T14:53:56Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -107,12 +107,12 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6811976534",
+      "mv.6810739699",
       "uv.6812151955",
       "mv.6812149440",
       "mv.6812152461",
       "uv.6810886791",
-      "mv.6810739699",
-      "uv.6811976534",
       "uv.6810856587",
       "mv.6809943878",
       "mv.6809953016",
@@ -131,6 +131,11 @@
     }
    },
    "uploadedVideos": {
+    "6811976534": {
+     "title": "Arya Starr on Starrgirl",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/7f/62/7d/7f627d74-f138-f9d4-c46a-74a4d949ccbb/TN_MS_WW_Nadeska_Arya_Starr_20260903_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1866
+    },
     "6812151955": {
      "title": "Dylan Gossett on Ramblin\u2019",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/cc/3c/71/cc3c7170-11e8-c5d1-66ed-2d92f5675eac/TN_MS_WW_Kelleigh_DylanGossett_20260726_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -140,11 +145,6 @@
      "title": "Skilla Baby on The Price Of Fame",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/bd/2e/af/bd2eafd0-52b1-7961-3faf-dcb5344ca6f1/TN_MS_WW_Ebro_Skilla_Baby_20260826_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 2073
-    },
-    "6811976534": {
-     "title": "Arya Starr on Starrgirl",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/7f/62/7d/7f627d74-f138-f9d4-c46a-74a4d949ccbb/TN_MS_WW_Nadeska_Arya_Starr_20260903_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 1866
     },
     "6810856587": {
      "title": "ADEL\u00c1 on debut album, Nicole Kidman and origin story",
