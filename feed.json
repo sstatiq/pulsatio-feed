@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-09-16T14:53:56Z",
+ "capturedAt": "2026-09-16T18:53:18Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -32,14 +32,14 @@
     "latest-episodes": {
      "kind": "station",
      "ids": [
+      "ra.6807514970",
+      "ra.6808758843",
       "ra.6804090555",
       "ra.6808345831",
       "ra.6808341122",
       "ra.6810782730",
       "ra.6808830681",
-      "ra.6807514970",
       "ra.6804090392",
-      "ra.6808758843",
       "ra.6804822499",
       "ra.6806053811",
       "ra.6786806252",
@@ -188,6 +188,8 @@
     "new-music-videos": {
      "kind": "video",
      "ids": [
+      "mv.6812128203",
+      "mv.6812067705",
       "mv.6811100173",
       "mv.6810989922",
       "mv.6811036548",
@@ -205,9 +207,7 @@
       "mv.6810223638",
       "mv.6810385865",
       "mv.6809433679",
-      "mv.6809529641",
-      "mv.6808493235",
-      "mv.6808781322"
+      "mv.6809529641"
      ]
     },
     "music-video-playlists": {
@@ -338,6 +338,7 @@
     "hip-hop-videos": {
      "kind": "video",
      "ids": [
+      "mv.6812128203",
       "mv.6811100173",
       "mv.6810413964",
       "mv.6808406459",
@@ -356,8 +357,7 @@
       "mv.6803265007",
       "mv.6802358015",
       "mv.6804797952",
-      "mv.6803993284",
-      "mv.6802708683"
+      "mv.6803993284"
      ]
     },
     "r-and-b-videos": {
@@ -438,6 +438,7 @@
     "alternative-videos": {
      "kind": "video",
      "ids": [
+      "mv.6812067705",
       "mv.6811036548",
       "mv.6807947434",
       "mv.6805210463",
@@ -456,8 +457,7 @@
       "mv.6794318752",
       "mv.6798925775",
       "mv.6797513414",
-      "mv.6797802621",
-      "mv.6794332626"
+      "mv.6797802621"
      ]
     },
     "dance-videos": {
@@ -6000,6 +6000,7 @@
      "title": "",
      "rows": 1,
      "items": [
+      "al.6795596925",
       "pl.fecfa8a26ea44ad581d4fe501892c8ff",
       "pl.06a94ac8b3fc41c2bef77143d70e63a8",
       "pl.6bbdb4dac5814b5c8d4ce27cd78522ad",
@@ -6481,7 +6482,6 @@
       "so.1440821514",
       "so.1399765342",
       "so.635770204",
-      "so.1440806992",
       "so.310789777",
       "so.1440815872",
       "so.724670493",
@@ -6497,7 +6497,8 @@
       "so.1658645028",
       "so.1192962295",
       "so.1727317376",
-      "so.1440780153"
+      "so.1440780153",
+      "so.968637158"
      ]
     },
     {
@@ -13245,8 +13246,9 @@
      "title": "",
      "rows": 1,
      "items": [
-      "al.1440935272",
       "pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
+      "al.1440935272",
+      "ac.1439620108",
       "al.6804125384",
       "pl.bb06b5c4835343ce9d2677b1c4575e0d",
       "pl.426a1044619f47d6b1f86b3f79ecf857",
@@ -13255,8 +13257,7 @@
       "mv.6809953016",
       "pl.674abcd261d04582b58d6388394cd047",
       "pl.2d4d74790f074233b82d07bfae5c219c",
-      "ra.1800279095",
-      "pl.5cc74856fdab4a65a33f5bd706ba88da"
+      "ra.1800279095"
      ]
     },
     {
@@ -13504,6 +13505,7 @@
      "title": "Hip-Hop in Spatial Audio",
      "rows": 1,
      "items": [
+      "al.6807635817",
       "al.6796878855",
       "al.6794421565",
       "al.6796859137",
@@ -13522,8 +13524,7 @@
       "al.6776457223",
       "al.1887627836",
       "al.6774320632",
-      "al.6774372200",
-      "al.1894333428"
+      "al.6774372200"
      ]
     },
     {
@@ -13840,9 +13841,9 @@
     }
    ],
    "artwork": {
+    "ac.1439620108": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/4e/5f/67/4e5f67eb-db9d-f004-51eb-3d6006af7903/3ee9b6a6-25b8-4999-bdaf-5065aad81013.png/{w}x{h}bb.{f}",
     "ac.990473683": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/dd/33/10/dd331007-d57d-0d68-0459-c4ca863d923f/a6db4ca5-bde1-4531-893d-e4b06351386a.png/{w}x{h}bb.{f}",
     "ac.1513641015": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/e3/5d/e4/e35de4d9-e0d3-5898-3eb9-9cdc9d1f542e/QkwtTVMtV1ctVGhlX1BsdWdfUmFkaW8ucG5n.png/{w}x{h}bb.{f}",
-    "ac.1439620108": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/4e/5f/67/4e5f67eb-db9d-f004-51eb-3d6006af7903/3ee9b6a6-25b8-4999-bdaf-5065aad81013.png/{w}x{h}bb.{f}",
     "ac.1774052321": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/e3/66/01/e366013b-fa4c-d647-a47f-9d8cc3e3df34/0048535e-ca56-4d8f-82d7-0fad1132580f.png/{w}x{h}bb.{f}",
     "ac.1774320219": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/b2/90/9d/b2909d94-7c83-b11f-338c-c0f28538df12/46169405-1a10-42c7-8d11-9f41948bbe0f.png/{w}x{h}bb.{f}",
     "ac.1472071440": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/30/91/d2/3091d25f-c00f-4e78-4c3e-6f12ce2bced6/10c6d502-22a3-41dd-b272-d0ffd181a6e4.png/{w}x{h}bb.{f}",
@@ -15097,6 +15098,7 @@
      "title": "Matt Wilkinson\u2019s Show",
      "rows": 1,
      "items": [
+      "ra.6810811094",
       "ra.6810811095",
       "ra.6810810002",
       "ra.6808329128",
@@ -15115,8 +15117,7 @@
       "ra.6803168881",
       "ra.6801235634",
       "ra.6801235605",
-      "ra.6801235529",
-      "ra.6801235470"
+      "ra.6801235529"
      ]
     },
     {
@@ -18204,10 +18205,10 @@
      "title": "Artist Playlists",
      "rows": 1,
      "items": [
-      "pl.0ec35cabaf0d42a0a680aba5e136ed99",
       "pl.e72fb06389e444c6a2d6c6021d2108e7",
       "pl.66ee6657fef34cb0855a6a4e2795edb6",
       "pl.9ee117c6259649b4b2a0a43163339076",
+      "pl.0ec35cabaf0d42a0a680aba5e136ed99",
       "pl.290d83f4a991476fa581c6d46084a9e7",
       "pl.8eedd786713543428329673c9d4d525f",
       "pl.955adac8f6954d3eb2ebf1680441dfbf",
@@ -18806,7 +18807,6 @@
      "rows": 1,
      "items": [
       "pl.5ee8333dbe944d9f9151e97d92d1ead9",
-      "al.6807687715",
       "al.6807197456",
       "pl.bb06b5c4835343ce9d2677b1c4575e0d",
       "al.6808332952",
@@ -18819,7 +18819,8 @@
       "ra.978194965",
       "pl.2a0b1ea7704842f4b956e959067b8389",
       "pl.9a964a33c1484aec8fdb0cac3e7771ed",
-      "pl.91f43a875d694022ba4b338fce6a8c48"
+      "pl.91f43a875d694022ba4b338fce6a8c48",
+      "pl.fc93c98d0aea4e24a982d6b059a07506"
      ]
     },
     {
@@ -19581,9 +19582,9 @@
       "pl.a258ad8ac2f242a491b381a5e65cc9fb",
       "pl.f5f2acdc9d5d4d4585bdf3b4517a0dc3",
       "pl.7f7b65c280d94893852fa255c5fe287c",
+      "pl.6f9c12f378fd4d09a6c54603ec1e1d75",
       "pl.9bbb8849c7164582a8b541c497d114d2",
       "pl.cf693789119c41fb8140751077b5f8ff",
-      "pl.6f9c12f378fd4d09a6c54603ec1e1d75",
       "pl.1db955480ee5418ab8d503c01c656f1a",
       "pl.94306105faca435c98c5f0d99d4bdb14",
       "pl.9cd83592d24c484fbc9a32bdc02b5260",
@@ -23138,7 +23139,7 @@
      "items": [
       "pl.bb06b5c4835343ce9d2677b1c4575e0d",
       "pl.ec759fc3be0d4547a2a56f3f8087610c",
-      "pl.52b69541a35a4f9885c5ad4d1b093851",
+      "pl.13da0e413b5b4f2399c807f32b489614",
       "pl.6ec1cac6e0bc4ec3b91023a5da106803",
       "pl.97a7571c2dc643d4a63d425b643cdd51",
       "pl.68c6676cea8343cea0a5c2c3cea6310b",
