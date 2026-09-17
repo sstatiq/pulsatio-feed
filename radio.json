@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-09-17T05:19:01Z",
+ "capturedAt": "2026-09-17T19:16:55Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -57,6 +57,8 @@
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6810826773",
+      "ra.6810830920",
       "ra.6810827933",
       "ra.6810824671",
       "ra.6809963608",
@@ -74,9 +76,7 @@
       "ra.6805963531",
       "ra.6808340537",
       "ra.6807526306",
-      "ra.6808730386",
-      "ra.6807515113",
-      "ra.6808300020"
+      "ra.6808730386"
      ]
     },
     "club-dj-mixes": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "mv.6812922716",
       "uv.6811976534",
       "mv.6810739699",
       "uv.6812151955",
@@ -125,8 +126,7 @@
       "uv.6806119382",
       "uv.6806374215",
       "mv.6806454275",
-      "uv.6806461282",
-      "uv.6806318793"
+      "uv.6806461282"
      ]
     }
    },
@@ -185,11 +185,6 @@
      "title": "Zach John King on I'm What You Get",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/70/86/2d/70862d12-7376-1ba3-c352-90162733c595/TN_MS_WW_Kelleigh_ZachJohnKing_20260820_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 2248
-    },
-    "6806318793": {
-     "title": "Rod Wave on Don\u2019t Look Down",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/51/57/bf/5157bf92-5744-8206-c49c-2cd0fcdc2d57/TN_MS_WW_ThePlug_RodWave_20260806_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 1896
     }
    }
   }
