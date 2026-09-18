@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-09-17T19:16:55Z",
+ "capturedAt": "2026-09-18T05:52:06Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -37,6 +37,7 @@
       "ra.6804090555",
       "ra.6808345831",
       "ra.6808341122",
+      "ra.6808306827",
       "ra.6810782730",
       "ra.6808830681",
       "ra.6804090392",
@@ -50,16 +51,17 @@
       "ra.6808329098",
       "ra.6803662663",
       "ra.6806056146",
-      "ra.6802783915",
-      "ra.6801256214"
+      "ra.6802783915"
      ]
     },
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6810831014",
       "ra.6810826773",
       "ra.6810830920",
       "ra.6810827933",
+      "ra.6800416276",
       "ra.6810824671",
       "ra.6809963608",
       "ra.6810728618",
@@ -74,9 +76,7 @@
       "ra.6808732940",
       "ra.6808332295",
       "ra.6805963531",
-      "ra.6808340537",
-      "ra.6807526306",
-      "ra.6808730386"
+      "ra.6808340537"
      ]
     },
     "club-dj-mixes": {
@@ -108,6 +108,7 @@
      "kind": "video",
      "ids": [
       "mv.6812922716",
+      "uv.6812570230",
       "uv.6811976534",
       "mv.6810739699",
       "uv.6812151955",
@@ -125,12 +126,16 @@
       "mv.6807226829",
       "uv.6806119382",
       "uv.6806374215",
-      "mv.6806454275",
-      "uv.6806461282"
+      "mv.6806454275"
      ]
     }
    },
    "uploadedVideos": {
+    "6812570230": {
+     "title": "Riley Green on That's Just Me",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/dc/9d/5a/dc9d5af6-96eb-8e8b-a7fe-f50605bc7b57/TN_MS_WW_Kelleigh_Riley_Green_20260805_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1594
+    },
     "6811976534": {
      "title": "Arya Starr on Starrgirl",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/7f/62/7d/7f627d74-f138-f9d4-c46a-74a4d949ccbb/TN_MS_WW_Nadeska_Arya_Starr_20260903_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -180,11 +185,6 @@
      "title": "Eric Bellinger on Self Titled Album",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/f7/6a/67/f76a678a-ea45-ef0a-eedf-2b87fa5ed3e3/TN_MS_WW_Ebro_Eric_Bellinger_20260824_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 1807
-    },
-    "6806461282": {
-     "title": "Zach John King on I'm What You Get",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/70/86/2d/70862d12-7376-1ba3-c352-90162733c595/TN_MS_WW_Kelleigh_ZachJohnKing_20260820_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 2248
     }
    }
   }
