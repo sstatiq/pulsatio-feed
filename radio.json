@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-09-18T11:07:30Z",
+ "capturedAt": "2026-09-18T18:23:09Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -32,11 +32,13 @@
     "latest-episodes": {
      "kind": "station",
      "ids": [
+      "ra.6812470129",
       "ra.6807514970",
       "ra.6808758843",
+      "ra.6812414467",
       "ra.6804090555",
+      "ra.6812415331",
       "ra.6808345831",
-      "ra.6808341122",
       "ra.6808306827",
       "ra.6810782730",
       "ra.6808830681",
@@ -49,14 +51,13 @@
       "ra.6800431442",
       "ra.6803661928",
       "ra.6808329098",
-      "ra.6803662663",
-      "ra.6806056146",
-      "ra.6802783915"
+      "ra.6803662663"
      ]
     },
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6810828833",
       "ra.6810831014",
       "ra.6810826773",
       "ra.6810830920",
@@ -75,8 +76,7 @@
       "ra.6808340948",
       "ra.6808332273",
       "ra.6808732940",
-      "ra.6808332295",
-      "ra.6805963531"
+      "ra.6808332295"
      ]
     },
     "club-dj-mixes": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6813599152",
       "mv.6812922716",
       "uv.6812570230",
       "uv.6811976534",
@@ -125,12 +126,16 @@
       "mv.6805751509",
       "mv.6807226829",
       "uv.6806119382",
-      "uv.6806374215",
-      "mv.6806454275"
+      "uv.6806374215"
      ]
     }
    },
    "uploadedVideos": {
+    "6813599152": {
+     "title": "ROS\u00c9 teaches us her new trick!",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/e2/68/75/e2687529-182b-faf9-7f08-20e03ca5f5ae/TN_MS_WW_Zane_Rose_20260914_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 788
+    },
     "6812570230": {
      "title": "Riley Green on That's Just Me",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/dc/9d/5a/dc9d5af6-96eb-8e8b-a7fe-f50605bc7b57/TN_MS_WW_Kelleigh_Riley_Green_20260805_AUC_Episode.png/{w}x{h}{c}.{f}",
