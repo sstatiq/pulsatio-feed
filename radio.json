@@ -1,12 +1,13 @@
 {
  "version": 1,
- "capturedAt": "2026-09-20T20:47:29Z",
+ "capturedAt": "2026-09-21T19:22:05Z",
  "rooms": {
   "radio": {
    "shelves": {
     "artists-take-over": {
      "kind": "station",
      "ids": [
+      "ra.6810825693",
       "ra.6808346885",
       "ra.6803660484",
       "ra.6803661701",
@@ -25,21 +26,23 @@
       "ra.6795631847",
       "ra.6795631528",
       "ra.6794037195",
-      "ra.6795304145",
-      "ra.6788844456"
+      "ra.6795304145"
      ]
     },
     "latest-episodes": {
      "kind": "station",
      "ids": [
-      "ra.6810829935",
       "ra.6812470129",
+      "ra.1534280508",
       "ra.6810828750",
+      "ra.6812414467",
+      "ra.6812415331",
+      "ra.6810829935",
+      "ra.6810828833",
+      "ra.6810618149",
       "ra.6807514970",
       "ra.6808758843",
-      "ra.6812414467",
       "ra.6804090555",
-      "ra.6812415331",
       "ra.6808345831",
       "ra.6808306827",
       "ra.6810782730",
@@ -48,10 +51,7 @@
       "ra.6804822499",
       "ra.6786806252",
       "ra.1712935586",
-      "ra.6803663329",
-      "ra.6800431442",
-      "ra.6808329098",
-      "ra.6803662663"
+      "ra.6803663329"
      ]
     },
     "listen-to-interviews": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6813684340",
       "uv.6813599152",
       "mv.6812922716",
       "uv.6812570230",
@@ -125,12 +126,16 @@
       "mv.6806086658",
       "mv.6805751509",
       "mv.6807226829",
-      "uv.6806119382",
-      "uv.6806374215"
+      "uv.6806119382"
      ]
     }
    },
    "uploadedVideos": {
+    "6813684340": {
+     "title": "Jackson Wang says \"THANK YOU\" to fans",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/f4/8b/7c/f48b7c72-2c10-1803-9372-413dce3aa1d0/TN_MS_WW_Zane_JacksonWang_20260914_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 693
+    },
     "6813599152": {
      "title": "ROS\u00c9 teaches us her new trick!",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/e2/68/75/e2687529-182b-faf9-7f08-20e03ca5f5ae/TN_MS_WW_Zane_Rose_20260914_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -185,11 +190,6 @@
      "title": "Denise Belfon on Drake sample & new music",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/45/8e/1e/458e1ec2-7e18-6e72-a180-327ad869cb4b/TN_MS_WW_Ebro_Denise_Belfon_20260818_AUC_Episode.jpg/{w}x{h}{c}.{f}",
      "durationSeconds": 2080
-    },
-    "6806374215": {
-     "title": "Eric Bellinger on Self Titled Album",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/f7/6a/67/f76a678a-ea45-ef0a-eedf-2b87fa5ed3e3/TN_MS_WW_Ebro_Eric_Bellinger_20260824_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 1807
     }
    }
   }
