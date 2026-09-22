@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-09-22T20:29:59Z",
+ "capturedAt": "2026-09-22T23:16:59Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -42,7 +42,6 @@
       "ra.6810618149",
       "ra.6812867809",
       "ra.6807514970",
-      "ra.6803614670",
       "ra.6804090555",
       "ra.6808758843",
       "ra.6808345831",
@@ -51,12 +50,15 @@
       "ra.6808830681",
       "ra.6804090392",
       "ra.6804822499",
-      "ra.6786806252"
+      "ra.6786806252",
+      "ra.1712935586"
      ]
     },
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6813545944",
+      "ra.6814620229",
       "ra.6813638716",
       "ra.6812783165",
       "ra.6813545284",
@@ -74,9 +76,7 @@
       "ra.6810728618",
       "ra.6810824947",
       "ra.6810832683",
-      "ra.6810827220",
-      "ra.6810824498",
-      "ra.6810618149"
+      "ra.6810827220"
      ]
     },
     "club-dj-mixes": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6813365356",
       "mv.6800517447",
       "uv.6813684340",
       "uv.6813599152",
@@ -125,12 +126,16 @@
       "uv.6808343461",
       "uv.6807963881",
       "mv.6806086658",
-      "mv.6805751509",
-      "mv.6807226829"
+      "mv.6805751509"
      ]
     }
    },
    "uploadedVideos": {
+    "6813365356": {
+     "title": "Malie Donn on The Golden Child",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/58/52/bb/5852bbed-7599-7095-96b6-94cf5e1c19b4/TN_MS_WW_Ebro_Malie_Donn_20260915_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1099
+    },
     "6813684340": {
      "title": "Jackson Wang says \"THANK YOU\" to fans",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/f4/8b/7c/f48b7c72-2c10-1803-9372-413dce3aa1d0/TN_MS_WW_Zane_JacksonWang_20260914_AUC_Episode.png/{w}x{h}{c}.{f}",
