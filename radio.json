@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-09-25T06:08:41Z",
+ "capturedAt": "2026-09-25T17:07:17Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -32,6 +32,8 @@
     "latest-episodes": {
      "kind": "station",
      "ids": [
+      "ra.6812868588",
+      "ra.1843229124",
       "ra.6812470129",
       "ra.1534280508",
       "ra.6810828750",
@@ -49,14 +51,15 @@
       "ra.6808306827",
       "ra.6810782730",
       "ra.6808830681",
-      "ra.6804090392",
-      "ra.6804822499",
-      "ra.6786806252"
+      "ra.6804090392"
      ]
     },
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6815345188",
+      "ra.6815348166",
+      "ra.6812887106",
       "ra.6812865782",
       "ra.6813547936",
       "ra.6812865172",
@@ -73,10 +76,7 @@
       "ra.6810830920",
       "ra.6810827933",
       "ra.6806295135",
-      "ra.6800416276",
-      "ra.6810824671",
-      "ra.6809963608",
-      "ra.6810728618"
+      "ra.6800416276"
      ]
     },
     "club-dj-mixes": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6815943915",
       "mv.6815849390",
       "mv.6814630830",
       "uv.6813365356",
@@ -125,12 +126,16 @@
       "uv.6805969856",
       "mv.6808791060",
       "uv.6808718363",
-      "uv.6808343461",
-      "uv.6807963881"
+      "uv.6808343461"
      ]
     }
    },
    "uploadedVideos": {
+    "6815943915": {
+     "title": "Lizzie McAlpine talks about her album, Angel",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/41/e4/6c/41e46cbf-aa17-9dbd-b69e-ccf607874214/TN_MS_WW_Zane_LizzyMcAlpine20260917_AUC_Episode0.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1906
+    },
     "6813365356": {
      "title": "Malie Donn on The Golden Child",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/58/52/bb/5852bbed-7599-7095-96b6-94cf5e1c19b4/TN_MS_WW_Ebro_Malie_Donn_20260915_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -185,11 +190,6 @@
      "title": "Weezer on the gold album, Kenneth Blume and performing live",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/69/d9/e3/69d9e301-2729-1e8b-293b-f6fa9ed1c2e6/TN_MS_WW_Zane_Weezer_20260824_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 1233
-    },
-    "6807963881": {
-     "title": "Carly Pearce on Honest Woman",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/9b/ae/88/9bae88d0-9c03-3edf-363d-c9e39388f71b/TN_MS_WW_Kelleigh_Carly_Pearce_20260804_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 1880
     }
    }
   }
