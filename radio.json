@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-09-25T17:07:17Z",
+ "capturedAt": "2026-09-25T20:28:12Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -32,6 +32,7 @@
     "latest-episodes": {
      "kind": "station",
      "ids": [
+      "ra.6812860223",
       "ra.6812868588",
       "ra.1843229124",
       "ra.6812470129",
@@ -50,13 +51,13 @@
       "ra.6808345831",
       "ra.6808306827",
       "ra.6810782730",
-      "ra.6808830681",
-      "ra.6804090392"
+      "ra.6808830681"
      ]
     },
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6812860223",
       "ra.6815345188",
       "ra.6815348166",
       "ra.6812887106",
@@ -75,8 +76,7 @@
       "ra.6810826773",
       "ra.6810830920",
       "ra.6810827933",
-      "ra.6806295135",
-      "ra.6800416276"
+      "ra.6806295135"
      ]
     },
     "club-dj-mixes": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "mv.6815904755",
       "uv.6815943915",
       "mv.6815849390",
       "mv.6814630830",
@@ -125,8 +126,7 @@
       "mv.6809953016",
       "uv.6805969856",
       "mv.6808791060",
-      "uv.6808718363",
-      "uv.6808343461"
+      "uv.6808718363"
      ]
     }
    },
@@ -185,11 +185,6 @@
      "title": "Kelela on new avatar",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/5a/2d/35/5a2d3524-e987-f66d-151e-7e93580b4fa2/TN_MS_WW_Zane_Kelela_202608211_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 1013
-    },
-    "6808343461": {
-     "title": "Weezer on the gold album, Kenneth Blume and performing live",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/69/d9/e3/69d9e301-2729-1e8b-293b-f6fa9ed1c2e6/TN_MS_WW_Zane_Weezer_20260824_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 1233
     }
    }
   }
