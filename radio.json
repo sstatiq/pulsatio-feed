@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-09-30T06:40:06Z",
+ "capturedAt": "2026-09-30T22:36:01Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -57,6 +57,8 @@
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6815807741",
+      "ra.6817507946",
       "ra.6815792829",
       "ra.6815805451",
       "ra.6815825504",
@@ -74,9 +76,7 @@
       "ra.6814620229",
       "ra.6813638716",
       "ra.6812783165",
-      "ra.6813545284",
-      "ra.6812863204",
-      "ra.6812541066"
+      "ra.6813545284"
      ]
     },
     "club-dj-mixes": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "mv.6817554269",
       "mv.6816291816",
       "uv.6815390125",
       "mv.6815904755",
@@ -125,8 +126,7 @@
       "uv.6810886791",
       "uv.6810856587",
       "mv.6809943878",
-      "mv.6809953016",
-      "uv.6805969856"
+      "mv.6809953016"
      ]
     }
    },
@@ -180,11 +180,6 @@
      "title": "ADEL\u00c1 on debut album, Nicole Kidman and origin story",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/0e/c9/72/0ec9728e-30d2-bc4e-a919-9c1c2137df16/TN_MS_WW_Zane_Adela_20260902_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 1840
-    },
-    "6805969856": {
-     "title": "Black Sherif on SUN SHERIF",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/09/7a/b3/097ab342-d386-e5fb-4ccb-1ee01e02f7ce/TN_MS_WW_Ebro_Black_Sherif_202260618_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 1600
     }
    }
   }
