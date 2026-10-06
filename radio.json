@@ -1,12 +1,13 @@
 {
  "version": 1,
- "capturedAt": "2026-10-06T09:24:13Z",
+ "capturedAt": "2026-10-06T21:15:05Z",
  "rooms": {
   "radio": {
    "shelves": {
     "artists-take-over": {
      "kind": "station",
      "ids": [
+      "ra.6817941448",
       "ra.6809915029",
       "ra.1896833899",
       "ra.6808346885",
@@ -25,13 +26,13 @@
       "ra.6801244732",
       "ra.6798842672",
       "ra.6801240640",
-      "ra.6785457833",
-      "ra.6798840847"
+      "ra.6785457833"
      ]
     },
     "latest-episodes": {
      "kind": "station",
      "ids": [
+      "ra.6814586818",
       "ra.6813030577",
       "ra.6815818398",
       "ra.6812868588",
@@ -50,13 +51,13 @@
       "ra.6810618149",
       "ra.6807514970",
       "ra.6804090555",
-      "ra.6808758843",
-      "ra.6808345831"
+      "ra.6808758843"
      ]
     },
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6818309852",
       "ra.6818301982",
       "ra.6812863204",
       "ra.6810826773",
@@ -67,6 +68,7 @@
       "ra.6812865782",
       "ra.6810831014",
       "ra.6806034976",
+      "ra.6817923435",
       "ra.6817940981",
       "ra.6817924709",
       "ra.6817508395",
@@ -74,9 +76,7 @@
       "ra.6815804841",
       "ra.6817065112",
       "ra.6815816914",
-      "ra.6815807741",
-      "ra.6815804881",
-      "ra.6814981188"
+      "ra.6815807741"
      ]
     },
     "club-dj-mixes": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6819802826",
       "mv.6818738313",
       "mv.6817912296",
       "mv.6817554269",
@@ -125,12 +126,16 @@
       "uv.6811976534",
       "mv.6810739699",
       "uv.6812151955",
-      "uv.6810886791",
-      "uv.6810856587"
+      "uv.6810886791"
      ]
     }
    },
    "uploadedVideos": {
+    "6819802826": {
+     "title": "BNXN on Still In Charge",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/cd/7f/fd/cd7ffd3e-03bd-52e5-ae83-910f2c7f7052/TN_MS_WW_Nadeska_BNXN_20260930_AUC_Episode.jpg/{w}x{h}{c}.{f}",
+     "durationSeconds": 2098
+    },
     "6815390125": {
      "title": "Corey Kent on Heartland Rock and Roll",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/01/28/c8/0128c8f2-1c44-cf5f-dde2-5ad75fdbcee7/TN_MS_WW_Kelleigh_CoreyKent_20260811_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -175,11 +180,6 @@
      "title": "Skilla Baby on The Price Of Fame",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/bd/2e/af/bd2eafd0-52b1-7961-3faf-dcb5344ca6f1/TN_MS_WW_Ebro_Skilla_Baby_20260826_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 2073
-    },
-    "6810856587": {
-     "title": "ADEL\u00c1 on debut album, Nicole Kidman and origin story",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/0e/c9/72/0ec9728e-30d2-bc4e-a919-9c1c2137df16/TN_MS_WW_Zane_Adela_20260902_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 1840
     }
    }
   }
