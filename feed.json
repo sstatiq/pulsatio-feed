@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-10-09T23:30:38Z",
+ "capturedAt": "2026-10-10T02:43:51Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -32,9 +32,9 @@
     "latest-episodes": {
      "kind": "station",
      "ids": [
+      "ra.6817941204",
       "ra.6814586818",
       "ra.6813030577",
-      "ra.6815818398",
       "ra.6812868588",
       "ra.6812882813",
       "ra.6812860223",
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6821155241",
       "uv.6820796185",
       "uv.6819802826",
       "mv.6818738313",
@@ -125,12 +126,16 @@
       "mv.6812922716",
       "uv.6812570230",
       "uv.6811976534",
-      "mv.6810739699",
-      "uv.6812151955"
+      "mv.6810739699"
      ]
     }
    },
    "uploadedVideos": {
+    "6821155241": {
+     "title": "Nate Sib on Reborn",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/14/a2/49/14a2492d-4cd0-e682-62a7-b94599cda3f8/TN_MS_WW_ZaneLowe_NateSib_20261008_AUC_Episode0.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1519
+    },
     "6820796185": {
      "title": "Luke Bryan on Signs",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/ad/4e/67/ad4e6738-821d-66f0-0b5c-ab9f5c80aa6f/TN_MS_WW_Kelleigh_Luke_Bryan_20260923_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -175,11 +180,6 @@
      "title": "Arya Starr on Starrgirl",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/7f/62/7d/7f627d74-f138-f9d4-c46a-74a4d949ccbb/TN_MS_WW_Nadeska_Arya_Starr_20260903_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 1866
-    },
-    "6812151955": {
-     "title": "Dylan Gossett on Ramblin\u2019",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/cc/3c/71/cc3c7170-11e8-c5d1-66ed-2d92f5675eac/TN_MS_WW_Kelleigh_DylanGossett_20260726_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 1843
     }
    }
   },
@@ -288,6 +288,7 @@
     "latest-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6821155241",
       "uv.6820796185",
       "uv.6819802826",
       "mv.6818738313",
@@ -306,8 +307,7 @@
       "mv.6812922716",
       "uv.6812570230",
       "uv.6811976534",
-      "mv.6810739699",
-      "uv.6812151955"
+      "mv.6810739699"
      ]
     },
     "pop-music-videos": {
@@ -637,6 +637,11 @@
     }
    },
    "uploadedVideos": {
+    "6821155241": {
+     "title": "Nate Sib on Reborn",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/14/a2/49/14a2492d-4cd0-e682-62a7-b94599cda3f8/TN_MS_WW_ZaneLowe_NateSib_20261008_AUC_Episode0.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1519
+    },
     "6820796185": {
      "title": "Luke Bryan on Signs",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/ad/4e/67/ad4e6738-821d-66f0-0b5c-ab9f5c80aa6f/TN_MS_WW_Kelleigh_Luke_Bryan_20260923_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -681,11 +686,6 @@
      "title": "Arya Starr on Starrgirl",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/7f/62/7d/7f627d74-f138-f9d4-c46a-74a4d949ccbb/TN_MS_WW_Nadeska_Arya_Starr_20260903_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 1866
-    },
-    "6812151955": {
-     "title": "Dylan Gossett on Ramblin\u2019",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/cc/3c/71/cc3c7170-11e8-c5d1-66ed-2d92f5675eac/TN_MS_WW_Kelleigh_DylanGossett_20260726_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 1843
     }
    }
   },
@@ -16646,6 +16646,32 @@
      ]
     },
     {
+     "title": "Latin in Spatial Audio",
+     "rows": 1,
+     "items": [
+      "al.6782852893",
+      "al.6816297798",
+      "al.6810002079",
+      "al.6813133263",
+      "al.6814609062",
+      "al.6812011280",
+      "al.6804826027",
+      "al.6800459970",
+      "al.6805150378",
+      "al.6807484063",
+      "al.6803709358",
+      "al.6803590213",
+      "al.6803273580",
+      "al.6805207823",
+      "al.6801238685",
+      "al.6794186282",
+      "al.6789208182",
+      "al.6802916014",
+      "al.6804774268",
+      "al.6795700852"
+     ]
+    },
+    {
      "title": "Playlists",
      "rows": 1,
      "items": [
@@ -16925,6 +16951,20 @@
       "ar.164376380",
       "ar.1576521417",
       "ar.831088637"
+     ]
+    },
+    {
+     "title": "Coming Soon",
+     "rows": 1,
+     "items": [
+      "al.6820256399",
+      "al.6810418901",
+      "al.6802765559",
+      "al.6813620396",
+      "al.6812505726",
+      "al.6812476961",
+      "al.6816234741",
+      "al.6782219561"
      ]
     },
     {
@@ -26578,6 +26618,7 @@
      "title": "Radio Episodes",
      "rows": 1,
      "items": [
+      "ra.6817941204",
       "ra.6817945435",
       "ra.6819824750",
       "ra.6816229680",
@@ -26594,7 +26635,6 @@
       "ra.6818301982",
       "ra.6817924709",
       "ra.6813030577",
-      "ra.6815818398",
       "ra.6815825784",
       "ra.6817508395",
       "ra.6812867809"
