@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-10-10T09:46:14Z",
+ "capturedAt": "2026-10-10T15:53:42Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -8187,7 +8187,6 @@
      "rows": 1,
      "items": [
       "ac.1896966463",
-      "pl.1576640e5fd34647a2418a56f85ddc13",
       "pl.6bf4415b83ce4f3789614ac4c3675740",
       "ra.1740613859",
       "al.6810048215",
@@ -8200,7 +8199,8 @@
       "al.6794146395",
       "al.6788885715",
       "al.6789669496",
-      "al.6788546391"
+      "al.6788546391",
+      "ac.1558722522"
      ]
     },
     {
@@ -8622,12 +8622,12 @@
    "artwork": {
     "ac.1896966463": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/88/4f/37/884f37f1-f1dd-6ef9-7981-1937fab57b87/source/{w}x{h}bb.{f}",
     "ac.1524337266": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/94/c7/a6/94c7a6f8-41a7-e3e8-9cf2-20e60d5c9aa4/bcdb4274-4ea0-4015-b252-9c92b17d43a5.png/{w}x{h}sr.{f}",
+    "ac.1558722522": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/99/af/12/99af12c7-690a-dcbd-46e4-783094a812d4/65b4f71d-a7cc-4509-8428-47e6c2a22a69.png/{w}x{h}sr.{f}",
     "ac.1837544469": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/10/31/79/10317969-51ed-546f-a751-068f0078093b/2ec1b6b6-953c-4f49-b1b9-cc4691cf4a5d.png/{w}x{h}sr.{f}",
     "ac.1735562310": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/8f/1d/df/8f1ddf9c-f26b-3f09-284e-04c5184ed8d6/64a77702-2b1b-4931-8691-bd476c0e28cb.png/{w}x{h}sr.{f}",
     "ac.1607171756": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/b4/2b/07/b42b07e0-3e8f-7d8d-92e8-70725dc52d14/57a128de-d927-4c1f-aba0-2de1fa98937f.png/{w}x{h}sr.{f}",
     "ac.1735606813": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/1d/70/33/1d703320-7d87-f396-10f3-456e73ae2136/c5e46049-c989-4e6c-856d-2539002bf632.png/{w}x{h}sr.{f}",
     "ac.1635605116": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/86/fd/9a/86fd9a6d-b335-8dfd-3e62-a3f887a100f6/caf61f56-ad60-4548-b9c1-c35dfac71b1c.png/{w}x{h}sr.{f}",
-    "ac.1558722522": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/99/af/12/99af12c7-690a-dcbd-46e4-783094a812d4/65b4f71d-a7cc-4509-8428-47e6c2a22a69.png/{w}x{h}sr.{f}",
     "ac.1735561756": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/a9/e8/3a/a9e83a98-a5fb-3a9c-e7c2-6d43ef97247f/b5540bec-5a11-4f98-a630-32e5a1a4055f.png/{w}x{h}sr.{f}",
     "ac.1607171118": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/78/96/3c/78963c70-abbf-90fa-e674-43180c5da241/62d53165-286d-4a34-81f4-8a6e3a2055b6.png/{w}x{h}sr.{f}",
     "ac.1607172156": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0f/28/7e/0f287ee3-793c-8596-d73d-045786ec84e7/acd1a2cd-b2c7-4f5e-bdf2-f0e6c3561bbe.png/{w}x{h}sr.{f}",
@@ -10085,7 +10085,6 @@
      "rows": 1,
      "items": [
       "ac.1896966463",
-      "pl.1576640e5fd34647a2418a56f85ddc13",
       "al.6818344209",
       "ra.1740613859",
       "al.6805681313",
@@ -10673,7 +10672,6 @@
      "rows": 1,
      "items": [
       "ac.1896966463",
-      "pl.1576640e5fd34647a2418a56f85ddc13",
       "al.6805681313",
       "pl.4705ab1ed97c4f4bb54f48940faf5623",
       "ac.1573950910",
@@ -11866,6 +11864,7 @@
       "al.6819374382",
       "al.6813214712",
       "al.6817848552",
+      "al.6818667776",
       "al.6812010583",
       "al.6809957617",
       "al.6795511602",
@@ -11879,8 +11878,7 @@
       "al.6812461037",
       "al.6818242020",
       "al.6814887131",
-      "al.6813269044",
-      "al.6817463332"
+      "al.6813269044"
      ]
     },
     {
