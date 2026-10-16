@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-10-15T04:30:46Z",
+ "capturedAt": "2026-10-16T18:49:25Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -34,6 +34,7 @@
      "ids": [
       "ra.6814586818",
       "ra.6819824750",
+      "ra.6813254132",
       "ra.6817941204",
       "ra.6819420675",
       "ra.6813030577",
@@ -50,13 +51,15 @@
       "ra.6810829935",
       "ra.6810828833",
       "ra.6810618149",
-      "ra.6807514970",
-      "ra.6804090555"
+      "ra.6807514970"
      ]
     },
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6822915498",
+      "ra.6823286791",
+      "ra.6820508828",
       "ra.6820700697",
       "ra.6821137872",
       "ra.6822389130",
@@ -73,10 +76,7 @@
       "ra.6820681701",
       "ra.6820721006",
       "ra.6817938307",
-      "ra.6818301982",
-      "ra.6817945797",
-      "ra.6817507946",
-      "ra.6812863204"
+      "ra.6818301982"
      ]
     },
     "club-dj-mixes": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6823420000",
       "mv.6821156295",
       "uv.6821155241",
       "uv.6820796185",
@@ -125,12 +126,16 @@
       "uv.6813684340",
       "uv.6813599152",
       "mv.6812922716",
-      "uv.6812570230",
-      "uv.6811976534"
+      "uv.6812570230"
      ]
     }
    },
    "uploadedVideos": {
+    "6823420000": {
+     "title": "Olivia Rodrigo and Chappell Roan on expectations",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/5d/bc/05/5dbc0555-64de-17c6-5e29-a212b264a076/TN_MS_WW_ZaneLowe_OliviaRodridgo_ChappellRoan_20261013_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 917
+    },
     "6821155241": {
      "title": "Nate Sib on Reborn",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/14/a2/49/14a2492d-4cd0-e682-62a7-b94599cda3f8/TN_MS_WW_ZaneLowe_NateSib_20261008_AUC_Episode0.png/{w}x{h}{c}.{f}",
@@ -175,11 +180,6 @@
      "title": "Riley Green on That's Just Me",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/dc/9d/5a/dc9d5af6-96eb-8e8b-a7fe-f50605bc7b57/TN_MS_WW_Kelleigh_Riley_Green_20260805_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 1594
-    },
-    "6811976534": {
-     "title": "Arya Starr on Starrgirl",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/7f/62/7d/7f627d74-f138-f9d4-c46a-74a4d949ccbb/TN_MS_WW_Nadeska_Arya_Starr_20260903_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 1866
     }
    }
   }
