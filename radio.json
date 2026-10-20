@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-10-19T22:20:00Z",
+ "capturedAt": "2026-10-20T20:32:13Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -57,6 +57,8 @@
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6820722105",
+      "ra.6823318616",
       "ra.6823313318",
       "ra.6823314496",
       "ra.6823286791",
@@ -74,9 +76,7 @@
       "ra.6819824750",
       "ra.6819830050",
       "ra.6819420675",
-      "ra.6820699931",
-      "ra.6820681701",
-      "ra.6820721006"
+      "ra.6820699931"
      ]
     },
     "club-dj-mixes": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6801686843",
       "uv.6823420000",
       "mv.6821156295",
       "uv.6821155241",
@@ -125,12 +126,16 @@
       "mv.6800517447",
       "uv.6813684340",
       "uv.6813599152",
-      "mv.6812922716",
-      "uv.6812570230"
+      "mv.6812922716"
      ]
     }
    },
    "uploadedVideos": {
+    "6801686843": {
+     "title": "Tierra Whack: The Ebro Show",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/de/f6/2b/def62b18-3a14-6a9a-f4e9-96093f3909c5/TN_MS_WW_Ebro_Tierra_20260803_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2088
+    },
     "6823420000": {
      "title": "Olivia Rodrigo and Chappell Roan on expectations",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/5d/bc/05/5dbc0555-64de-17c6-5e29-a212b264a076/TN_MS_WW_ZaneLowe_OliviaRodridgo_ChappellRoan_20261013_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -175,11 +180,6 @@
      "title": "ROS\u00c9 teaches us her new trick!",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/e2/68/75/e2687529-182b-faf9-7f08-20e03ca5f5ae/TN_MS_WW_Zane_Rose_20260914_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 788
-    },
-    "6812570230": {
-     "title": "Riley Green on That's Just Me",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/dc/9d/5a/dc9d5af6-96eb-8e8b-a7fe-f50605bc7b57/TN_MS_WW_Kelleigh_Riley_Green_20260805_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 1594
     }
    }
   }
