@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-10-20T20:32:13Z",
+ "capturedAt": "2026-10-20T23:24:50Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6822874889",
       "uv.6801686843",
       "uv.6823420000",
       "mv.6821156295",
@@ -125,12 +126,16 @@
       "uv.6813365356",
       "mv.6800517447",
       "uv.6813684340",
-      "uv.6813599152",
-      "mv.6812922716"
+      "uv.6813599152"
      ]
     }
    },
    "uploadedVideos": {
+    "6822874889": {
+     "title": "Joyce Wrice on MACHIKO",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/53/aa/7e/53aa7e61-5d62-de8f-8ada-d19d5809468f/TN_MS_WW_Nadeska_Joyce_Wrice_20261006_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2071
+    },
     "6801686843": {
      "title": "Tierra Whack: The Ebro Show",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/de/f6/2b/def62b18-3a14-6a9a-f4e9-96093f3909c5/TN_MS_WW_Ebro_Tierra_20260803_AUC_Episode.png/{w}x{h}{c}.{f}",
