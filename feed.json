@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-10-21T18:17:13Z",
+ "capturedAt": "2026-10-21T22:00:22Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -57,6 +57,9 @@
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6823313498",
+      "ra.6823718372",
+      "ra.6823314611",
       "ra.6820722105",
       "ra.6823314452",
       "ra.6823318616",
@@ -73,10 +76,7 @@
       "ra.6820699500",
       "ra.6822389130",
       "ra.6815805451",
-      "ra.6814620229",
-      "ra.6819824750",
-      "ra.6819830050",
-      "ra.6819420675"
+      "ra.6814620229"
      ]
     },
     "club-dj-mixes": {
@@ -193,6 +193,7 @@
     "new-music-videos": {
      "kind": "video",
      "ids": [
+      "mv.6825405681",
       "mv.6823720254",
       "mv.6824675886",
       "mv.6824585509",
@@ -211,8 +212,7 @@
       "mv.6823628806",
       "mv.6822258306",
       "mv.6823786291",
-      "mv.6822841005",
-      "mv.6817934396"
+      "mv.6822841005"
      ]
     },
     "music-video-playlists": {
@@ -343,6 +343,7 @@
     "hip-hop-videos": {
      "kind": "video",
      "ids": [
+      "mv.6825405681",
       "mv.6822446365",
       "mv.6823757674",
       "mv.6823435716",
@@ -361,8 +362,7 @@
       "mv.6815008584",
       "mv.6813616851",
       "mv.6814258278",
-      "mv.6814299623",
-      "mv.6814255396"
+      "mv.6814299623"
      ]
     },
     "r-and-b-videos": {
@@ -448,6 +448,7 @@
       "mv.6822704228",
       "mv.6822258306",
       "mv.6823628806",
+      "mv.6824541994",
       "mv.6817934396",
       "mv.6819799744",
       "mv.6817343188",
@@ -461,8 +462,7 @@
       "mv.6812067705",
       "mv.6811036548",
       "mv.6807947434",
-      "mv.6805210463",
-      "mv.6807136191"
+      "mv.6805210463"
      ]
     },
     "dance-videos": {
@@ -936,6 +936,7 @@
     "new-releases": {
      "kind": "album",
      "ids": [
+      "6822874289",
       "6820239289",
       "6820256399",
       "6820780634",
@@ -954,8 +955,7 @@
       "6803273580",
       "6773832976",
       "6804933312",
-      "6803117439",
-      "6798403205"
+      "6803117439"
      ]
     }
    }
@@ -5152,6 +5152,10 @@
      "title": "Great Producers",
      "rows": 1,
      "items": [
+      "pl.d16cc42fb0f64f6ab08fca0d8b7b4a8b",
+      "pl.7bc7f27991de4e35b041a6f1072947c6",
+      "pl.82f867f955294dd6b7f8066da3278204",
+      "pl.a2786d14ee9d45b18abcc1212b451c20",
       "pl.01898eb2522c40998d9e1e538f57b346",
       "pl.ad22f5f403d040838843a249213faad8",
       "pl.9b6131363f784f86bb6fc66aeaf54036",
@@ -5167,11 +5171,7 @@
       "pl.67d5790fe64140e6b3a07216e2477251",
       "pl.8b3196e1c93442f286c48a3cf8c5973e",
       "pl.c04ef88c4ea64656944478b13b8ae04b",
-      "pl.4a1f9e83007a41a5a69c68ac4f9b9791",
-      "pl.90041d27421e4c90918ab0ad28f831ad",
-      "pl.23e7b07d99e7448b9e71798750dcbe3c",
-      "pl.7090a72a40e54b4fb991fb4b67651c9a",
-      "pl.7feab7995485403b95854895bdea5deb"
+      "pl.4a1f9e83007a41a5a69c68ac4f9b9791"
      ]
     },
     {
@@ -5204,6 +5204,7 @@
      "title": "Great Session Musicians",
      "rows": 1,
      "items": [
+      "pl.d6ed89d4fe8143f4a16f2d485896e0a2",
       "pl.b37cc45aa8a84116a04e2ec877982704",
       "pl.89cb7e038b47476b951fb11ffbf822cf",
       "pl.340bb1398e90475ebc9603e46687573a",
@@ -5222,8 +5223,7 @@
       "pl.7b8ac72875824e0283f19adbeee058d1",
       "pl.962162fabf3e46f7bedcac987c042676",
       "pl.689639d9c5434df5907c89e51380ced6",
-      "pl.06108c66dbdc409ab23c96f032b82378",
-      "pl.e597b49b2f404863ad37ad3f9adbdd29"
+      "pl.06108c66dbdc409ab23c96f032b82378"
      ]
     },
     {
@@ -5282,6 +5282,8 @@
      "title": "Legendary Songwriters",
      "rows": 1,
      "items": [
+      "pl.e54f21151a5245ff8c82bf95d6a40bb1",
+      "pl.72d33548dc644cf48d9d38f31fa5ab56",
       "pl.ed3e74b79555446b97e94f48c0718ce0",
       "pl.fd86996d07d6432c835cd7f523124f26",
       "pl.c9968357e4ab4d41a195c0829aa7cace",
@@ -5289,7 +5291,6 @@
       "pl.1abe9f10027644edbe0e094dd457309e",
       "pl.1e4749e449c840a9b6e342945381a59c",
       "pl.fea5d52cba394decbea91bf67d484e8b",
-      "pl.e54f21151a5245ff8c82bf95d6a40bb1",
       "pl.18743de1beda4636b3fe37a5ae2d62f8",
       "pl.9b9b9332bf4e44cf81a9cf5f422e36b9",
       "pl.9e796836b7f24553bf5d5c1f75c0fc4b",
@@ -5300,8 +5301,7 @@
       "pl.f1b5544b78944808879a3a7a88ca6df5",
       "pl.f6218b284908477c82c2540c7694ab0e",
       "pl.e7e7af470c534027b6950e56eebd9523",
-      "pl.0becc80a30d447ea891d35657e3f7b56",
-      "pl.50b27e2389f84de581f5c632a2c9f544"
+      "pl.0becc80a30d447ea891d35657e3f7b56"
      ]
     },
     {
@@ -5386,6 +5386,9 @@
      "title": "Artists Who Write",
      "rows": 1,
      "items": [
+      "pl.a240e2d640854152912b61a259bd2624",
+      "pl.bb217e1cb978459aa78ce4ec562bb050",
+      "pl.f0e63ed22df84f389168def0bc0dbc0b",
       "pl.345774b4ef394681bfbd43d3dd2d8041",
       "pl.c7cf38167f8c452c95a91ca94c720b6c",
       "pl.89cb7748d26d48aea4f3f1986aef6b82",
@@ -5402,10 +5405,7 @@
       "pl.f1b5544b78944808879a3a7a88ca6df5",
       "pl.dd01627f6964447e827e509e9915c285",
       "pl.c9f734ef4f8a48ee96f4603c65a02e69",
-      "pl.43c4632a7bc044e682b87105909353df",
-      "pl.f189671e4e244aaa9c5c72f7fc44a84a",
-      "pl.cb8c276e6b214c84a1f3c96e500bb621",
-      "pl.12f98353555e42069fc25a347a271de4"
+      "pl.43c4632a7bc044e682b87105909353df"
      ]
     },
     {
@@ -10106,6 +10106,7 @@
      "title": "",
      "rows": 1,
      "items": [
+      "al.6823376719",
       "ac.1798261090",
       "al.6819432998",
       "ac.1697212094",
@@ -13969,21 +13970,21 @@
       "pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
       "pl.14572caaa2c0493994f3b7beff6b1b10",
       "pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
-      "pl.2980463a4b2a440bad48155ef708c4a4",
+      "pl.3de89e62aa3340038e08fa325c3f3f01",
+      "pl.3a85cc83130443b68415718f19372cf4",
       "pl.fecfa8a26ea44ad581d4fe501892c8ff",
+      "pl.a0214a4b459d4f79a991d1151e6f211f",
       "pl.4b364b8b182f4115acbf6deb83bd5222",
-      "pl.5ee8333dbe944d9f9151e97d92d1ead9",
-      "pl.0eb0cf3412c14c9c9df870ca4da0ca6b",
       "pl.ffa2178ab08f4080bcf4075e14a1c3fe",
+      "pl.cd835923714f47f295c08470b18e8891",
+      "pl.7a1d8bd609c44c318d71bf1a0a1e89b5",
+      "pl.725376c1e6b14915b7e27a919db39c52",
+      "pl.cdbb22c553f24f7eadefcdf213c899fd",
+      "pl.5ee8333dbe944d9f9151e97d92d1ead9",
       "pl.6bf4415b83ce4f3789614ac4c3675740",
-      "pl.426a1044619f47d6b1f86b3f79ecf857",
-      "pl.2d4d74790f074233b82d07bfae5c219c",
-      "pl.b0e04e25887741ea845e1d5c88397fd4",
-      "pl.ab60bd10c3e249849f79386b0cd39b10",
-      "pl.0f11015342a9473c849f0af4ab5f509c",
-      "pl.b477839538364c8db8f3950e13731ecc",
-      "pl.daca4fa353174d7493a2394f03f623ea",
-      "pl.3de89e62aa3340038e08fa325c3f3f01"
+      "pl.87c7af5767764860a0e3368d0bef9a6f",
+      "pl.2bb29727dbc34a63936787297305c37c",
+      "pl.0b6396cf63594f5cb834aff82520eb84"
      ]
     },
     {
@@ -14503,9 +14504,9 @@
      "title": "New Releases",
      "rows": 2,
      "items": [
+      "al.6818671715",
       "al.6798103849",
       "al.6813661131",
-      "al.6818671715",
       "al.6820303964",
       "al.1852909619",
       "al.1843944842",
@@ -16622,8 +16623,9 @@
       "pl.daca4fa353174d7493a2394f03f623ea",
       "al.6820256399",
       "al.6813620396",
-      "al.6812505726",
-      "al.6820641210"
+      "al.6816234741",
+      "al.6820641210",
+      "al.6812505726"
      ]
     },
     {
@@ -16665,9 +16667,11 @@
      "items": [
       "al.6820239289",
       "al.6818577104",
-      "al.6820256399",
-      "al.6819792386",
       "al.6822518288",
+      "al.6823345935",
+      "al.6819792386",
+      "al.6822874289",
+      "al.6820256399",
       "al.6818577203",
       "al.6813656869",
       "al.6812905431",
@@ -16680,9 +16684,7 @@
       "al.6818296743",
       "al.6793273469",
       "al.6808405786",
-      "al.6795646858",
-      "al.6816266301",
-      "al.6813629385"
+      "al.6795646858"
      ]
     },
     {
@@ -16690,13 +16692,13 @@
      "rows": 4,
      "items": [
       "so.6821071296",
+      "so.6818577253",
       "so.6820240013",
       "so.6820743551",
       "so.6808051622",
       "so.6813620405",
       "so.6819792599",
       "so.6818263511",
-      "so.6818577253",
       "so.6822518822",
       "so.6819275986",
       "so.6818283134",
@@ -20418,6 +20420,7 @@
      "title": "Interviews",
      "rows": 1,
      "items": [
+      "uv.6822874889",
       "mv.6805751509",
       "uv.1896614959",
       "mv.1889687081",
@@ -20436,14 +20439,15 @@
       "uv.1786250176",
       "uv.1785062932",
       "mv.1765611999",
-      "uv.1765168925",
-      "uv.1752786941"
+      "uv.1765168925"
      ]
     },
     {
      "title": "Radio",
      "rows": 1,
      "items": [
+      "ra.6817941448",
+      "ra.6820722105",
       "ra.6806034976",
       "ra.6785562246",
       "ra.1896627718",
@@ -20461,9 +20465,7 @@
       "ra.1873075178",
       "ra.1871018106",
       "ra.1871009766",
-      "al.1863569906",
-      "ra.1837568929",
-      "ra.1859028416"
+      "al.1863569906"
      ]
     },
     {
@@ -20516,6 +20518,11 @@
     }
    ],
    "uploadedVideos": {
+    "6822874889": {
+     "title": "Joyce Wrice on MACHIKO",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/53/aa/7e/53aa7e61-5d62-de8f-8ada-d19d5809468f/TN_MS_WW_Nadeska_Joyce_Wrice_20261006_AUC_Episode.png/{w}x{h}bb.{f}",
+     "durationSeconds": 2071
+    },
     "1896614959": {
      "title": "Jai'Len Josey on Serial Romantic",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/85/24/cd/8524cd3c-a956-0c81-f205-042b7db75827/TN_MS_WW_Nadeska_JaiLen_Josey_20260422_AUC_Episode.png/{w}x{h}bb.{f}",
@@ -20550,11 +20557,6 @@
      "title": "Victoria Mon\u00e9t on \u201cSOS (Sex on Sight)\u201d",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/1c/66/d5/1c66d5f2-fcde-4266-5296-6f8402bc4d83/TN_MS_WW_Eddie_VictoriaMonet_20240821_AUC_Episode.png/{w}x{h}bb.{f}",
      "durationSeconds": 1378
-    },
-    "1752786941": {
-     "title": "Normani on DOPAMINE",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/40/3f/58/403f58c7-4093-3f7b-35d6-6a39ecde12a8/Job88d28987-5172-4509-8dd7-bbb6951ce915-170311460-PreviewImage_Preview_Image_Intermediate_nonvideo_331568822_1808621839-Time1718775344986.png/{w}x{h}bb.{f}",
-     "durationSeconds": 1161
     }
    }
   },
@@ -22596,6 +22598,7 @@
      "title": "New Releases",
      "rows": 1,
      "items": [
+      "al.6822874289",
       "al.6820239289",
       "al.6820256399",
       "al.6820780634",
@@ -22614,8 +22617,7 @@
       "al.6803273580",
       "al.6773832976",
       "al.6804933312",
-      "al.6803117439",
-      "al.6798403205"
+      "al.6803117439"
      ]
     },
     {
@@ -26523,7 +26525,9 @@
      "title": "Radio Episodes",
      "rows": 1,
      "items": [
+      "ra.6823314611",
       "ra.6823314452",
+      "ra.6823313498",
       "ra.6820722105",
       "ra.6823318616",
       "ra.6823313318",
@@ -26540,9 +26544,7 @@
       "ra.6820699500",
       "ra.6820681701",
       "ra.6820721006",
-      "ra.6817945797",
-      "ra.6812869264",
-      "ra.6817945435"
+      "ra.6817945797"
      ]
     }
    ]
