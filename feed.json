@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-10-21T22:00:22Z",
+ "capturedAt": "2026-10-22T00:39:44Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6823327327",
       "uv.6822874889",
       "uv.6801686843",
       "uv.6823420000",
@@ -125,12 +126,16 @@
       "mv.6814630830",
       "uv.6813365356",
       "mv.6800517447",
-      "uv.6813684340",
-      "uv.6813599152"
+      "uv.6813684340"
      ]
     }
    },
    "uploadedVideos": {
+    "6823327327": {
+     "title": "Leon Bridges on Happiness Anytime",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/92/12/d3/9212d3ae-e932-c319-c2e2-4179a9b7fec6/TN_MS_WW_Ebro_Leon_Bridges_20261008_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1149
+    },
     "6822874889": {
      "title": "Joyce Wrice on MACHIKO",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/53/aa/7e/53aa7e61-5d62-de8f-8ada-d19d5809468f/TN_MS_WW_Nadeska_Joyce_Wrice_20261006_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -180,11 +185,6 @@
      "title": "Jackson Wang says \"THANK YOU\" to fans",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/f4/8b/7c/f48b7c72-2c10-1803-9372-413dce3aa1d0/TN_MS_WW_Zane_JacksonWang_20260914_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 693
-    },
-    "6813599152": {
-     "title": "ROS\u00c9 teaches us her new trick!",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/e2/68/75/e2687529-182b-faf9-7f08-20e03ca5f5ae/TN_MS_WW_Zane_Rose_20260914_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 788
     }
    }
   },
@@ -293,6 +293,7 @@
     "latest-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6823327327",
       "uv.6822874889",
       "uv.6801686843",
       "uv.6823420000",
@@ -311,8 +312,7 @@
       "mv.6814630830",
       "uv.6813365356",
       "mv.6800517447",
-      "uv.6813684340",
-      "uv.6813599152"
+      "uv.6813684340"
      ]
     },
     "pop-music-videos": {
@@ -642,6 +642,11 @@
     }
    },
    "uploadedVideos": {
+    "6823327327": {
+     "title": "Leon Bridges on Happiness Anytime",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/92/12/d3/9212d3ae-e932-c319-c2e2-4179a9b7fec6/TN_MS_WW_Ebro_Leon_Bridges_20261008_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1149
+    },
     "6822874889": {
      "title": "Joyce Wrice on MACHIKO",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/53/aa/7e/53aa7e61-5d62-de8f-8ada-d19d5809468f/TN_MS_WW_Nadeska_Joyce_Wrice_20261006_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -691,11 +696,6 @@
      "title": "Jackson Wang says \"THANK YOU\" to fans",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/f4/8b/7c/f48b7c72-2c10-1803-9372-413dce3aa1d0/TN_MS_WW_Zane_JacksonWang_20260914_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 693
-    },
-    "6813599152": {
-     "title": "ROS\u00c9 teaches us her new trick!",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/e2/68/75/e2687529-182b-faf9-7f08-20e03ca5f5ae/TN_MS_WW_Zane_Rose_20260914_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 788
     }
    }
   },
@@ -3396,6 +3396,7 @@
       "al.6814481215",
       "al.6817870957",
       "al.6805240956",
+      "al.6815425220",
       "al.6773778897",
       "al.6822041396",
       "al.6766955827",
@@ -3408,8 +3409,7 @@
       "al.6800467151",
       "al.6814681147",
       "al.6813657190",
-      "al.6792883860",
-      "al.6784891752"
+      "al.6792883860"
      ]
     },
     {
@@ -16691,6 +16691,7 @@
      "title": "Best New Songs",
      "rows": 4,
      "items": [
+      "so.6824991646",
       "so.6821071296",
       "so.6818577253",
       "so.6820240013",
@@ -16709,8 +16710,7 @@
       "so.6817852255",
       "so.6821433812",
       "so.6820191821",
-      "so.6820223917",
-      "so.6818296747"
+      "so.6820223917"
      ]
     },
     {
@@ -22572,6 +22572,7 @@
      "title": "Best New Songs",
      "rows": 4,
      "items": [
+      "so.6824991646",
       "so.6820240013",
       "so.6818353346",
       "so.6820223917",
@@ -22590,8 +22591,7 @@
       "so.6810002091",
       "so.6815762733",
       "so.6804729944",
-      "so.6801720920",
-      "so.6811987026"
+      "so.6801720920"
      ]
     },
     {
@@ -26710,6 +26710,7 @@
       "so.6821146865",
       "so.6821144252",
       "so.6817394285",
+      "so.6819293781",
       "so.6814917115",
       "so.6795679970",
       "so.6811191596",
@@ -26717,16 +26718,15 @@
       "so.6774372285",
       "so.6805246972",
       "so.1825994651",
-      "so.6780623424",
       "so.1893848375",
-      "so.6803185078",
       "so.6774761871",
       "so.6773986881",
       "so.1891467236",
       "so.6766999950",
       "so.6766314234",
       "so.1821526331",
-      "so.6765744846"
+      "so.6765744846",
+      "so.6764735125"
      ]
     },
     {
