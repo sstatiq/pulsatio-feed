@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-10-23T17:01:28Z",
+ "capturedAt": "2026-10-23T20:23:27Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -34,6 +34,7 @@
      "ids": [
       "ra.6825008805",
       "ra.6814586818",
+      "ra.6825871371",
       "ra.6822043553",
       "ra.6823286791",
       "ra.6817941227",
@@ -50,13 +51,14 @@
       "ra.6812860223",
       "ra.1843229124",
       "ra.6812867809",
-      "ra.6812869264",
-      "ra.6812470129"
+      "ra.6812869264"
      ]
     },
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6825064047",
+      "ra.6825871371",
       "ra.6825449452",
       "ra.6823325147",
       "ra.6825106253",
@@ -74,9 +76,7 @@
       "ra.6822915498",
       "ra.6815825784",
       "ra.6820508828",
-      "ra.6820700697",
-      "ra.6817945435",
-      "ra.6821137872"
+      "ra.6820700697"
      ]
     },
     "club-dj-mixes": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6825597132",
       "uv.6826005996",
       "mv.6825581911",
       "uv.6823327327",
@@ -125,12 +126,16 @@
       "mv.6815904755",
       "uv.6815943915",
       "mv.6815849390",
-      "mv.6814630830",
-      "uv.6813365356"
+      "mv.6814630830"
      ]
     }
    },
    "uploadedVideos": {
+    "6825597132": {
+     "title": "Peanut Butter Wolf on 30 years of Stones Throw Records",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/14/b2/3b/14b23ba2-14fc-a6aa-66a2-b06aaa0a945b/rvop_798f7282_395a6f15d252431db7e561baf92e0676_KEY_FRAME_OUTPUT_0.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2250
+    },
     "6826005996": {
      "title": "Brothers Osborne on Watertown",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/8a/52/67/8a52678e-8146-6221-a3e8-feb4ac1bdc2f/TN_MS_WW_Kelleigh_BrothersOsborne_20261016_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -180,11 +185,6 @@
      "title": "Lizzie McAlpine talks about her album, Angel",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/41/e4/6c/41e46cbf-aa17-9dbd-b69e-ccf607874214/TN_MS_WW_Zane_LizzyMcAlpine20260917_AUC_Episode0.png/{w}x{h}{c}.{f}",
      "durationSeconds": 1906
-    },
-    "6813365356": {
-     "title": "Malie Donn on The Golden Child",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/58/52/bb/5852bbed-7599-7095-96b6-94cf5e1c19b4/TN_MS_WW_Ebro_Malie_Donn_20260915_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 1099
     }
    }
   }
