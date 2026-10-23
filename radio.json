@@ -1,12 +1,13 @@
 {
  "version": 1,
- "capturedAt": "2026-10-23T01:29:39Z",
+ "capturedAt": "2026-10-23T06:30:22Z",
  "rooms": {
   "radio": {
    "shelves": {
     "artists-take-over": {
      "kind": "station",
      "ids": [
+      "ra.6825067372",
       "ra.1895756613",
       "ra.1881698762",
       "ra.1896858608",
@@ -25,8 +26,7 @@
       "ra.6814551137",
       "ra.6817941458",
       "ra.6795631528",
-      "ra.1896875866",
-      "ra.6810825693"
+      "ra.1896875866"
      ]
     },
     "latest-episodes": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6826005996",
       "mv.6825581911",
       "uv.6823327327",
       "uv.6822874889",
@@ -125,12 +126,16 @@
       "uv.6815943915",
       "mv.6815849390",
       "mv.6814630830",
-      "uv.6813365356",
-      "mv.6800517447"
+      "uv.6813365356"
      ]
     }
    },
    "uploadedVideos": {
+    "6826005996": {
+     "title": "Brothers Osborne on Watertown",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/8a/52/67/8a52678e-8146-6221-a3e8-feb4ac1bdc2f/TN_MS_WW_Kelleigh_BrothersOsborne_20261016_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1869
+    },
     "6823327327": {
      "title": "Leon Bridges on Happiness Anytime",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/92/12/d3/9212d3ae-e932-c319-c2e2-4179a9b7fec6/TN_MS_WW_Ebro_Leon_Bridges_20261008_AUC_Episode.png/{w}x{h}{c}.{f}",
