@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-10-23T23:29:49Z",
+ "capturedAt": "2026-10-24T01:58:21Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -32,6 +32,7 @@
     "latest-episodes": {
      "kind": "station",
      "ids": [
+      "ra.6823321718",
       "ra.6825008805",
       "ra.6814586818",
       "ra.6825871371",
@@ -50,8 +51,7 @@
       "ra.6812882813",
       "ra.6812860223",
       "ra.1843229124",
-      "ra.6812867809",
-      "ra.6812869264"
+      "ra.6812867809"
      ]
     },
     "listen-to-interviews": {
@@ -133,7 +133,7 @@
    "uploadedVideos": {
     "6825597132": {
      "title": "Peanut Butter Wolf on 30 years of Stones Throw Records",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/14/b2/3b/14b23ba2-14fc-a6aa-66a2-b06aaa0a945b/rvop_798f7282_395a6f15d252431db7e561baf92e0676_KEY_FRAME_OUTPUT_0.png/{w}x{h}{c}.{f}",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/5b/14/b2/5b14b277-5ed7-1c78-5606-77f838e64b1f/TN_MS_WW_Zane_PeanutButterWolf_202601019_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 2250
     },
     "6826005996": {
@@ -644,7 +644,7 @@
    "uploadedVideos": {
     "6825597132": {
      "title": "Peanut Butter Wolf on 30 years of Stones Throw Records",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/14/b2/3b/14b23ba2-14fc-a6aa-66a2-b06aaa0a945b/rvop_798f7282_395a6f15d252431db7e561baf92e0676_KEY_FRAME_OUTPUT_0.png/{w}x{h}{c}.{f}",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/5b/14/b2/5b14b277-5ed7-1c78-5606-77f838e64b1f/TN_MS_WW_Zane_PeanutButterWolf_202601019_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 2250
     },
     "6826005996": {
@@ -14914,6 +14914,7 @@
       "al.6788124765",
       "al.6790547047",
       "al.6790551614",
+      "al.6811719043",
       "al.6819455238",
       "al.1895771826",
       "al.6788783307",
@@ -14929,8 +14930,7 @@
       "al.6790488711",
       "al.6791701435",
       "al.6810374511",
-      "al.6778559995",
-      "al.6785659016"
+      "al.6778559995"
      ]
     },
     {
@@ -15730,10 +15730,15 @@
      "title": "Artists We Love",
      "rows": 1,
      "items": [
+      "ar.470362902",
+      "ar.1339493162",
       "ar.1631901642",
-      "ar.1209936147",
+      "ar.1167168580",
+      "ar.1502896956",
+      "ar.1348993761",
       "ar.1198393601",
       "ar.1615003769",
+      "ar.1209936147",
       "ar.350125018",
       "ar.1385373887",
       "ar.1460007806",
@@ -15742,14 +15747,9 @@
       "ar.1518432656",
       "ar.615160296",
       "ar.1457747782",
-      "ar.1502896956",
-      "ar.6937093",
       "ar.1197566072",
-      "ar.1538636625",
       "ar.596162130",
-      "ar.618794432",
-      "ar.1797607397",
-      "ar.327193278"
+      "ar.1797607397"
      ]
     },
     {

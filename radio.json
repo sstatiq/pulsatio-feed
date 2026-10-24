@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-10-23T20:23:27Z",
+ "capturedAt": "2026-10-24T01:58:21Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -32,6 +32,7 @@
     "latest-episodes": {
      "kind": "station",
      "ids": [
+      "ra.6823321718",
       "ra.6825008805",
       "ra.6814586818",
       "ra.6825871371",
@@ -50,8 +51,7 @@
       "ra.6812882813",
       "ra.6812860223",
       "ra.1843229124",
-      "ra.6812867809",
-      "ra.6812869264"
+      "ra.6812867809"
      ]
     },
     "listen-to-interviews": {
@@ -133,7 +133,7 @@
    "uploadedVideos": {
     "6825597132": {
      "title": "Peanut Butter Wolf on 30 years of Stones Throw Records",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/14/b2/3b/14b23ba2-14fc-a6aa-66a2-b06aaa0a945b/rvop_798f7282_395a6f15d252431db7e561baf92e0676_KEY_FRAME_OUTPUT_0.png/{w}x{h}{c}.{f}",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/5b/14/b2/5b14b277-5ed7-1c78-5606-77f838e64b1f/TN_MS_WW_Zane_PeanutButterWolf_202601019_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 2250
     },
     "6826005996": {
