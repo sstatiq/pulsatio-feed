@@ -1,19 +1,20 @@
 {
  "version": 1,
- "capturedAt": "2026-10-27T14:55:26Z",
+ "capturedAt": "2026-10-27T20:04:09Z",
  "rooms": {
   "radio": {
    "shelves": {
     "artists-take-over": {
      "kind": "station",
      "ids": [
+      "ra.1847703924",
       "ra.6825067372",
-      "ra.1895756613",
       "ra.1881698762",
       "ra.1896858608",
       "ra.6817941448",
       "ra.6817881730",
       "ra.6809915029",
+      "ra.1895756613",
       "ra.6823311422",
       "ra.1894025348",
       "ra.1896664711",
@@ -25,23 +26,22 @@
       "ra.6812861697",
       "ra.6814551137",
       "ra.6817941458",
-      "ra.6795631528",
-      "ra.1896875866"
+      "ra.6795631528"
      ]
     },
     "latest-episodes": {
      "kind": "station",
      "ids": [
+      "ra.6825008805",
+      "ra.6823321718",
       "ra.6820722990",
       "ra.6795073593",
-      "ra.6823321718",
-      "ra.6825008805",
       "ra.6814586818",
       "ra.6825871371",
-      "ra.6822043553",
-      "ra.6823286791",
       "ra.6817941227",
+      "ra.6825458622",
       "ra.1842198479",
+      "ra.6823286791",
       "ra.6820722536",
       "ra.6813254132",
       "ra.6818301486",
@@ -57,26 +57,26 @@
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6823313498",
+      "ra.6823325147",
+      "ra.6823323188",
+      "ra.6825106253",
+      "ra.6823314611",
+      "ra.6823313318",
       "ra.6825535995",
       "ra.6825500933",
-      "ra.6823323188",
-      "ra.6825064047",
-      "ra.6825871371",
-      "ra.6826176672",
       "ra.6825449452",
-      "ra.6823325147",
-      "ra.6825106253",
       "ra.6823318762",
-      "ra.6823313498",
       "ra.6823718372",
-      "ra.6823314611",
       "ra.6822476405",
       "ra.6820722105",
       "ra.6823314452",
       "ra.6823318616",
-      "ra.6823313318",
       "ra.6823314496",
-      "ra.6823286791"
+      "ra.6823286791",
+      "ra.6822915498",
+      "ra.6815825784",
+      "ra.6820508828"
      ]
     },
     "club-dj-mixes": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6826995979",
       "mv.6826452780",
       "uv.6827258683",
       "uv.6825597132",
@@ -125,12 +126,16 @@
       "mv.6817554269",
       "mv.6816291816",
       "uv.6815390125",
-      "mv.6815904755",
-      "uv.6815943915"
+      "mv.6815904755"
      ]
     }
    },
    "uploadedVideos": {
+    "6826995979": {
+     "title": "Laila! on We'll Never Be This Young Again",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/e4/a6/2d/e4a62d06-178d-4247-1c2e-28f67ac4ff8e/TN_MS_WW_20261014_Ebro_Laila_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2091
+    },
     "6827258683": {
      "title": "Remi Wolf on 'Mud', recovery and touring",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/40/ff/ae/40ffae88-175b-1d08-d094-ba4862340331/TN_MS_WW_Zane_RemiWolf_20261020_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -185,11 +190,6 @@
      "title": "Corey Kent on Heartland Rock and Roll",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/01/28/c8/0128c8f2-1c44-cf5f-dde2-5ad75fdbcee7/TN_MS_WW_Kelleigh_CoreyKent_20260811_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 2176
-    },
-    "6815943915": {
-     "title": "Lizzie McAlpine talks about her album, Angel",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/41/e4/6c/41e46cbf-aa17-9dbd-b69e-ccf607874214/TN_MS_WW_Zane_LizzyMcAlpine20260917_AUC_Episode0.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 1906
     }
    }
   }
