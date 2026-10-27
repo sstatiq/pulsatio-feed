@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-10-27T02:26:12Z",
+ "capturedAt": "2026-10-27T08:23:24Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -107,6 +107,8 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "mv.6826452780",
+      "uv.6827258683",
       "uv.6825597132",
       "uv.6826005996",
       "mv.6825581911",
@@ -124,13 +126,16 @@
       "mv.6816291816",
       "uv.6815390125",
       "mv.6815904755",
-      "uv.6815943915",
-      "mv.6815849390",
-      "mv.6814630830"
+      "uv.6815943915"
      ]
     }
    },
    "uploadedVideos": {
+    "6827258683": {
+     "title": "Remi Wolf on 'Mud', recovery and touring",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/40/ff/ae/40ffae88-175b-1d08-d094-ba4862340331/TN_MS_WW_Zane_RemiWolf_20261020_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1521
+    },
     "6825597132": {
      "title": "Peanut Butter Wolf on 30 years of Stones Throw Records",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/5b/14/b2/5b14b277-5ed7-1c78-5606-77f838e64b1f/TN_MS_WW_Zane_PeanutButterWolf_202601019_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -293,6 +298,8 @@
     "latest-interviews": {
      "kind": "video",
      "ids": [
+      "mv.6826452780",
+      "uv.6827258683",
       "uv.6825597132",
       "uv.6826005996",
       "mv.6825581911",
@@ -310,9 +317,7 @@
       "mv.6816291816",
       "uv.6815390125",
       "mv.6815904755",
-      "uv.6815943915",
-      "mv.6815849390",
-      "mv.6814630830"
+      "uv.6815943915"
      ]
     },
     "pop-music-videos": {
@@ -642,6 +647,11 @@
     }
    },
    "uploadedVideos": {
+    "6827258683": {
+     "title": "Remi Wolf on 'Mud', recovery and touring",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/40/ff/ae/40ffae88-175b-1d08-d094-ba4862340331/TN_MS_WW_Zane_RemiWolf_20261020_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1521
+    },
     "6825597132": {
      "title": "Peanut Butter Wolf on 30 years of Stones Throw Records",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/5b/14/b2/5b14b277-5ed7-1c78-5606-77f838e64b1f/TN_MS_WW_Zane_PeanutButterWolf_202601019_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -1754,6 +1764,7 @@
     "releases": {
      "kind": "album",
      "ids": [
+      "6817055982",
       "1861583952",
       "1880101677",
       "1887604046",
@@ -11125,12 +11136,12 @@
       "al.693387639",
       "al.20833577",
       "al.499874506",
-      "al.281116024",
       "al.696884422",
+      "al.281116024",
       "al.893175779",
       "al.73327394",
-      "al.715864097",
-      "al.1525506447"
+      "al.1525506447",
+      "al.715864097"
      ]
     },
     {
@@ -12968,9 +12979,9 @@
      "title": "Recent Releases",
      "rows": 1,
      "items": [
+      "al.1896071360",
       "al.6782151999",
       "al.1893741321",
-      "al.1896071360",
       "al.6769905842",
       "al.1891104460",
       "al.6809896555",
@@ -13047,6 +13058,7 @@
      "rows": 1,
      "items": [
       "pl.3e9b112e3ffe4287b9fb785251545246",
+      "al.6800304597",
       "al.1867327673",
       "al.6769905842",
       "al.6776723739",
@@ -13054,7 +13066,6 @@
       "al.6781040477",
       "al.6802641273",
       "al.6802781120",
-      "al.6800304597",
       "al.6790934385",
       "al.6781765812",
       "al.6788428388",
@@ -17860,8 +17871,8 @@
      "title": "Recent Releases",
      "rows": 1,
      "items": [
-      "al.6782151999",
       "al.1896071360",
+      "al.6782151999",
       "al.6809896555",
       "al.6781040477",
       "al.1891811086",
@@ -17939,11 +17950,11 @@
      "rows": 1,
      "items": [
       "pl.1bb503283a634b8ba0049decf47a59e4",
+      "al.6800304597",
       "al.1867327673",
       "al.6781040477",
       "al.1893453878",
       "al.6802781120",
-      "al.6800304597",
       "al.6802641273",
       "al.6781765812",
       "al.1890191303",
@@ -26439,14 +26450,14 @@
       "al.6795596925",
       "al.6792847889",
       "al.6801672993",
-      "al.6824662934",
       "al.6822855701",
       "al.1828246469",
       "al.6822107106",
       "al.6783823499",
-      "al.6819831901",
       "al.6819432998",
-      "al.6822488593"
+      "al.6822488593",
+      "al.6823798932",
+      "al.6802813089"
      ]
     },
     {

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-10-26T23:21:22Z",
+ "capturedAt": "2026-10-27T08:23:24Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -107,6 +107,8 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "mv.6826452780",
+      "uv.6827258683",
       "uv.6825597132",
       "uv.6826005996",
       "mv.6825581911",
@@ -124,13 +126,16 @@
       "mv.6816291816",
       "uv.6815390125",
       "mv.6815904755",
-      "uv.6815943915",
-      "mv.6815849390",
-      "mv.6814630830"
+      "uv.6815943915"
      ]
     }
    },
    "uploadedVideos": {
+    "6827258683": {
+     "title": "Remi Wolf on 'Mud', recovery and touring",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/40/ff/ae/40ffae88-175b-1d08-d094-ba4862340331/TN_MS_WW_Zane_RemiWolf_20261020_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1521
+    },
     "6825597132": {
      "title": "Peanut Butter Wolf on 30 years of Stones Throw Records",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/5b/14/b2/5b14b277-5ed7-1c78-5606-77f838e64b1f/TN_MS_WW_Zane_PeanutButterWolf_202601019_AUC_Episode.png/{w}x{h}{c}.{f}",
