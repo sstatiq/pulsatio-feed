@@ -1,13 +1,15 @@
 {
  "version": 1,
- "capturedAt": "2026-10-28T05:29:53Z",
+ "capturedAt": "2026-10-28T21:56:03Z",
  "rooms": {
   "radio": {
    "shelves": {
     "artists-take-over": {
      "kind": "station",
      "ids": [
+      "ra.6825061315",
       "ra.1847703924",
+      "ra.6822900245",
       "ra.6825067372",
       "ra.1881698762",
       "ra.1896858608",
@@ -24,9 +26,7 @@
       "ra.6816229680",
       "ra.6795316549",
       "ra.6812861697",
-      "ra.6814551137",
-      "ra.6817941458",
-      "ra.6795631528"
+      "ra.6814551137"
      ]
     },
     "latest-episodes": {
@@ -58,6 +58,7 @@
      "kind": "station",
      "ids": [
       "ra.6827743941",
+      "ra.6825535801",
       "ra.6825536197",
       "ra.6823313498",
       "ra.6823325147",
@@ -75,8 +76,7 @@
       "ra.6820722105",
       "ra.6823314452",
       "ra.6823318616",
-      "ra.6823314496",
-      "ra.6823286791"
+      "ra.6823314496"
      ]
     },
     "club-dj-mixes": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6822430225",
       "uv.6826995979",
       "mv.6826452780",
       "uv.6827258683",
@@ -125,12 +126,16 @@
       "mv.6817912296",
       "mv.6817554269",
       "mv.6816291816",
-      "uv.6815390125",
-      "mv.6815904755"
+      "uv.6815390125"
      ]
     }
    },
    "uploadedVideos": {
+    "6822430225": {
+     "title": "DJ Clue and Uncle Manny talk Jordan Retro Sounds",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/02/8b/c4/028bc4c5-4475-adfb-8ef7-f9b11334f5e9/TN_MS_WW_Ebro_Dj_Clue_Manny_20260916_AUC_Episode..png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1066
+    },
     "6826995979": {
      "title": "Laila! on We'll Never Be This Young Again",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/e4/a6/2d/e4a62d06-178d-4247-1c2e-28f67ac4ff8e/TN_MS_WW_20261014_Ebro_Laila_AUC_Episode.png/{w}x{h}{c}.{f}",
