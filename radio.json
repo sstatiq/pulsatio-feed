@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-10-29T08:25:03Z",
+ "capturedAt": "2026-10-29T20:33:34Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -58,6 +58,7 @@
      "kind": "station",
      "ids": [
       "ra.6827743941",
+      "ra.6823318279",
       "ra.6825499897",
       "ra.6825535801",
       "ra.6825536197",
@@ -75,8 +76,7 @@
       "ra.6823318762",
       "ra.6823718372",
       "ra.6822476405",
-      "ra.6820722105",
-      "ra.6823314452"
+      "ra.6820722105"
      ]
     },
     "club-dj-mixes": {
@@ -107,10 +107,12 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "mv.6827376322",
       "uv.6822430225",
       "uv.6826995979",
       "mv.6826452780",
       "uv.6827258683",
+      "uv.6828219346",
       "uv.6825597132",
       "uv.6826005996",
       "mv.6825581911",
@@ -124,9 +126,7 @@
       "uv.6819802826",
       "mv.6818738313",
       "mv.6817912296",
-      "mv.6817554269",
-      "mv.6816291816",
-      "uv.6815390125"
+      "mv.6817554269"
      ]
     }
    },
@@ -145,6 +145,11 @@
      "title": "Remi Wolf on 'Mud', recovery and touring",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/40/ff/ae/40ffae88-175b-1d08-d094-ba4862340331/TN_MS_WW_Zane_RemiWolf_20261020_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 1521
+    },
+    "6828219346": {
+     "title": "Ashe on The Girl Of Your Dreams",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/98/ab/04/98ab040d-ac43-c9dd-e45e-716a7694fbf4/TN_MS_WW_Zane_Ashe_20261026_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2222
     },
     "6825597132": {
      "title": "Peanut Butter Wolf on 30 years of Stones Throw Records",
@@ -190,11 +195,6 @@
      "title": "BNXN on Still In Charge",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/cd/7f/fd/cd7ffd3e-03bd-52e5-ae83-910f2c7f7052/TN_MS_WW_Nadeska_BNXN_20260930_AUC_Episode.jpg/{w}x{h}{c}.{f}",
      "durationSeconds": 2098
-    },
-    "6815390125": {
-     "title": "Corey Kent on Heartland Rock and Roll",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/01/28/c8/0128c8f2-1c44-cf5f-dde2-5ad75fdbcee7/TN_MS_WW_Kelleigh_CoreyKent_20260811_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 2176
     }
    }
   }
