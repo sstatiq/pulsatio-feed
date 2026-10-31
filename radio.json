@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-10-31T02:19:21Z",
+ "capturedAt": "2026-10-31T19:33:20Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6828619861",
       "mv.6827376322",
       "uv.6822430225",
       "uv.6826995979",
@@ -125,12 +126,16 @@
       "uv.6820796185",
       "uv.6819802826",
       "mv.6818738313",
-      "mv.6817912296",
-      "mv.6817554269"
+      "mv.6817912296"
      ]
     }
    },
    "uploadedVideos": {
+    "6828619861": {
+     "title": "Elton John's Rocket Hour with Fountains D.C.",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/ae/1b/f0/ae1bf0b1-18e0-090a-dc75-acd9531f6f77/TN_MS_WW_Elton_Fontaines_20261021_AUC_.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 179
+    },
     "6822430225": {
      "title": "DJ Clue and Uncle Manny talk Jordan Retro Sounds",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/02/8b/c4/028bc4c5-4475-adfb-8ef7-f9b11334f5e9/TN_MS_WW_Ebro_Dj_Clue_Manny_20260916_AUC_Episode..png/{w}x{h}{c}.{f}",
