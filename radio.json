@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-11-07T06:33:11Z",
+ "capturedAt": "2026-11-07T22:17:44Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6830909989",
       "uv.6828568209",
       "uv.6831426918",
       "mv.6827365170",
@@ -125,12 +126,16 @@
       "uv.6822874889",
       "uv.6801686843",
       "uv.6823420000",
-      "mv.6821156295",
-      "uv.6821155241"
+      "mv.6821156295"
      ]
     }
    },
    "uploadedVideos": {
+    "6830909989": {
+     "title": "Elton John's Rocket Hour with Jamie Miller",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/d4/83/74/d48374a9-43ac-8f44-0ee4-b7780fb55993/TN_MS_WW_Elton_JamieMiller_20261021_AUC_.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 190
+    },
     "6828568209": {
      "title": "nomi. on this wolf may cry",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/54/a1/89/54a189f4-707f-9e77-bde8-5e874105e416/TN_MS_WW_Nadeska_nomi_20260922_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -195,11 +200,6 @@
      "title": "Olivia Rodrigo and Chappell Roan on expectations",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/5d/bc/05/5dbc0555-64de-17c6-5e29-a212b264a076/TN_MS_WW_ZaneLowe_OliviaRodridgo_ChappellRoan_20261013_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 917
-    },
-    "6821155241": {
-     "title": "Nate Sib on Reborn",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/14/a2/49/14a2492d-4cd0-e682-62a7-b94599cda3f8/TN_MS_WW_ZaneLowe_NateSib_20261008_AUC_Episode0.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 1519
     }
    }
   }
