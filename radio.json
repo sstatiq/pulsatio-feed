@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-11-10T21:58:27Z",
+ "capturedAt": "2026-11-11T17:27:43Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6831459188",
       "uv.6830909989",
       "uv.6828568209",
       "uv.6831426918",
@@ -125,12 +126,16 @@
       "uv.6823327327",
       "uv.6822874889",
       "uv.6801686843",
-      "uv.6823420000",
-      "mv.6821156295"
+      "uv.6823420000"
      ]
     }
    },
    "uploadedVideos": {
+    "6831459188": {
+     "title": "Dustin Lynch on Clean Slate",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/2d/e8/2b/2de82b6c-932c-9688-a1d6-0895d52bb898/TN_MS_WW_Kelleigh_DustinLynch_20261103_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1850
+    },
     "6830909989": {
      "title": "Elton John's Rocket Hour with Jamie Miller",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/d4/83/74/d48374a9-43ac-8f44-0ee4-b7780fb55993/TN_MS_WW_Elton_JamieMiller_20261021_AUC_.png/{w}x{h}{c}.{f}",
