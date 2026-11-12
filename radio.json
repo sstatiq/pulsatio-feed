@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-11-11T23:43:40Z",
+ "capturedAt": "2026-11-12T07:03:09Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -32,6 +32,7 @@
     "latest-episodes": {
      "kind": "station",
      "ids": [
+      "ra.6831331102",
       "ra.6831326740",
       "ra.6825068197",
       "ra.6831326998",
@@ -50,13 +51,14 @@
       "ra.6825458622",
       "ra.6825008805",
       "ra.6828986593",
-      "ra.6825064090",
-      "ra.6828093895"
+      "ra.6825064090"
      ]
     },
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6833163804",
+      "ra.6831302835",
       "ra.6831326998",
       "ra.6831326740",
       "ra.6825068197",
@@ -74,14 +76,13 @@
       "ra.6831302861",
       "ra.6830354606",
       "ra.6830217061",
-      "ra.6827314719",
-      "ra.6827317563",
-      "ra.6827314841"
+      "ra.6827314719"
      ]
     },
     "club-dj-mixes": {
      "kind": "album",
      "ids": [
+      "6830380842",
       "6823376719",
       "6818344209",
       "6812133186",
@@ -100,13 +101,13 @@
       "6821140437",
       "6818316497",
       "6812569848",
-      "6810733554",
-      "6804044688"
+      "6810733554"
      ]
     },
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "mv.6830920653",
       "uv.6831459188",
       "uv.6830909989",
       "uv.6828568209",
@@ -125,8 +126,7 @@
       "mv.6825581911",
       "uv.6823327327",
       "uv.6822874889",
-      "uv.6801686843",
-      "uv.6823420000"
+      "uv.6801686843"
      ]
     }
    },
@@ -200,11 +200,6 @@
      "title": "Tierra Whack: The Ebro Show",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/de/f6/2b/def62b18-3a14-6a9a-f4e9-96093f3909c5/TN_MS_WW_Ebro_Tierra_20260803_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 2088
-    },
-    "6823420000": {
-     "title": "Olivia Rodrigo and Chappell Roan on expectations",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/5d/bc/05/5dbc0555-64de-17c6-5e29-a212b264a076/TN_MS_WW_ZaneLowe_OliviaRodridgo_ChappellRoan_20261013_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 917
     }
    }
   }
