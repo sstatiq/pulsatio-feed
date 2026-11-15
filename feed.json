@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-11-14T22:59:11Z",
+ "capturedAt": "2026-11-15T02:36:10Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6834857417",
       "mv.6830920653",
       "uv.6831459188",
       "uv.6830909989",
@@ -125,12 +126,16 @@
       "uv.6826005996",
       "mv.6825581911",
       "uv.6823327327",
-      "uv.6822874889",
-      "uv.6801686843"
+      "uv.6822874889"
      ]
     }
    },
    "uploadedVideos": {
+    "6834857417": {
+     "title": "Elyanna on Ghazali (Part I)",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/37/9b/ed/379bedff-3cc2-3c0c-e11b-63e07bb27bc1/TN_MS_WW_Zane_Elyanna_20261109_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2005
+    },
     "6831459188": {
      "title": "Dustin Lynch on Clean Slate",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/2d/e8/2b/2de82b6c-932c-9688-a1d6-0895d52bb898/TN_MS_WW_Kelleigh_DustinLynch_20261103_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -195,11 +200,6 @@
      "title": "Joyce Wrice on MACHIKO",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/53/aa/7e/53aa7e61-5d62-de8f-8ada-d19d5809468f/TN_MS_WW_Nadeska_Joyce_Wrice_20261006_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 2071
-    },
-    "6801686843": {
-     "title": "Tierra Whack: The Ebro Show",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/de/f6/2b/def62b18-3a14-6a9a-f4e9-96093f3909c5/TN_MS_WW_Ebro_Tierra_20260803_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 2088
     }
    }
   },
@@ -308,6 +308,7 @@
     "latest-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6834857417",
       "mv.6830920653",
       "uv.6831459188",
       "uv.6830909989",
@@ -326,8 +327,7 @@
       "uv.6826005996",
       "mv.6825581911",
       "uv.6823327327",
-      "uv.6822874889",
-      "uv.6801686843"
+      "uv.6822874889"
      ]
     },
     "pop-music-videos": {
@@ -657,6 +657,11 @@
     }
    },
    "uploadedVideos": {
+    "6834857417": {
+     "title": "Elyanna on Ghazali (Part I)",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/37/9b/ed/379bedff-3cc2-3c0c-e11b-63e07bb27bc1/TN_MS_WW_Zane_Elyanna_20261109_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2005
+    },
     "6831459188": {
      "title": "Dustin Lynch on Clean Slate",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/2d/e8/2b/2de82b6c-932c-9688-a1d6-0895d52bb898/TN_MS_WW_Kelleigh_DustinLynch_20261103_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -721,11 +726,6 @@
      "title": "Joyce Wrice on MACHIKO",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/53/aa/7e/53aa7e61-5d62-de8f-8ada-d19d5809468f/TN_MS_WW_Nadeska_Joyce_Wrice_20261006_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 2071
-    },
-    "6801686843": {
-     "title": "Tierra Whack: The Ebro Show",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/de/f6/2b/def62b18-3a14-6a9a-f4e9-96093f3909c5/TN_MS_WW_Ebro_Tierra_20260803_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 2088
     }
    }
   },
@@ -6075,6 +6075,7 @@
      "title": "",
      "rows": 1,
      "items": [
+      "pl.8b383c0612094a7c8c1c9d2980e603d5",
       "pl.fecfa8a26ea44ad581d4fe501892c8ff",
       "pl.d7eb204cc2034c94886ddd9877f372cf",
       "al.6813661131",
@@ -6083,7 +6084,6 @@
       "pl.6832e03cbe3942deb5d9be76e58c5575",
       "pl.12c1eacecbb74daab29595ca1056c762",
       "pl.d838ab1729e94005ab6d16d090580d26",
-      "al.1775310749",
       "pl.6bbdb4dac5814b5c8d4ce27cd78522ad",
       "pl.a1f19c594aa846c3898dd98dd99c8910",
       "pl.06a94ac8b3fc41c2bef77143d70e63a8",
@@ -6293,6 +6293,7 @@
      "title": "Artist Playlists",
      "rows": 1,
      "items": [
+      "pl.8b383c0612094a7c8c1c9d2980e603d5",
       "pl.56999775de39479886d8529191f04358",
       "pl.dd6f4a3334e74203b542af542a3ea817",
       "pl.5972a5b59f294312a1c0365a88eefe28",
@@ -6311,8 +6312,7 @@
       "pl.96cc3bc757e44df2b239f61e4e5d09f0",
       "pl.1ef336c13a7240838f7dc220167f7ba5",
       "pl.a556328cad9146db910b9e7651d671ba",
-      "pl.71c79ad9f48a44edbcb9e71df02410ab",
-      "pl.099ff8c44ece45ef8a565d3dc79d0e90"
+      "pl.71c79ad9f48a44edbcb9e71df02410ab"
      ]
     },
     {
@@ -11295,6 +11295,7 @@
       "al.1610800313",
       "al.293069191",
       "al.1589190376",
+      "al.204051949",
       "pl.1a7fd42205674dd282d106f533f4bea6"
      ]
     },
@@ -12640,7 +12641,6 @@
      "rows": 1,
      "items": [
       "al.275824566",
-      "al.1726421829",
       "al.1484713657",
       "al.723755700",
       "al.972725261",
@@ -12658,7 +12658,8 @@
       "al.1126590402",
       "al.299665237",
       "al.304783187",
-      "al.1795683003"
+      "al.1795683003",
+      "al.218901153"
      ]
     },
     {
@@ -17103,6 +17104,7 @@
       "al.6830438487",
       "al.6830348828",
       "al.6821141121",
+      "al.6834157476",
       "al.6825118037",
       "al.6826358757",
       "al.6828093304",
@@ -17570,17 +17572,17 @@
      "items": [
       "al.6819862096",
       "pl.1ee8ff3291e34650a47ad9cd031ddf39",
+      "al.6810844807",
       "pl.40a06842409149688168877ac7afeee1",
       "al.6791645195",
+      "pl.c5b2e3f3c1cc4d1a933d45e427a8c09a",
       "pl.a5e127ae7b314e578f9ab5794ef2de76",
       "al.6802423753",
       "pl.15db09dc29ca43ae80976c9854add9a4",
       "al.6774372200",
       "pl.adf3627d458b46ea951375614d793219",
       "al.1884792154",
-      "pl.c5b2e3f3c1cc4d1a933d45e427a8c09a",
       "al.1885055310",
-      "al.6769880663",
       "ac.1555172807"
      ]
     },
@@ -17640,26 +17642,26 @@
      "title": "Albums We Love",
      "rows": 1,
      "items": [
-      "al.6828124253",
-      "al.6791645195",
       "al.6810715695",
-      "al.6769551464",
-      "al.6818209777",
-      "al.1858754868",
-      "al.1891467233",
-      "al.6769880663",
-      "al.6802423753",
-      "al.1885055310",
-      "al.6789289866",
+      "al.6810844807",
       "al.1866732792",
-      "al.1889992111",
+      "al.6819862096",
       "al.6814997249",
+      "al.6828124253",
       "al.1895420989",
+      "al.6791645195",
       "al.1870984032",
-      "al.6790607133",
-      "al.6789326154",
-      "al.6797680011",
-      "al.6785602349"
+      "al.6818209777",
+      "al.1889992111",
+      "al.1885055310",
+      "al.1858754868",
+      "al.6774372200",
+      "al.6769880663",
+      "al.1884792154",
+      "al.6802423753",
+      "al.1871085677",
+      "al.6789289866",
+      "al.1852566184"
      ]
     },
     {

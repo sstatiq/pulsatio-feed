@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-11-14T06:09:30Z",
+ "capturedAt": "2026-11-15T02:36:10Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6834857417",
       "mv.6830920653",
       "uv.6831459188",
       "uv.6830909989",
@@ -125,12 +126,16 @@
       "uv.6826005996",
       "mv.6825581911",
       "uv.6823327327",
-      "uv.6822874889",
-      "uv.6801686843"
+      "uv.6822874889"
      ]
     }
    },
    "uploadedVideos": {
+    "6834857417": {
+     "title": "Elyanna on Ghazali (Part I)",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/37/9b/ed/379bedff-3cc2-3c0c-e11b-63e07bb27bc1/TN_MS_WW_Zane_Elyanna_20261109_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2005
+    },
     "6831459188": {
      "title": "Dustin Lynch on Clean Slate",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/2d/e8/2b/2de82b6c-932c-9688-a1d6-0895d52bb898/TN_MS_WW_Kelleigh_DustinLynch_20261103_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -195,11 +200,6 @@
      "title": "Joyce Wrice on MACHIKO",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/53/aa/7e/53aa7e61-5d62-de8f-8ada-d19d5809468f/TN_MS_WW_Nadeska_Joyce_Wrice_20261006_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 2071
-    },
-    "6801686843": {
-     "title": "Tierra Whack: The Ebro Show",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/de/f6/2b/def62b18-3a14-6a9a-f4e9-96093f3909c5/TN_MS_WW_Ebro_Tierra_20260803_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 2088
     }
    }
   }
