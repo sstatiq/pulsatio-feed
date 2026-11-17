@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-11-16T19:51:33Z",
+ "capturedAt": "2026-11-17T02:56:21Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -57,6 +57,9 @@
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6833690740",
+      "ra.6834183061",
+      "ra.6833682883",
       "ra.6834508554",
       "ra.6833071221",
       "ra.6831330571",
@@ -73,10 +76,7 @@
       "ra.6831299360",
       "ra.6827743941",
       "ra.6823313498",
-      "ra.6815836153",
-      "ra.6830905157",
-      "ra.6823314611",
-      "ra.6832570157"
+      "ra.6815836153"
      ]
     },
     "club-dj-mixes": {
@@ -107,6 +107,8 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "uv.6834520981",
+      "uv.6835565215",
       "uv.6834857417",
       "mv.6830920653",
       "uv.6831459188",
@@ -124,13 +126,21 @@
       "uv.6828219346",
       "uv.6825597132",
       "uv.6826005996",
-      "mv.6825581911",
-      "uv.6823327327",
-      "uv.6822874889"
+      "mv.6825581911"
      ]
     }
    },
    "uploadedVideos": {
+    "6834520981": {
+     "title": "Belly Gang Kushington on GOOD DOPE SELL ITSELF",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/60/f8/7a/60f87ad3-a1d1-353a-6ad8-45f2b56e077f/TN_MS_WW_Ebro_Belly_Gang_Kushington_20261025_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1739
+    },
+    "6835565215": {
+     "title": "Gang of Youths on Compa\u00f1ero",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/fe/6c/5b/fe6c5bd5-19ec-d1b3-c5e9-49a6d48f05f0/TN_MS_WW_Zane_GangOfYouths_20261111_AUC_Episode0.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2190
+    },
     "6834857417": {
      "title": "Elyanna on Ghazali (Part I)",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/37/9b/ed/379bedff-3cc2-3c0c-e11b-63e07bb27bc1/TN_MS_WW_Zane_Elyanna_20261109_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -190,16 +200,6 @@
      "title": "Brothers Osborne on Watertown",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/8a/52/67/8a52678e-8146-6221-a3e8-feb4ac1bdc2f/TN_MS_WW_Kelleigh_BrothersOsborne_20261016_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 1869
-    },
-    "6823327327": {
-     "title": "Leon Bridges on Happiness Anytime",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/92/12/d3/9212d3ae-e932-c319-c2e2-4179a9b7fec6/TN_MS_WW_Ebro_Leon_Bridges_20261008_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 1149
-    },
-    "6822874889": {
-     "title": "Joyce Wrice on MACHIKO",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/53/aa/7e/53aa7e61-5d62-de8f-8ada-d19d5809468f/TN_MS_WW_Nadeska_Joyce_Wrice_20261006_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 2071
     }
    }
   }
