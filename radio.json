@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-11-17T11:44:55Z",
+ "capturedAt": "2026-11-17T20:50:14Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -107,6 +107,8 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "mv.6835718468",
+      "mv.6835658483",
       "uv.6834520981",
       "uv.6835565215",
       "uv.6834857417",
@@ -124,9 +126,7 @@
       "mv.6826452780",
       "uv.6827258683",
       "uv.6828219346",
-      "uv.6825597132",
-      "uv.6826005996",
-      "mv.6825581911"
+      "uv.6825597132"
      ]
     }
    },
@@ -195,11 +195,6 @@
      "title": "Peanut Butter Wolf on 30 years of Stones Throw Records",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/5b/14/b2/5b14b277-5ed7-1c78-5606-77f838e64b1f/TN_MS_WW_Zane_PeanutButterWolf_202601019_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 2250
-    },
-    "6826005996": {
-     "title": "Brothers Osborne on Watertown",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/8a/52/67/8a52678e-8146-6221-a3e8-feb4ac1bdc2f/TN_MS_WW_Kelleigh_BrothersOsborne_20261016_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 1869
     }
    }
   }
