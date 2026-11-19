@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-11-19T09:29:53Z",
+ "capturedAt": "2026-11-19T18:39:46Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -57,7 +57,7 @@
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
-      "ra.6834574306",
+      "ra.6834572185",
       "ra.6833682745",
       "ra.6836403909",
       "ra.6835632824",
@@ -67,6 +67,7 @@
       "ra.6833690740",
       "ra.6834183061",
       "ra.6833682883",
+      "ra.6834574306",
       "ra.6834508554",
       "ra.6833071221",
       "ra.6831330571",
@@ -75,8 +76,7 @@
       "ra.6833069995",
       "ra.6825068197",
       "ra.6831326998",
-      "ra.6831325028",
-      "ra.6831302810"
+      "ra.6831325028"
      ]
     },
     "club-dj-mixes": {
@@ -107,6 +107,7 @@
     "watch-interviews": {
      "kind": "video",
      "ids": [
+      "mv.6835702399",
       "mv.6835718468",
       "mv.6835658483",
       "uv.6834520981",
@@ -125,8 +126,7 @@
       "uv.6826995979",
       "mv.6826452780",
       "uv.6827258683",
-      "uv.6828219346",
-      "uv.6825597132"
+      "uv.6828219346"
      ]
     }
    },
@@ -190,11 +190,6 @@
      "title": "Ashe on The Girl Of Your Dreams",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/98/ab/04/98ab040d-ac43-c9dd-e45e-716a7694fbf4/TN_MS_WW_Zane_Ashe_20261026_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 2222
-    },
-    "6825597132": {
-     "title": "Peanut Butter Wolf on 30 years of Stones Throw Records",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/5b/14/b2/5b14b277-5ed7-1c78-5606-77f838e64b1f/TN_MS_WW_Zane_PeanutButterWolf_202601019_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 2250
     }
    }
   }
