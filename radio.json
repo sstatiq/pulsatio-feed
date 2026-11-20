@@ -1,12 +1,13 @@
 {
  "version": 1,
- "capturedAt": "2026-11-19T18:39:46Z",
+ "capturedAt": "2026-11-20T00:57:46Z",
  "rooms": {
   "radio": {
    "shelves": {
     "artists-take-over": {
      "kind": "station",
      "ids": [
+      "ra.6833683470",
       "ra.6833683432",
       "ra.6832966311",
       "ra.6825067372",
@@ -25,8 +26,7 @@
       "ra.6822900245",
       "ra.1895756613",
       "ra.6823311422",
-      "ra.1896664711",
-      "ra.6808346885"
+      "ra.1896664711"
      ]
     },
     "latest-episodes": {
@@ -57,6 +57,7 @@
     "listen-to-interviews": {
      "kind": "station",
      "ids": [
+      "ra.6834572538",
       "ra.6834572185",
       "ra.6833682745",
       "ra.6836403909",
@@ -75,8 +76,7 @@
       "ra.6831302917",
       "ra.6833069995",
       "ra.6825068197",
-      "ra.6831326998",
-      "ra.6831325028"
+      "ra.6831326998"
      ]
     },
     "club-dj-mixes": {
@@ -109,6 +109,7 @@
      "ids": [
       "mv.6835702399",
       "mv.6835718468",
+      "uv.6835701810",
       "mv.6835658483",
       "uv.6834520981",
       "uv.6835565215",
@@ -125,12 +126,16 @@
       "uv.6822430225",
       "uv.6826995979",
       "mv.6826452780",
-      "uv.6827258683",
-      "uv.6828219346"
+      "uv.6827258683"
      ]
     }
    },
    "uploadedVideos": {
+    "6835701810": {
+     "title": "Offset on GMFU",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/83/8b/38/838b383c-3d7e-3373-c710-6837f64a42fb/TN_MS_WW_ThePlug_Offset_20261110_AUC_Episode0.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 1294
+    },
     "6834520981": {
      "title": "Belly Gang Kushington on GOOD DOPE SELL ITSELF",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/60/f8/7a/60f87ad3-a1d1-353a-6ad8-45f2b56e077f/TN_MS_WW_Ebro_Belly_Gang_Kushington_20261025_AUC_Episode.png/{w}x{h}{c}.{f}",
@@ -185,11 +190,6 @@
      "title": "Remi Wolf on 'Mud', recovery and touring",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/40/ff/ae/40ffae88-175b-1d08-d094-ba4862340331/TN_MS_WW_Zane_RemiWolf_20261020_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 1521
-    },
-    "6828219346": {
-     "title": "Ashe on The Girl Of Your Dreams",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/98/ab/04/98ab040d-ac43-c9dd-e45e-716a7694fbf4/TN_MS_WW_Zane_Ashe_20261026_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 2222
     }
    }
   }
