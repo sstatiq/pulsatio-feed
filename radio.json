@@ -1,6 +1,6 @@
 {
  "version": 1,
- "capturedAt": "2026-11-20T00:57:46Z",
+ "capturedAt": "2026-11-20T08:27:22Z",
  "rooms": {
   "radio": {
    "shelves": {
@@ -59,6 +59,7 @@
      "ids": [
       "ra.6834572538",
       "ra.6834572185",
+      "ra.6833692529",
       "ra.6833682745",
       "ra.6836403909",
       "ra.6835632824",
@@ -74,9 +75,8 @@
       "ra.6831330571",
       "ra.6831326740",
       "ra.6831302917",
-      "ra.6833069995",
-      "ra.6825068197",
-      "ra.6831326998"
+      "ra.6833157861",
+      "ra.6833069995"
      ]
     },
     "club-dj-mixes": {
@@ -108,6 +108,7 @@
      "kind": "video",
      "ids": [
       "mv.6835702399",
+      "uv.6836494413",
       "mv.6835718468",
       "uv.6835701810",
       "mv.6835658483",
@@ -125,12 +126,16 @@
       "mv.6827376322",
       "uv.6822430225",
       "uv.6826995979",
-      "mv.6826452780",
-      "uv.6827258683"
+      "mv.6826452780"
      ]
     }
    },
    "uploadedVideos": {
+    "6836494413": {
+     "title": "Laci Kaye Booth on Love Ain't For The Faint Of Heart",
+     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/5e/bf/52/5ebf5237-72bb-9072-f8be-ed766d7e7742/TN_MS_WW_Kelleigh_LaciKayeBooth_20261020_AUC_Episode.png/{w}x{h}{c}.{f}",
+     "durationSeconds": 2373
+    },
     "6835701810": {
      "title": "Offset on GMFU",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial211/v4/83/8b/38/838b383c-3d7e-3373-c710-6837f64a42fb/TN_MS_WW_ThePlug_Offset_20261110_AUC_Episode0.png/{w}x{h}{c}.{f}",
@@ -185,11 +190,6 @@
      "title": "Laila! on We'll Never Be This Young Again",
      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/e4/a6/2d/e4a62d06-178d-4247-1c2e-28f67ac4ff8e/TN_MS_WW_20261014_Ebro_Laila_AUC_Episode.png/{w}x{h}{c}.{f}",
      "durationSeconds": 2091
-    },
-    "6827258683": {
-     "title": "Remi Wolf on 'Mud', recovery and touring",
-     "artwork": "https://is1-ssl.mzstatic.com/image/thumb/FuseSocial221/v4/40/ff/ae/40ffae88-175b-1d08-d094-ba4862340331/TN_MS_WW_Zane_RemiWolf_20261020_AUC_Episode.png/{w}x{h}{c}.{f}",
-     "durationSeconds": 1521
     }
    }
   }
